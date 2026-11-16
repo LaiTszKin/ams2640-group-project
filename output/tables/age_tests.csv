@@ -1,0 +1,3 @@
+population,test,group_a,n_a,group_b,n_b,odds_ratio,p_value,tail,status
+analysis,dropout_rate,25-29,355,40+,218,1.617135014086542,0.008781011510057814,two.sided,ok
+analysis,unpaid_rate,25-29,355,40+,218,1.14609375,0.4986698158360987,two.sided,ok
