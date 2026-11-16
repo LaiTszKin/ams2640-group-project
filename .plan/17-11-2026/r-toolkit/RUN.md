@@ -106,12 +106,12 @@ B1 已由使用者裁決（`qa.md` Q43：「改報告」）。B2 仍待使用者
 
 ## 9. 最終狀態（2026-11-17T04:50）
 
-`main` 上十個測試檔、95 個 test、0 failed、0 error、3 skipped（全在 `F11`，因 `run_all.R` 未建立而由 B2 造成）。
+`main` 上十個測試檔、97 個 test、1,043 pass、0 failed、0 error、3 skipped（全在 `F11`，因 `run_all.R` 未建立而由 B2 造成）。
 
 | 檔 | tests | fail | err | skip |
 | --- | --- | --- | --- | --- |
 | test-01_F1.R | 6 | 0 | 0 | 0 |
-| test-02_F2.R | 12 | 0 | 0 | 0 |
+| test-02_F2.R | 14 | 0 | 0 | 0 |
 | test-03_F3.R | 8 | 0 | 0 | 0 |
 | test-04_F4.R | 8 | 0 | 0 | 0 |
 | test-05_F5.R | 9 | 0 | 0 | 0 |
