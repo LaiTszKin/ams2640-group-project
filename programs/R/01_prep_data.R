@@ -13,15 +13,120 @@
 #
 # 輸入可由 RTOOLKIT_RAW_PATH 指向另一份副本（供拒絕分支的注入測試），預設為 data/raw/data.csv。
 
-## 0. 由 00_setup.R 取得常數 -------------------------------------------------
+## 0. 唯讀守衛：寫入目標不得落在原始資料目錄內（在任何 dir.create 之前） ------
 
-# 00_setup.R 會把自檢記錄寫進 OUT_ROOT。若 OUT_ROOT 指進原始資料目錄，那次寫入已是
-# refuse:readonly-target 的內容，因此先記下「本次 source 是否會寫記錄」，違規時可撤回。
-setup_logged_before <- identical(Sys.getenv("RTOOLKIT_SETUP_LOGGED"), "1")
+# 拒絕必須零副作用：refuse:readonly-target 之後，原始資料目錄的列舉要與執行前逐行相同。
+# 00_setup.R 的自檢記錄自己就會 dir.create(OUT_ROOT/logs)——若 OUT_ROOT 指進 data/raw，
+# 那次建立已經是「拒絕卻留下空目錄」的副作用，而且發生在任何判定之前。故本段把
+# 「算路徑」與「建目錄」拆成兩段：這裡只算字串並判定，通過後才由 §1 source 00_setup.R
+# 去建目錄。專案根與輸出根用的規則與 00_setup.R 第 1 節相同，兩邊算出的路徑逐字相同。
 
+# 路徑的實體解析：先解開符號連結，且對「尚不存在」的目標同樣成立。
+# normalizePath(mustWork = FALSE) 對不存在的路徑原樣返回輸入、不解連結；輸出目標通常
+# 尚未存在（第一次產出），而原始資料目錄的另一種拼法若是連結（macOS 的 /var →
+# /private/var），字串比較就會漏判（A-44 S1）。故解析到**最接近的既有祖先**：把該祖先
+# 解析成實體路徑後，再接回尚未存在的尾部；目標本身已存在時整條解析（連尾端的連結一併解開）。
+resolve_path <- function(path) {
+  p <- sub("/+$", "", as.character(path))
+  if (!nzchar(p)) return("/")                       # 輸入是根目錄本身
+  if (file.exists(p)) return(normalizePath(p, winslash = "/", mustWork = TRUE))
+  tail <- character()
+  cur <- p
+  repeat {
+    parent <- dirname(cur)
+    if (identical(parent, cur)) break                # 已上溯到根仍不存在
+    tail <- c(basename(cur), tail)
+    cur <- parent
+    if (file.exists(cur)) {
+      ancestor <- normalizePath(cur, winslash = "/", mustWork = TRUE)
+      return(do.call(file.path, c(list(ancestor), tail)))
+    }
+  }
+  normalizePath(p, winslash = "/", mustWork = FALSE)  # 連祖先都不存在：退回原樣
+}
+
+# 寫入前的「目標不在原始資料目錄內」判定（REQ-F-F2-2 的 refuse:readonly-target）。
+# 兩邊都先解到實體路徑再比，故「輸出根以符號連結指進原始資料目錄」與「以實體路徑直指」
+# 得到同一個判定；前綴帶分隔字元，data/raw2 因此不會被 data/raw 誤判。
+is_inside <- function(path, dir) {
+  p <- resolve_path(path)
+  d <- resolve_path(dir)
+  if (identical(d, "/")) return(TRUE)                # 原始資料在根目錄：其下全算在內
+  identical(p, d) || startsWith(p, paste0(d, "/"))
+}
+
+# 專案內的檔案以相對路徑呈現，專案外（注入測試的暫存副本）才給絕對路徑。
+# 根由呼叫端給：本段跑在 00_setup.R 之前，PROJ_ROOT 尚未存在（預設值屆時才取值）。
+short_path <- function(path, root = PROJ_ROOT) {
+  prefix <- paste0(root, "/")
+  ifelse(startsWith(path, prefix), substring(path, nchar(prefix) + 1L), path)
+}
+
+# 目錄列舉（排序後的字串）：只讀，用作「拒絕前後逐行相同」的自檢基準
+dir_listing <- function(dir) {
+  if (!dir.exists(dir)) return(character())
+  sort(list.files(dir, all.files = TRUE, no.. = TRUE))
+}
+
+# 五個寫入目標的路徑字串（不建立目錄）。§0 的守衛與 §2 的實際寫入共用同一份拼法，
+# 兩處不會各自漂移。
+prep_paths <- function(proj_root, out_root) {
+  processed_dir <- file.path(proj_root, "data", "processed")
+  list(
+    processed_dir = processed_dir,
+    clean = file.path(processed_dir, "ams2640_clean.csv"),
+    sas = file.path(processed_dir, "ams2640.sas7bdat"),
+    xpt = file.path(processed_dir, "ams2640.xpt"),
+    ledger = file.path(out_root, "tables", "population_ledger.csv"),
+    log = file.path(out_root, "logs", "01_prep.log")
+  )
+}
+WRITE_TARGET_KEYS <- c("clean", "sas", "xpt", "ledger", "log")
+
+# 拒絕本體：任一寫入目標落在原始資料目錄內即停止。除判定外只多做一件自檢——把拒絕
+# 當下的列舉與執行前的列舉相比，有新增項就是缺陷（拒絕本應零副作用），在輸出中明示。
+# 記錄本身也落在同一個目錄，故這裡不寫記錄，只把拒絕內容印到 stderr。
+refuse_readonly <- function(paths, raw_dir, root, listing_before) {
+  targets <- unname(unlist(paths[WRITE_TARGET_KEYS], use.names = FALSE))
+  violating <- targets[vapply(targets, is_inside, logical(1), dir = raw_dir)]
+  if (!length(violating)) return(invisible(NULL))
+  added <- setdiff(dir_listing(raw_dir), listing_before)
+  if (length(added)) {
+    cat(sprintf(
+      "01_prep_data: 缺陷——拒絕路徑在 %s 新增了 %s（拒絕應零副作用，A-44 S1 的殘餘）\n",
+      short_path(raw_dir, root), paste(added, collapse = ", ")
+    ), file = stderr())
+  }
+  stop(
+    sprintf(
+      "refuse:readonly-target\n- 寫入目標落在原始資料目錄 %s 內：%s\n- 下一步：把 RTOOLKIT_OUT_ROOT 指回專案的 output/（或任何不在 data/raw 下的目錄）後重跑；原始資料未變動。",
+      short_path(raw_dir, root), paste(short_path(violating, root), collapse = ", ")
+    ),
+    call. = FALSE
+  )
+}
+
+# 守衛的執行：只算路徑、取列舉、判定。此後專案內才會出現第一個目錄（§1 的自檢記錄）。
+raw_listing_before <- local({
+  root <- here::here()
+  out_root <- Sys.getenv("RTOOLKIT_OUT_ROOT", unset = "")
+  if (!nzchar(out_root)) out_root <- file.path(root, "output")
+  raw_path <- Sys.getenv("RTOOLKIT_RAW_PATH", unset = "")
+  if (!nzchar(raw_path)) raw_path <- file.path(root, "data", "raw", "data.csv")
+  raw_path <- normalizePath(raw_path, winslash = "/", mustWork = FALSE)
+
+  raw_dir <- dirname(raw_path)
+  listing <- dir_listing(raw_dir)                    # 執行前的列舉（自檢基準）
+  refuse_readonly(prep_paths(root, out_root), raw_dir, root, listing)
+  listing
+})
+
+## 1. 由 00_setup.R 取得常數 -------------------------------------------------
+
+# 唯讀守衛（§0）已在任何目錄被建立之前通過，此後才輪到 00_setup.R 的自檢記錄寫入。
 source("programs/R/00_setup.R")
 
-## 1. 路徑與固定形狀 -------------------------------------------------------
+## 2. 路徑與固定形狀 -------------------------------------------------------
 
 RAW_PATH <- Sys.getenv("RTOOLKIT_RAW_PATH", unset = "")
 if (!nzchar(RAW_PATH)) RAW_PATH <- file.path(PROJ_ROOT, "data", "raw", "data.csv")
@@ -29,11 +134,17 @@ RAW_PATH <- normalizePath(RAW_PATH, winslash = "/", mustWork = FALSE)
 RAW_DIR <- dirname(RAW_PATH)
 
 PROCESSED_DIR <- file.path(PROJ_ROOT, "data", "processed")
-CLEAN_PATH <- file.path(PROCESSED_DIR, "ams2640_clean.csv")
-SAS_PATH <- file.path(PROCESSED_DIR, "ams2640.sas7bdat")
-XPT_PATH <- file.path(PROCESSED_DIR, "ams2640.xpt")
-LEDGER_PATH <- file.path(OUT_ROOT, "tables", "population_ledger.csv")
-LOG_PATH <- file.path(OUT_ROOT, "logs", "01_prep.log")
+PATHS <- prep_paths(PROJ_ROOT, OUT_ROOT)             # 與 §0 同一份拼法
+CLEAN_PATH <- PATHS$clean
+SAS_PATH <- PATHS$sas
+XPT_PATH <- PATHS$xpt
+LEDGER_PATH <- PATHS$ledger
+LOG_PATH <- PATHS$log
+
+# 寫入前複核（REQ-F-F2-2）：§0 的判定用的是「與 00_setup.R 同規則自行算出的根」，
+# 這裡再用 00_setup.R 匯出的 PROJ_ROOT／OUT_ROOT 判一次。正常情形不會觸發；留著是
+# 為了兩處的根一旦分岔就當場拒絕，而不是寫進原始資料目錄。
+refuse_readonly(PATHS, RAW_DIR, PROJ_ROOT, raw_listing_before)
 
 # 原始資料的形狀：36 個變數加結果欄。欄數不符即 refuse:input-schema（REQ-F-F2-3）。
 EXPECTED_COLS <- 37L
@@ -89,49 +200,9 @@ SAS_NAME_MAP <- c(
 # 結果欄在清洗資料集已改名為 target，SAS 端沿用同名（對應表以清洗資料集的欄名為鍵）
 SAS_NAME_MAP[RESULT_OUT] <- RESULT_OUT
 
-## 2. 小工具 ---------------------------------------------------------------
+## 3. 小工具 ---------------------------------------------------------------
 
 stamp <- function() format(Sys.time(), "%Y-%m-%dT%H:%M:%S%z")
-
-# 專案內的檔案以相對路徑呈現，專案外（注入測試的暫存副本）才給絕對路徑
-short_path <- function(path) {
-  prefix <- paste0(PROJ_ROOT, "/")
-  ifelse(startsWith(path, prefix), substring(path, nchar(prefix) + 1L), path)
-}
-
-# 路徑的實體解析：先解開符號連結，且對「尚不存在」的目標同樣成立。
-# normalizePath(mustWork = FALSE) 對不存在的路徑原樣返回輸入、不解連結；輸出目標通常
-# 尚未存在（第一次產出），而原始資料目錄的另一種拼法若是連結（macOS 的 /var →
-# /private/var），字串比較就會漏判（A-44 S1）。故解析到**最接近的既有祖先**：把該祖先
-# 解析成實體路徑後，再接回尚未存在的尾部；目標本身已存在時整條解析（連尾端的連結一併解開）。
-resolve_path <- function(path) {
-  p <- sub("/+$", "", as.character(path))
-  if (!nzchar(p)) return("/")                       # 輸入是根目錄本身
-  if (file.exists(p)) return(normalizePath(p, winslash = "/", mustWork = TRUE))
-  tail <- character()
-  cur <- p
-  repeat {
-    parent <- dirname(cur)
-    if (identical(parent, cur)) break                # 已上溯到根仍不存在
-    tail <- c(basename(cur), tail)
-    cur <- parent
-    if (file.exists(cur)) {
-      ancestor <- normalizePath(cur, winslash = "/", mustWork = TRUE)
-      return(do.call(file.path, c(list(ancestor), tail)))
-    }
-  }
-  normalizePath(p, winslash = "/", mustWork = FALSE)  # 連祖先都不存在：退回原樣
-}
-
-# 寫入前的「目標不在原始資料目錄內」判定（REQ-F-F2-2 的 refuse:readonly-target）。
-# 兩邊都先解到實體路徑再比，故「輸出根以符號連結指進原始資料目錄」與「以實體路徑直指」
-# 得到同一個判定；前綴帶分隔字元，data/raw2 因此不會被 data/raw 誤判。
-is_inside <- function(path, dir) {
-  p <- resolve_path(path)
-  d <- resolve_path(dir)
-  if (identical(d, "/")) return(TRUE)                # 原始資料在根目錄：其下全算在內
-  identical(p, d) || startsWith(p, paste0(d, "/"))
-}
 
 # 檔案狀態；缺席時記 absent 而不是錯誤，讓「第一次產出」與「覆蓋舊產物」都留得下時間
 file_state <- function(path) {
@@ -184,30 +255,6 @@ refuse <- function(class, reason, next_step) {
 ledger_row <- function(population, metric, n, value) {
   data.frame(population = population, metric = metric, n = as.integer(n), value = as.integer(value),
              stringsAsFactors = FALSE)
-}
-
-## 3. 寫入前檢查：目標不得落在原始資料目錄內 --------------------------------
-
-write_targets <- c(CLEAN_PATH, SAS_PATH, XPT_PATH, LEDGER_PATH, LOG_PATH)
-violating <- write_targets[vapply(write_targets, is_inside, logical(1), dir = RAW_DIR)]
-if (length(violating)) {
-  # 記錄本身也落在同一個目錄，故這裡不寫記錄，只把拒絕內容印到 stderr；
-  # 本次 source 造成的 00_setup 記錄先撤回，讓原始資料目錄回到執行前的狀態
-  if (!setup_logged_before) {
-    setup_log <- file.path(OUT_ROOT, "logs", "00_setup.log")
-    if (file.exists(setup_log)) unlink(setup_log)
-    setup_dir <- dirname(setup_log)
-    if (dir.exists(setup_dir) && !length(list.files(setup_dir, all.files = TRUE, no.. = TRUE))) {
-      unlink(setup_dir, recursive = TRUE)
-    }
-  }
-  stop(
-    sprintf(
-      "refuse:readonly-target\n- 寫入目標落在原始資料目錄 %s 內：%s\n- 下一步：把 RTOOLKIT_OUT_ROOT 指回專案的 output/（或任何不在 data/raw 下的目錄）後重跑；原始資料未變動。",
-      short_path(RAW_DIR), paste(short_path(violating), collapse = ", ")
-    ),
-    call. = FALSE
-  )
 }
 
 ## 4. 讀原始資料 -----------------------------------------------------------
