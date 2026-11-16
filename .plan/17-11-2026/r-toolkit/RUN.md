@@ -59,7 +59,16 @@
 
 共同原則：subagent 的自報不是驗收；測了 0 個案例的 exit 0 不算綠；既有 oracle 不得被削弱；報告中的任何「實測 X」由主代理以同一指令重跑。
 
-## 5. 收尾檢查（第 7 步，尚未到）
+## 5. 阻斷清單（2026-11-17T04:05）
+
+| # | 阻斷 | 任務 | 證據 | 需要誰 |
+| --- | --- | --- | --- | --- |
+| B1 | 報告的三個模型數字與工具算出不同 | `T07`（已接受，三列 `mismatch`）、`V06` | `model_comparison.csv`：0.0958／0.2611／0.0050；`report.md`：0.0947／0.2607／0.0092 | 使用者：改報告，或保留並另立重算任務 |
+| B2 | `sas_parity.csv` 與兩張 PDF 需在 SAS ODA 執行後下載 | `T12`、`V10` | `output/parity/` 只有 `cell_map.csv`；本機無 SAS | 使用者：跑 `programs/SAS/05_parity.sas` 並把三個產物放進 `output/parity/` |
+
+兩項皆已詢問，未回應前不代決。`G2` 因為 `T13`（依賴 `T12`）未完成而未關閉，三條 C 檢查因此不可派工。
+
+## 6. 收尾檢查（第 7 步，尚未到）
 
 - [x] 每批：worktree 內 commit → `merge --no-ff` → 主樹重跑驗證 → 移除 worktree → prune → 刪分支
 - [ ] 執行結束時 `git worktree list` 只剩主樹
