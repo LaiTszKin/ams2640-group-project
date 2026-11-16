@@ -99,3 +99,26 @@
 ### 一次無法複現的紅燈（記錄，不當缺陷）
 
 2026-11-17T04:10 一支背景批次在五個 worktree 上跑測試，回報 `V01 exit=1`。當時正值合併、worktree 正在被移除（其餘四個 worktree 已被刪，`cd` 失敗）。在主樹穩定後重跑 `test_file("test-01_F1.R")` 得 6 tests、0 failed、0 error、exit 0；全套 runner 連跑兩次亦 exit 0，兩次輸出只差暫存路徑。判定為併發狀態下的暫態，非測試缺陷；若日後重現，觸發條件是「worktree 同時被移除」。
+
+## 8. 驗收準則（A-43 之後）
+
+任何驗證任務必須三種入口同綠才算接受：① `Rscript tests/testthat.R`；② `testthat::test_dir("tests/testthat")`；③ 逐檔 `testthat::test_file()`。單一入口的綠燈不算證據。
+
+## 9. 最終狀態（2026-11-17T04:50）
+
+`main` 上九個測試檔、86 個 test、0 failed、0 error、3 skipped（全在 `F11`，因 `run_all.R` 未建立而由 B2 造成）。
+
+| 檔 | tests | fail | err | skip |
+| --- | --- | --- | --- | --- |
+| test-01_F1.R | 6 | 0 | 0 | 0 |
+| test-02_F2.R | 12 | 0 | 0 | 0 |
+| test-03_F3.R | 8 | 0 | 0 | 0 |
+| test-04_F4.R | 8 | 0 | 0 | 0 |
+| test-05_F5.R | 9 | 0 | 0 | 0 |
+| test-07_F7.R | 11 | 0 | 0 | 0 |
+| test-08_F8.R | 7 | 0 | 0 | 0 |
+| test-09_F9.R | 11 | 0 | 0 | 0 |
+| test-11_F11.R | 14 | 0 | 0 | 3 |
+
+已完成 21 個任務：T01–T11、T14（建構，T03b／T14 為修復）與 V01–V05、V07–V09、V11（模型）。
+未完成：V06（B1）、V10／T12／T13（B2）、V12–V14（卡 `G2`）、以及 A-44 的 S1／S3 兩個應另立的建構任務。

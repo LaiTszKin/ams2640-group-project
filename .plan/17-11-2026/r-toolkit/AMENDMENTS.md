@@ -324,6 +324,22 @@
 - **實測**（合併後的主樹 `main`）：① exit 0；② 43 tests、0 failed、0 error；③ 單檔 6／12／8／8／9，合計 43，全 0 failed 0 error。
 - **受影響**：`V04`、`V05`（已修並合併）；規則同時寫進 `RUN.md` 的驗收準則。
 
+## A-44 · 執行期記錄 · 五個生產接縫（皆由建模過程暴露，未修）
+
+建模的目的之一是逼出「測試要能造出退化輸入」這件事。五處接縫因此浮現，全部屬於已接受任務的 `programs/`：
+
+| # | 位置 | 症狀 | 來源 |
+| --- | --- | --- | --- |
+| S1 | `01_prep_data.R` 的 `is_inside()` | 路徑未 `normalizePath`，經符號連結指向原始資料時 `refuse:readonly-target` 漏判；曾實際寫入 `data/processed` 一次，已 `git checkout` 復原 | `V02` |
+| S2 | `03_age.R`、`04_ability.R`、`07_macro.R` | 缺 `RTOOLKIT_CLEAN_PATH` 覆寫（`02_wealth.R`、`06_language.R`、`08_audit.R`、`01_prep_data.R` 有），退化 fixture 只能「複製腳本改一行」或「symlink 整個專案根」 | `V04`、`V05`、`V08` |
+| S3 | `08_audit.R:20` | 以相對路徑 `source("programs/R/lib/stats.R")`，從子目錄執行即「無法開啟連接」，與 README 所稱「可在專案根或子目錄執行」相抵 | `V09` |
+| S4 | `has_tests.csv`／`age_tests.csv` | 無統一的 `n` 欄（只有 `n_a`／`n_b`），`expect_profile()` 與 F11 的 `n` 對照都得特判；F11 的 `source_row` 因此以 `欄|欄` 作鍵 | `V04`、`V11` |
+| S5 | 執行期權限位 | `.Rprofile`／`AMS2640.Rproj`／`renv.lock` 在一次 fixture 執行後由 644 變 755，內容零差異（已 `chmod` 回 644）。成因未定，疑與 symlink 專案根的複製方式有關 | `V08` |
+
+- **裁決**：五項全部**不在本輪修**。S1、S3 影響交付行為（可被誤觸發），S2、S4、S5 只影響測試造 fixture 的成本。
+- **S1 與 S3 應另立建構任務**：S1 的修法是 `normalizePath(mustWork = FALSE)` 後比對；S3 的修法是改用 `here::here("programs/R/lib/stats.R")`。兩者都在 `programs/` 內，屬原任務（T02、T10）的 owned 路徑，須以新任務疊加，不得由驗證任務代改。
+- **S4 需先定契約**：若「每張表自帶 `n`」要字面成立，`has_tests.csv` 與 `age_tests.csv` 需加一欄 `n`（或明示以 `n_a`／`n_b` 為準）。這是欄位決定，不是缺陷。
+
 ## 停止稽核的判斷
 
 三輪的曲線：第一輪 90 條、第二輪 103 條、第三輪 64 條；但缺陷的性質從「需求與資料不符」轉為「常數未命名」。第二輪的六條算術錯誤（分母、婚配對照組、年齡帶參數化、分位法、phi 編碼、宏觀年份）與第三輪的四條鏈路斷點（常數缺名、輸出根無消費方、母體欄缺漏、入口清單）已全部修掉。
