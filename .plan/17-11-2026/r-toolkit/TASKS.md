@@ -71,6 +71,7 @@ flowchart TD
   T03 --> T06
   T02 --> T07
   T03 --> T07
+  T06 --> T07
   T02 --> T08
   T03 --> T08
   T02 --> T09
@@ -155,7 +156,7 @@ flowchart TD
 | `T04` | construction | 財富層的四格與關聯強度 | `T02`、`T03` | `programs/R/02_wealth.R`、`output/tables/wealth_four_cell.csv`、`output/logs/02_wealth.log` | `REQ-F-F3-1`（分母與 share 的定義以修訂 A-10 為準） | programs/R/02_wealth.R | [`tasks/T04-財富層的四格與關聯強度.md`](tasks/T04-財富層的四格與關聯強度.md) |
 | `T05` | construction | 年齡帶與婚配分層 | `T02`、`T03` | `programs/R/03_age.R`、`output/tables/age_bands.csv`、`output/tables/age_tests.csv`、`output/tables/marriage_strata.csv`、`output/logs/03_age.log` | `REQ-F-F4-1`、`REQ-F-F4-2`、`REQ-F-F4-3`（拒絕語義以修訂 A-11 為準） | programs/R/03_age.R | [`tasks/T05-年齡帶與婚配分層.md`](tasks/T05-年齡帶與婚配分層.md) |
 | `T06` | construction | 能力分位與兩期追蹤 | `T02`、`T03` | `programs/R/04_ability.R`、`output/tables/ability_quartiles.csv`、`output/tables/ability_transitions.csv`、`output/logs/04_ability.log` | `REQ-F-F5-1`、`REQ-F-F5-2` | programs/R/04_ability.R | [`tasks/T06-能力分位與兩期追蹤.md`](tasks/T06-能力分位與兩期追蹤.md) |
-| `T07` | construction | 三層解釋力比較 | `T02`、`T03` | `programs/R/05_models.R`、`output/tables/model_comparison.csv`、`output/logs/05_models.log` | `REQ-F-F6-1`、`REQ-F-F6-2` | programs/R/05_models.R | [`tasks/T07-三層解釋力比較.md`](tasks/T07-三層解釋力比較.md) |
+| `T07` | construction | 三層解釋力比較 | `T02`、`T03`、`T06` | `programs/R/05_models.R`、`output/tables/model_comparison.csv`、`output/logs/05_models.log` | `REQ-F-F6-1`、`REQ-F-F6-2` | programs/R/05_models.R | [`tasks/T07-三層解釋力比較.md`](tasks/T07-三層解釋力比較.md) |
 | `T08` | construction | 語言文化的小樣本材料 | `T02`、`T03` | `programs/R/06_language.R`、`output/tables/language_groups.csv`、`output/logs/06_language.log` | `REQ-F-F7-1` | programs/R/06_language.R | [`tasks/T08-語言文化的小樣本材料.md`](tasks/T08-語言文化的小樣本材料.md) |
 | `T09` | construction | 宏觀三欄的值域與角色 | `T02`、`T03` | `programs/R/07_macro.R`、`output/tables/macro_values.csv`、`output/logs/07_macro.log` | `REQ-F-F8-1` | programs/R/07_macro.R | [`tasks/T09-宏觀三欄的值域與角色.md`](tasks/T09-宏觀三欄的值域與角色.md) |
 | `T10` | construction | 相關審核表 | `T02`、`T03` | `programs/R/08_audit.R`、`output/tables/correlation_audit.csv`、`output/tables/correlation_audit.txt`、`output/logs/08_audit.log` | `REQ-F-F9-1` | programs/R/08_audit.R | [`tasks/T10-相關審核表.md`](tasks/T10-相關審核表.md) |
@@ -226,8 +227,8 @@ flowchart TD
 | --- | --- | --- |
 | 1 | `T01` | 設定先行 |
 | 2 | `T02` `T03` | 資料與共用統計量 |
-| 3 | `T04` `T05` `T06` `T07` `T08` `T09` `T10` `T14` | 八個分析與測試台 |
-| 4 | `G1` `T11` | 模型閘關閉、SAS 對照程式 |
+| 3 | `T04` `T05` `T06` `T08` `T09` `T10` `T14` | 八個分析與測試台 |
+| 4 | `G1` `T07` `T11` | 模型閘關閉、SAS 對照程式 |
 | 5 | `T12` `V01` `V02` `V03` `V04` `V05` `V06` `V07` `V08` `V09` | 差異表與十一個流程模型 |
 | 6 | `T13` `V10` | 交付入口與對照模型 |
 | 7 | `G2` `V11` | 守衛閘關閉、交付模型 |

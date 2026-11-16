@@ -191,7 +191,7 @@ C = [
    boundaries="入學前成績另計；第二學期成績為零者不入本表（他們本在能力母體之外）；5×4 的列合計等於能力母體",
    untouched="不改母體定義；不引入名次式追蹤；檔內不得出現母體數字字面量"),
  dict(id="T07", cls="construction", title="三層解釋力比較",
-   req="`REQ-F-F6-1`、`REQ-F-F6-2`", deps=["T02", "T03"],
+   req="`REQ-F-F6-1`、`REQ-F-F6-2`", deps=["T02", "T03", "T06"],
    seam="programs/R/05_models.R",
    owned="`programs/R/05_models.R`、`output/tables/model_comparison.csv`、`output/logs/05_models.log`",
    files=[("programs/R/05_models.R", "五個模型規格、六列配適"),
