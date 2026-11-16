@@ -75,3 +75,27 @@
 - [ ] `git branch --list 'pdd/*'` 為空
 - [ ] worktree 建立數 = 移除數 + 保留數
 - [ ] 無 push、tag、deploy
+
+## 7. 接受清單（截至 2026-11-17T04:40）
+
+| 任務 | 類別 | 狀態 | 證據 |
+| --- | --- | --- | --- |
+| T01 | construction | 接受、已合併 | `109abb8`；主樹首次還原 6.3 秒／52 套件 |
+| T02 | construction | 接受、已合併 | 清冊九列；raw sha 不變；SAS 兩式讀回 4,424×37 |
+| T03 | construction | 接受、已合併 | 六函式；後由 T03b 修整數溢位 |
+| T04 | construction | 接受、已合併 | 四格 226/260/187/2957、phi 0.4349 |
+| T05 | construction | 接受、已合併 | 五帶、婚配 p 0.02455/0.1301 |
+| T06 | construction | 接受、已合併 | 707×4、移動表對角 396/285/313/477 |
+| T07 | construction | 接受、已合併 | 六列；三列 `mismatch`（見 B1） |
+| T08 | construction | 接受、已合併 | 74/17/19；西語圈 p 0.3586 |
+| T09 | construction | 接受、已合併 | 30 列；10/9/10 |
+| T10 | construction | 接受、已合併 | 36 列；五類判詞 |
+| T11 | construction | 接受、已合併 | `05_parity.sas`、`cell_map.csv` 十四列；SAS 產物待 B2 |
+| T14 | construction | 接受、已合併 | 測試台；`harness_table` 已解耦 |
+| V01–V05 | verification A | 接受、已合併 | 43 個 test、主樹 runner 連跑兩次 exit 0 |
+
+退回／未完成：`V04b`、`V05b`（harness 需自行載入 helper，A-42）在跑；`V07`–`V09`、`V11` 可派未派；`V06` 卡 B1；`V10`、`T12`、`T13` 卡 B2；`V12`–`V14` 卡 `G2`。
+
+### 一次無法複現的紅燈（記錄，不當缺陷）
+
+2026-11-17T04:10 一支背景批次在五個 worktree 上跑測試，回報 `V01 exit=1`。當時正值合併、worktree 正在被移除（其餘四個 worktree 已被刪，`cd` 失敗）。在主樹穩定後重跑 `test_file("test-01_F1.R")` 得 6 tests、0 failed、0 error、exit 0；全套 runner 連跑兩次亦 exit 0，兩次輸出只差暫存路徑。判定為併發狀態下的暫態，非測試缺陷；若日後重現，觸發條件是「worktree 同時被移除」。
