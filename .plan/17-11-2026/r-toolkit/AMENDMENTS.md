@@ -316,6 +316,14 @@
 - **裁決**：退回同作者修（worktree `pdd/V04b`、`pdd/V05b`）：兩個 harness 在載入時自行 source `helper-harness.R`，使測試檔在兩種呼叫下都能跑。
 - **狀態**：`V04`／`V05` 已合併入 `main`（測試檔在樹上），修復作為 `V04b`／`V05b` 疊加。
 
+## A-43 · 執行期裁決 · 測試套件的三個入口必須同綠
+
+- **發現**：`V04`／`V05` 的 harness 依賴 runner 先把 helper 源進 globalenv。兩個作者各自在自己的 worktree 修，結論互相矛盾——`V04b` 說 `test_dir` 全綠，`V05b` 說同一條指令仍有 3 個 error 在 `test-04_F4.R`。兩者看到的不是同一棵樹。
+- **根因**（`V05b` 指出，主代理複現）：R 以**定義時的 enclosure** 解析自由變數，不是呼叫端。`h04_*`／`h05_*` 定義在 globalenv，而 `testthat::test_dir()` 把 helper 源進測試 env（globalenv 的子 env），故 globalenv 的閉包看不到它；`Rscript tests/testthat.R` 之所以綠，只是因為入口先把 helper 源進 globalenv。修法是每個 harness 在載入時把 helper 源進**自己的求值環境**。
+- **裁決**：三個入口全部要綠才算接受：① `Rscript tests/testthat.R`；② `testthat::test_dir("tests/testthat")`；③ 逐檔 `testthat::test_file()`（防順序依賴）。
+- **實測**（合併後的主樹 `main`）：① exit 0；② 43 tests、0 failed、0 error；③ 單檔 6／12／8／8／9，合計 43，全 0 failed 0 error。
+- **受影響**：`V04`、`V05`（已修並合併）；規則同時寫進 `RUN.md` 的驗收準則。
+
 ## 停止稽核的判斷
 
 三輪的曲線：第一輪 90 條、第二輪 103 條、第三輪 64 條；但缺陷的性質從「需求與資料不符」轉為「常數未命名」。第二輪的六條算術錯誤（分母、婚配對照組、年齡帶參數化、分位法、phi 編碼、宏觀年份）與第三輪的四條鏈路斷點（常數缺名、輸出根無消費方、母體欄缺漏、入口清單）已全部修掉。
