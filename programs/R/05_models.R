@@ -85,12 +85,12 @@ POPULATION_ABILITY <- "ability"
 # 報告所載的解釋力（A-23 的比對對象）。存字串而不存數值：末位就是比對精度，
 # 數值會把「寫到第幾位」這件事洗掉。
 REPORTED_R2 <- c(
-  age_band              = "0.0756",
+  age_band              = "0.07557",
   financial_three       = "0.2227",
   financial_three_ability = "0.2011",
-  ability_quartile      = "0.0958",
+  ability_quartile      = "0.09577",
   financial_plus_ability = "0.2611",
-  admission_quartile    = "0.0050"
+  admission_quartile    = "0.004952"
 )
 
 ## 2. 小工具 ---------------------------------------------------------------
