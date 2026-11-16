@@ -20,6 +20,71 @@
 # （`fisher.test` 為確定性計算，同一輸入必得同一 p），故不抽樣、不收縮、不重試；
 # 單流程上限 120 秒，以 `setTimeLimit()` 實際套在每次 source 上。
 
+## 0. 自我載入 helper（REQ-A-7）-------------------------------------------
+
+# 本檔的函式以「本檔被 source() 的求值環境」為 enclosure（見 `h04_load_helper()` 下方
+# 的呼叫），故 helper 必須落在**同一個環境**內；否則 `h04_run()`／`h04_script()`／
+# `h04_fixture()` 內的 `harness_data()`、`harness_dir()`、`harness_out_root()` 在
+# 求值時沿 enclosure 鏈找不到（`testthat::test_dir()` 把 helper 載進它自己的測試
+# 環境，不是 globalenv——那時由 `tests/testthat.R` 先 source 才看的到，單獨
+# `test_dir()` 就解析失敗）。因此本檔在載入時自行備妥 helper，兩種入口同一個結果。
+
+# 本檔所在目錄：`--file=` 直接執行時由此決定；被 `source()` 時由 source frame 的
+# `ofile` 決定；兩者皆無（自專案根 source）時退回工作目錄及其 `tests/testthat`。
+h04_this_dir <- function() {
+  candidates <- character()
+  file_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
+  if (length(file_arg) == 1L) {
+    candidates <- c(candidates, dirname(sub("^--file=", "", file_arg[[1L]])))
+  }
+  frames <- sys.frames()
+  for (i in rev(seq_along(frames))) {
+    ofile <- frames[[i]]$ofile
+    if (!is.null(ofile) && grepl("harness-04[.]R$", ofile)) {
+      candidates <- c(candidates, dirname(ofile))
+      break
+    }
+  }
+  candidates <- c(candidates, getwd(), file.path(getwd(), "tests", "testthat"))
+  for (dir in candidates) {
+    if (file.exists(file.path(dir, "helper-harness.R"))) {
+      return(normalizePath(dir, winslash = "/", mustWork = TRUE))
+    }
+  }
+  stop(
+    "harness-04.R 找不到 helper-harness.R：應與本檔同目錄（tests/testthat/）。",
+    call. = FALSE
+  )
+}
+
+# 把 helper 載入 `target`（呼叫端傳入的是本檔的求值環境）。落點與本檔函式的
+# enclosure 相同，故不需假設呼叫端已先載入 helper。
+# 載入後逐一點名四個入口函式：缺一即停止——「以為載入了」比沒載入更難查。
+h04_load_helper <- function(target) {
+  helper <- file.path(h04_this_dir(), "helper-harness.R")
+  if (!is.environment(target)) {
+    stop("h04_load_helper：target 須為環境。", call. = FALSE)
+  }
+  if (!exists("harness_data", mode = "function", inherits = FALSE, envir = target)) {
+    sys.source(helper, envir = target)
+  }
+  required <- c("harness_data", "harness_dir", "harness_out_root", "harness_table")
+  missing <- required[!vapply(
+    required,
+    function(name) exists(name, mode = "function", inherits = FALSE, envir = target),
+    logical(1)
+  )]
+  if (length(missing)) {
+    stop(sprintf("harness-04.R 載入 %s 後仍缺函式：%s",
+                 helper, paste(missing, collapse = ", ")), call. = FALSE)
+  }
+  invisible(target)
+}
+
+# top level 的 `environment()` 就是本檔的求值環境（source(local=) 的目標），
+# 故 helper 與本檔的 h04_* 落在同一處，enclosure 鏈自然接通。
+h04_load_helper(environment())
+
 ## 1. 預算 -----------------------------------------------------------------
 
 H04_BUDGET <- list(
