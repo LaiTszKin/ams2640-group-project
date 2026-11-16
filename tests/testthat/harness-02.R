@@ -21,12 +21,15 @@
 #   f2_raw_fixture(mutator)
 #                        原始資料形狀的暫存副本；注入一律寫在 harness_dir() 的副本上，
 #                        不碰 data/raw。回傳副本路徑。
-#   f2_run(raw_path, out_root)
+#   f2_run(raw_path, out_root, allow_absent_out_root = FALSE)
 #                        F2 的入口：在呼叫者給的暫存輸出根上執行 01_prep_data.R。
 #                        注入只有兩個環境變數——RTOOLKIT_RAW_PATH（輸入副本）與
 #                        RTOOLKIT_OUT_ROOT（寫入位置），兩者都是 01_prep_data.R 檔首
 #                        宣告的入口。工作目錄借 withr::with_dir() 移回專案根（01 以相對
 #                        路徑 source 00_setup.R），離開即還原。
+#                        allow_absent_out_root = TRUE 時允許輸出路徑尚不存在（原樣注入，
+#                        不由測試端建立或解連結）：供「輸出根是 raw 下未建立的子目錄」與
+#                        「輸出根經符號連結指進 raw」兩條注入使用。
 #   f2_processed_shas()  data/processed 三個產物的指紋，用來證明拒絕分支沒有動到它們。
 #   f2_budget()          本流程的預算（樣本、種子、收縮、上限、重試）。
 #
@@ -277,20 +280,36 @@ f2_raw_fixture <- function(mutator = NULL) {
 # F2 的入口：在 out_root 上執行 01_prep_data.R。
 #   raw_path  輸入（原始資料形狀的副本；呼叫者以 f2_raw_fixture() 取得）
 #   out_root  寫入位置（清冊與記錄落在 out_root/tables、out_root/logs）
+#   allow_absent_out_root
+#             預設 FALSE：out_root 須已存在（harness_out_root()／harness_dir() 提供）。
+#             設 TRUE 時允許一個**尚不存在**的輸出根——這是「拒絕仍有副作用」那兩條注入
+#             （raw 下未建立的子目錄、經符號連結指進 raw 的路徑）的形狀。此處刻意**不**
+#             代為建立或解析它：建立就是被測的副作用本身；把連結解開則是測試端替生產端
+#             做了判定，第二條注入會退化成第一條。
 # 回傳結束碼與合流的輸出。結束碼 0 = happy path，非 0 = 拒絕分支（訊息在 output 內）。
-f2_run <- function(raw_path, out_root) {
+f2_run <- function(raw_path, out_root, allow_absent_out_root = FALSE) {
   if (!is.character(raw_path) || length(raw_path) != 1L || !file.exists(raw_path)) {
     stop("f2_run：raw_path 須為既有的檔案（以 f2_raw_fixture() 取得）。", call. = FALSE)
   }
-  if (!is.character(out_root) || length(out_root) != 1L || !dir.exists(out_root)) {
+  if (!is.character(out_root) || length(out_root) != 1L) {
+    stop("f2_run：out_root 須為單一字串路徑。", call. = FALSE)
+  }
+  if (!allow_absent_out_root && !dir.exists(out_root)) {
     stop("f2_run：out_root 須為既有的輸出根（以 harness_out_root() 或 harness_dir() 取得）。",
          call. = FALSE)
   }
   # 兩條路徑都先正規化：01_prep_data.R 的「目標是否落在原始資料目錄內」判定用的是
   # normalizePath() 之後的字串，注入的字面拼法若與之不同（macOS 的 /var → /private/var），
   # 判定會落空。測試端不得靠拼法取得綠燈。
+  # 尚不存在的輸出根原樣注入（normalizePath(mustWork = FALSE) 對它本就原樣返回）：
+  # 要求呼叫者給絕對路徑，其餘的解析（含符號連結）由 01 的 §0 自己做。
+  out_root_env <- if (dir.exists(out_root)) {
+    normalizePath(out_root, winslash = "/", mustWork = TRUE)
+  } else {
+    out_root
+  }
   env <- c(
-    paste0("RTOOLKIT_OUT_ROOT=", shQuote(normalizePath(out_root, winslash = "/", mustWork = TRUE))),
+    paste0("RTOOLKIT_OUT_ROOT=", shQuote(out_root_env)),
     paste0("RTOOLKIT_RAW_PATH=", shQuote(normalizePath(raw_path, winslash = "/", mustWork = TRUE)))
   )
   started <- Sys.time()
