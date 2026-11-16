@@ -99,11 +99,37 @@ short_path <- function(path) {
   ifelse(startsWith(path, prefix), substring(path, nchar(prefix) + 1L), path)
 }
 
-# 寫入前的「目標不在原始資料目錄內」判定（REQ-F-F2-2 的 refuse:readonly-target）
+# 路徑的實體解析：先解開符號連結，且對「尚不存在」的目標同樣成立。
+# normalizePath(mustWork = FALSE) 對不存在的路徑原樣返回輸入、不解連結；輸出目標通常
+# 尚未存在（第一次產出），而原始資料目錄的另一種拼法若是連結（macOS 的 /var →
+# /private/var），字串比較就會漏判（A-44 S1）。故解析到**最接近的既有祖先**：把該祖先
+# 解析成實體路徑後，再接回尚未存在的尾部；目標本身已存在時整條解析（連尾端的連結一併解開）。
+resolve_path <- function(path) {
+  p <- sub("/+$", "", as.character(path))
+  if (!nzchar(p)) return("/")                       # 輸入是根目錄本身
+  if (file.exists(p)) return(normalizePath(p, winslash = "/", mustWork = TRUE))
+  tail <- character()
+  cur <- p
+  repeat {
+    parent <- dirname(cur)
+    if (identical(parent, cur)) break                # 已上溯到根仍不存在
+    tail <- c(basename(cur), tail)
+    cur <- parent
+    if (file.exists(cur)) {
+      ancestor <- normalizePath(cur, winslash = "/", mustWork = TRUE)
+      return(do.call(file.path, c(list(ancestor), tail)))
+    }
+  }
+  normalizePath(p, winslash = "/", mustWork = FALSE)  # 連祖先都不存在：退回原樣
+}
+
+# 寫入前的「目標不在原始資料目錄內」判定（REQ-F-F2-2 的 refuse:readonly-target）。
+# 兩邊都先解到實體路徑再比，故「輸出根以符號連結指進原始資料目錄」與「以實體路徑直指」
+# 得到同一個判定；前綴帶分隔字元，data/raw2 因此不會被 data/raw 誤判。
 is_inside <- function(path, dir) {
-  norm <- function(p) sub("/+$", "", normalizePath(p, winslash = "/", mustWork = FALSE))
-  p <- norm(path)
-  d <- norm(dir)
+  p <- resolve_path(path)
+  d <- resolve_path(dir)
+  if (identical(d, "/")) return(TRUE)                # 原始資料在根目錄：其下全算在內
   identical(p, d) || startsWith(p, paste0(d, "/"))
 }
 
