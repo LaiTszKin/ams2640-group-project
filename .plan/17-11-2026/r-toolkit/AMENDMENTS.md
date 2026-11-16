@@ -331,7 +331,7 @@
 | # | 位置 | 症狀 | 來源 |
 | --- | --- | --- | --- |
 | S1 | `01_prep_data.R` 的 `is_inside()` | 路徑未 `normalizePath`，經符號連結指向原始資料時 `refuse:readonly-target` 漏判；曾實際寫入 `data/processed` 一次，已 `git checkout` 復原 | `V02` |
-| S2 | `03_age.R`、`04_ability.R`、`07_macro.R` | 缺 `RTOOLKIT_CLEAN_PATH` 覆寫（`02_wealth.R`、`06_language.R`、`08_audit.R`、`01_prep_data.R` 有），退化 fixture 只能「複製腳本改一行」或「symlink 整個專案根」 | `V04`、`V05`、`V08` |
+| S2 | `03_age.R`、`04_ability.R`、`05_models.R`、`07_macro.R` | 缺 `RTOOLKIT_CLEAN_PATH` 覆寫（`02_wealth.R`、`06_language.R`、`08_audit.R`、`01_prep_data.R` 有），退化 fixture 只能「複製腳本改一行」或「symlink 整個專案根」 | `V04`、`V05`、`V06`、`V08` |
 | S3 | `08_audit.R:20` | 以相對路徑 `source("programs/R/lib/stats.R")`，從子目錄執行即「無法開啟連接」，與 README 所稱「可在專案根或子目錄執行」相抵 | `V09` |
 | S4 | `has_tests.csv`／`age_tests.csv` | 無統一的 `n` 欄（只有 `n_a`／`n_b`），`expect_profile()` 與 F11 的 `n` 對照都得特判；F11 的 `source_row` 因此以 `欄|欄` 作鍵 | `V04`、`V11` |
 | S5 | 執行期權限位 | `.Rprofile`／`AMS2640.Rproj`／`renv.lock` 在一次 fixture 執行後由 644 變 755，內容零差異（已 `chmod` 回 644）。成因未定，疑與 symlink 專案根的複製方式有關 | `V08` |
@@ -354,6 +354,14 @@
 - **執行方式**：直接改主樹，未另開 worktree。理由——這是常數字串的替換，正確性完全由可執行檢查判定（`status` 六列是否全 `ok`），沒有需要獨立判斷的設計空間；派工的成本高於收益。事後實測：六列 `ok`、`check_report.py` exit 0。
 - **同步**：`report.md` 四處、`05_models.R` 的 `REPORTED_R2` 六字串。`qa.md` 第 442 行、`summary.md` 第 14 行、`refine.md` 第 45 行的舊值按「追加而不改」保留。
 - **容差觀察**：改為四位有效數字後，最緊的一列是 `ability_quartile`（實際 0.0957743 對 0.09577，差 4.28e-6，容差 5e-6）。這是「半個末位」規則在四位有效數字下的正常餘裕，不是缺陷；但如果日後有人把報告值再改寬，這一列會第一個轉紅。
+
+## A-47 · 主代理複驗 · mismatch 機制確實會紅
+
+- **複驗動機**：`V06` 自報「把 `REPORTED_R2` 改一位即轉 mismatch」。自報不算證據，且這條正是整個比對機制唯一的否證路徑——如果它恆真，`status` 欄就只是裝飾。
+- **手法**：另開一個臨時 worktree 於 `/tmp/v06chk`（不污染主樹），把 `ability_quartile` 的 `"0.09577"` 改為 `"0.09578"`，重跑 `05_models.R`。
+- **實測**：該列 `status=mismatch`，其餘五列仍 `ok`；記錄寫「1 列與報告所載不同（四位有效數字），已標 mismatch，待裁決」；表中該列數值仍為算出的 0.09577，**未被寫成報告值**。臨時 worktree 已移除。
+- **一併修正派工錯誤**：我在 V06 的 brief 寫「0.004952 → 容差 5e-6」，正解是 **5e-7**（六位小數的半個末位）。實作者沒有照抄我的錯，而是依 A-40 自行改正並在報告中指明。這條記在此處，因為主代理給的常數也必須可被反駁。
+- **`A-44` 的 S2 增列** `05_models.R`：同樣缺 `RTOOLKIT_CLEAN_PATH`，退化 fixture 只能改暫存副本的一行。
 
 ## 停止稽核的判斷
 
