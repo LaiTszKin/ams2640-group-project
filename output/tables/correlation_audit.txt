@@ -1,0 +1,45 @@
+# correlation_audit — F9 相關審核（可讀版，與 correlation_audit.csv 同內容同列序）
+# population: analysis    n: 3630
+# 分母來源：output/tables/population_ledger.csv 中 population=analysis、metric=analysis 那一列（n=3630 value=3630），並與常數 ANALYSIS_N 核對
+# effect：連續欄為皮爾遜相關係數（Graduate=1；正號為畢業率較高），類別欄為變異數分析 η
+# 門檻：EFFECT_MIN=0.3  P_BH_MAX=0.05  EFFECT_NOISE=0.1  BH 家族 m=36  keep=definitional|substantive
+# 判詞：definitional / substantive / weak / noise / ecological
+# 舊版分母為 RETIRED_ANALYSIS_N（分析母體加在讀），磁碟上無舊表可覆蓋；見 08_audit.log
+
+population variable                                             effect       p_raw        p_bh keep  verdict      in_model      n
+analysis   Marital status                                       0.1210   2.709e-10   4.240e-10 FALSE weak         FALSE      3630
+analysis   Application mode                                     0.3286   2.538e-77   1.142e-76 TRUE  substantive  TRUE       3630
+analysis   Application order                                    0.1203   1.243e-09   1.789e-09 FALSE weak         FALSE      3630
+analysis   Course                                               0.3493   4.175e-90   2.505e-89 TRUE  substantive  TRUE       3630
+analysis   Daytime/evening attendance                          0.08450   3.429e-07   4.748e-07 FALSE noise        FALSE      3630
+analysis   Previous qualification                               0.2037   1.676e-24   4.641e-24 FALSE weak         FALSE      3630
+analysis   Previous qualification (grade)                       0.1095   3.773e-11   6.468e-11 FALSE weak         FALSE      3630
+analysis   Nacionality                                         0.07395      0.3416      0.3727 FALSE noise        FALSE      3630
+analysis   Mother's qualification                               0.1985   8.732e-18   2.096e-17 FALSE weak         FALSE      3630
+analysis   Father's qualification                               0.2018   6.964e-17   1.475e-16 FALSE weak         FALSE      3630
+analysis   Mother's occupation                                  0.1951   6.659e-17   1.475e-16 FALSE weak         FALSE      3630
+analysis   Father's occupation                                  0.1859   1.050e-10   1.718e-10 FALSE weak         FALSE      3630
+analysis   Admission grade                                      0.1281   9.584e-15   1.917e-14 FALSE weak         FALSE      3630
+analysis   Displaced                                            0.1261   2.420e-14   4.585e-14 FALSE weak         FALSE      3630
+analysis   Educational special needs                          0.007254      0.6622      0.7011 FALSE noise        FALSE      3630
+analysis   Debtor                                               0.2672   2.164e-60   7.789e-60 FALSE weak         FALSE      3630
+analysis   Tuition fees up to date                              0.4421  1.301e-173  9.369e-173 TRUE  substantive  TRUE       3630
+analysis   Gender                                               0.2520   1.122e-53   3.671e-53 FALSE weak         FALSE      3630
+analysis   Scholarship holder                                   0.3130   2.441e-83   1.255e-82 TRUE  substantive  TRUE       3630
+analysis   Age at enrollment                                   -0.2672   2.114e-60   7.789e-60 FALSE weak         FALSE      3630
+analysis   International                                      0.006181      0.7097      0.7300 FALSE noise        FALSE      3630
+analysis   Curricular units 1st sem (credited)                 0.04690    0.004709    0.005469 FALSE noise        FALSE      3630
+analysis   Curricular units 1st sem (enrolled)                  0.1611   1.590e-22   4.088e-22 FALSE weak         FALSE      3630
+analysis   Curricular units 1st sem (evaluations)              0.05979   0.0003133   0.0004028 FALSE noise        FALSE      3630
+analysis   Curricular units 1st sem (approved)                  0.5549  2.832e-292  3.399e-291 TRUE  definitional FALSE      3630
+analysis   Curricular units 1st sem (grade)                     0.5199  1.329e-250  1.196e-249 TRUE  definitional FALSE      3630
+analysis   Curricular units 1st sem (without evaluations)     -0.07464   6.735e-06   8.980e-06 FALSE noise        FALSE      3630
+analysis   Curricular units 2nd sem (credited)                 0.05240    0.001587    0.001970 FALSE noise        FALSE      3630
+analysis   Curricular units 2nd sem (enrolled)                  0.1829   1.128e-28   3.385e-28 FALSE weak         FALSE      3630
+analysis   Curricular units 2nd sem (evaluations)               0.1192   5.706e-13   1.027e-12 FALSE weak         FALSE      3630
+analysis   Curricular units 2nd sem (approved)                  0.6540           0           0 TRUE  definitional FALSE      3630
+analysis   Curricular units 2nd sem (grade)                     0.6054           0           0 TRUE  definitional FALSE      3630
+analysis   Curricular units 2nd sem (without evaluations)      -0.1027   5.607e-10   8.411e-10 FALSE weak         FALSE      3630
+analysis   Unemployment rate                                  0.004198      0.8004      0.8004 FALSE ecological   FALSE      3630
+analysis   Inflation rate                                     -0.03033     0.06771     0.07618 FALSE ecological   FALSE      3630
+analysis   GDP                                                 0.05026    0.002453    0.002944 FALSE ecological   FALSE      3630
