@@ -1,0 +1,10 @@
+population,metric,n,value
+full,total,4424,4424
+full,graduate,4424,2209
+full,dropout,4424,1421
+full,enrolled,4424,794
+analysis,analysis,3630,3630
+analysis,no_registration_rows,3630,180
+analysis,zero_score_sem2,3630,802
+analysis,zero_score_sem2_dropout,3630,727
+ability,ability,2828,2828
