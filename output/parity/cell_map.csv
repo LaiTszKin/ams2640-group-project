@@ -1,0 +1,15 @@
+cell_id,table,column,row_key,value_type
+pop_analysis,population_ledger.csv,value,analysis,count
+w_both,wealth_four_cell.csv,dropout_rate,w_both,rate
+w_only_unpaid,wealth_four_cell.csv,dropout_rate,w_only_unpaid,rate
+w_only_debt,wealth_four_cell.csv,dropout_rate,w_only_debt,rate
+w_neither,wealth_four_cell.csv,dropout_rate,w_neither,rate
+a_lt20,age_bands.csv,dropout_rate,<20,rate
+a_20_24,age_bands.csv,dropout_rate,20-24,rate
+a_25_29,age_bands.csv,dropout_rate,25-29,rate
+a_30_39,age_bands.csv,dropout_rate,30-39,rate
+a_40plus,age_bands.csv,dropout_rate,40+,rate
+q1,ability_quartiles.csv,graduation_rate,q1,rate
+q2,ability_quartiles.csv,graduation_rate,q2,rate
+q3,ability_quartiles.csv,graduation_rate,q3,rate
+q4,ability_quartiles.csv,graduation_rate,q4,rate
