@@ -1,0 +1,31 @@
+population,variable,value,year,year_inferred,n,role
+analysis,Unemployment rate,7.6,2008,TRUE,452,control
+analysis,Unemployment rate,9.4,2009,TRUE,424,control
+analysis,Unemployment rate,10.8,2010,TRUE,435,control
+analysis,Unemployment rate,12.7,2011,TRUE,356,control
+analysis,Unemployment rate,15.5,2012,TRUE,328,control
+analysis,Unemployment rate,16.2,2013,TRUE,316,control
+analysis,Unemployment rate,13.9,2014,TRUE,326,control
+analysis,Unemployment rate,12.4,2015,TRUE,355,control
+analysis,Unemployment rate,11.1,2016,TRUE,347,control
+analysis,Unemployment rate,8.9,2017,TRUE,291,control
+analysis,Inflation rate,2.6,2008,TRUE,452,control
+analysis,Inflation rate,-0.8,2009,TRUE,424,control
+analysis,Inflation rate,1.4,2010,TRUE,435,control
+analysis,Inflation rate,3.7,2011,TRUE,356,control
+analysis,Inflation rate,2.8,2012,TRUE,328,control
+analysis,Inflation rate,0.3,2013,TRUE,316,control
+analysis,Inflation rate,-0.3,2014,TRUE,326,control
+analysis,Inflation rate,0.5,2015,TRUE,355,control
+analysis,Inflation rate,0.6,2016,TRUE,347,control
+analysis,Inflation rate,1.4,2017,TRUE,291,control
+analysis,GDP,0.32,2008,TRUE,452,control
+analysis,GDP,-3.12,2009,TRUE,424,control
+analysis,GDP,1.74,2010,TRUE,435,control
+analysis,GDP,-1.7,2011,TRUE,356,control
+analysis,GDP,-4.06,2012,TRUE,328,control
+analysis,GDP,-0.92,2013,TRUE,316,control
+analysis,GDP,0.79,2014,TRUE,326,control
+analysis,GDP,1.79,2015,TRUE,355,control
+analysis,GDP,2.02,2016,TRUE,347,control
+analysis,GDP,3.51,2017,TRUE,291,control
