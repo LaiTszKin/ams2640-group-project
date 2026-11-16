@@ -134,6 +134,66 @@ test_that("輸出根指進原始資料目錄 → refuse:readonly-target，副本
   expect_lt(result$elapsed, F2_FLOW_SECONDS)
 })
 
+# 上面那條注入的是「輸出根＝副本目錄本身」，故 `dir.create(recursive = TRUE)` 的殘留會以
+# 「多一個子目錄」的形式出現在同一個列舉裡。A-48 補的兩條測的是另一種形狀：輸出根是 raw
+# 下**尚未存在**的目標（子目錄、或經符號連結指進去的路徑）。這兩條不以「目錄裡有沒有多
+# 檔案」收尾，而以「被保護目錄的列舉前後逐行相同」與「該子目錄根本不存在」收尾——只驗
+# 有沒有寫檔，會漏掉建目錄這一類殘留。
+
+test_that("輸出根為原始資料目錄下尚未存在的子目錄 → refuse:readonly-target，且拒絕後未建出它", {
+  fixture <- f2_raw_fixture()
+  raw_dir <- dirname(fixture)
+  withr::defer(unlink(raw_dir, recursive = TRUE, force = TRUE))
+
+  target <- file.path(raw_dir, "sub")
+  # 起點先釘住：若 sub 事先存在，後面的 expect_false() 就恆假，這條注入證明不了任何事。
+  expect_false(dir.exists(target), label = "注入前 raw 下的 sub 不存在")
+  files_before <- sort(list.files(raw_dir, all.files = TRUE))
+
+  result <- f2_run(fixture, target, allow_absent_out_root = TRUE)
+
+  expect_false(identical(result$status, 0L), label = "結束碼非 0")
+  expect_true(f2_refused(result, "readonly-target"), label = "拒絕類別")
+  # 拒絕的後置（A-48 的第二段）：00_setup.R 的 dir.create(OUT_ROOT/logs) 若跑在守衛之前，
+  # 這裡就會長出 sub（連同 sub/logs、sub/tables），即使一個檔案都沒寫。
+  expect_false(dir.exists(target), label = "拒絕後 raw 下的 sub 未被建立")
+  expect_identical(sort(list.files(raw_dir, all.files = TRUE)), files_before,
+                   label = "原始資料目錄的列舉（含 all.files）")
+  expect_false(file.exists(result$table), label = "子目錄上沒有清冊")
+  expect_lt(result$elapsed, F2_FLOW_SECONDS)
+})
+
+test_that("輸出根經符號連結指進原始資料目錄 → refuse:readonly-target，且列舉逐行相同", {
+  fixture <- f2_raw_fixture()
+  raw_dir <- dirname(fixture)
+  link_root <- harness_dir()
+  withr::defer(unlink(raw_dir, recursive = TRUE, force = TRUE))
+  withr::defer(unlink(link_root, recursive = TRUE, force = TRUE))
+
+  # 連結放在另一個暫存目錄裡，指回原始資料副本的目錄：out_root 的字面拼法不含 raw_dir，
+  # 只有解開連結之後才落在裡面。判定若只比字串，這條就會走到底。
+  link <- file.path(link_root, "raw_link")
+  expect_true(file.symlink(raw_dir, link), label = "符號連結已建立（否則本條測不到東西）")
+
+  files_before <- sort(list.files(raw_dir, all.files = TRUE))
+  # 拒絕訊息印的是**實體**目錄（§0 先解連結再比），故比對時也取實體路徑：
+  # macOS 的 TMPDIR 是 /var → /private/var，字面拼法與實體拼法不同。
+  raw_dir_real <- normalizePath(raw_dir, winslash = "/", mustWork = TRUE)
+  result <- f2_run(fixture, file.path(link, "tables"), allow_absent_out_root = TRUE)
+
+  expect_false(identical(result$status, 0L), label = "結束碼非 0")
+  expect_true(f2_refused(result, "readonly-target"), label = "拒絕類別")
+  expect_true(any(grepl(raw_dir_real, result$output, fixed = TRUE)),
+              label = "拒絕訊息指名實體路徑（不是連結的拼法）")
+  # 拒絕的後置：經連結寫入＝寫進 raw 本身，故列舉的任何一項變化（含 .DS_Store、空目錄）
+  # 都算越線。
+  expect_identical(sort(list.files(raw_dir, all.files = TRUE)), files_before,
+                   label = "原始資料目錄的列舉（含 all.files）")
+  expect_false(dir.exists(file.path(link, "logs")), label = "經連結的 logs 未被建立")
+  expect_false(file.exists(result$table), label = "經連結的路徑上沒有清冊")
+  expect_lt(result$elapsed, F2_FLOW_SECONDS)
+})
+
 test_that("欄數改為 36 → refuse:input-schema，清冊 sha256 不變（REQ-F-F2-3）", {
   full <- harness_data("full")
   expect_equal(ncol(full), F2_EXPECTED_COLS)
