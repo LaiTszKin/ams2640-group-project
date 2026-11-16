@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+output/logs/*.log
+
+# renv: 只追蹤 lockfile，不追蹤套件本體
+renv/library/
+renv/staging/
+renv/python/
+
+# SAS
+*.lst
+*.log.bak

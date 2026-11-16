@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "*.sas": "sas"
+  },
+  "editor.rulers": [80],
+  "editor.tabSize": 4,
+  "files.trimTrailingWhitespace": true,
+  "sas.connectionProfiles": {
+    "activeProfile": "oda-studio",
+    "profiles": {
+      "oda-studio": {
+        "connectionType": "rest",
+        "endpoint": "https://welcome.oda.sas.com/",
+        "note": "Placeholder only. The SAS extension cannot execute against OnDemand for Academics; run programs in SAS Studio (browser).",
+        "sasOptions": []
+      }
+    }
+  }
+}
