@@ -88,9 +88,9 @@ REPORTED_R2 <- c(
   age_band              = "0.0756",
   financial_three       = "0.2227",
   financial_three_ability = "0.2011",
-  ability_quartile      = "0.0947",
-  financial_plus_ability = "0.2607",
-  admission_quartile    = "0.0092"
+  ability_quartile      = "0.0958",
+  financial_plus_ability = "0.2611",
+  admission_quartile    = "0.0050"
 )
 
 ## 2. 小工具 ---------------------------------------------------------------
