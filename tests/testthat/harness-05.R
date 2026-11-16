@@ -19,6 +19,47 @@
 # 非空＝逐條寫出「實得 vs 釘值」。回字元而非直接斷言，是為了讓同一支性質能被
 # mutant（`h05_mutant_*()`）再跑一次，用「mutant 必須非空」證明該性質會判紅。
 
+## 0. 載入即載入測試台 -------------------------------------------------------
+
+# 本檔所在目錄。順序很重要：被 source() 時，堆疊上指向 harness-05.R 的 ofile 才是
+# 本檔的位置——process 的 `--file=` 可能是別的腳本（`Rscript tests/testthat.R`、
+# `Rscript -e`），先看它會把目錄誤判成 `tests`。
+h05_this_dir <- function() {
+  frames <- sys.frames()
+  for (i in rev(seq_along(frames))) {
+    ofile <- frames[[i]]$ofile
+    if (!is.null(ofile) && grepl("harness-05[.]R$", ofile)) {
+      return(dirname(normalizePath(ofile, winslash = "/", mustWork = FALSE)))
+    }
+  }
+  # 本檔被 Rscript 直接執行時沒有 source() 的 ofile，改由 --file= 定位。
+  file_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
+  if (length(file_arg) && grepl("harness-05[.]R$", file_arg[[1L]])) {
+    return(dirname(normalizePath(sub("^--file=", "", file_arg[[1L]]), winslash = "/", mustWork = FALSE)))
+  }
+  # 兩者皆無（例如在 REPL 內 source 本檔）：自工作目錄與 tests/testthat 找本檔的鄰居。
+  for (dir in c(getwd(), file.path(getwd(), "tests", "testthat"))) {
+    if (file.exists(file.path(dir, "harness-05.R"))) {
+      return(normalizePath(dir, winslash = "/", mustWork = FALSE))
+    }
+  }
+  getwd()
+}
+
+# 載入時無條件載入 `helper-harness.R`，放進**本檔被求值的同一個環境**：`h05_*` 的
+# closure 都在那個環境，故 `.harness_table_path()`／`harness_data()` 等一併解析得到。
+# 不用函式內「用到才補載」的時機寫法：那個時機只在 `h05_entry()` 被呼叫時才到，
+# `testthat::test_dir()` 直接跑測試檔時 `h05_published_paths()` 會先判紅。
+# 三種入口因此一致：`tests/testthat.R`（helper 已在 globalenv／測試 env）、
+# `test_dir()`／`test_file()`（helper 由 testthat 放進測試 env，與本檔同處）、
+# `Rscript tests/testthat/harness-05.R`（--file= 定位，helper 放進 globalenv）。
+# 以下三行是本檔 top-level（載入時執行），不在任何函式內；`local = TRUE` 使它載進
+# 「本檔 top-level 的求值環境」，與 h05_* 的定義處是同一個。
+if (!file.exists(file.path(h05_this_dir(), "helper-harness.R"))) {
+  stop("找不到 helper-harness.R（應與 harness-05.R 同目錄）：", h05_this_dir(), call. = FALSE)
+}
+source(file.path(h05_this_dir(), "helper-harness.R"), local = TRUE)
+
 ## 1. 預算與上限 -----------------------------------------------------------
 
 H05_FLOW <- "F5 能力層"
@@ -491,33 +532,17 @@ h05_project_root <- function() {
   getwd()
 }
 
-# 本檔所在目錄：直接 Rscript 執行時由 --file= 決定，被 source() 時由 ofile 決定。
-h05_this_dir <- function() {
-  file_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
-  if (length(file_arg)) {
-    return(dirname(normalizePath(sub("^--file=", "", file_arg[[1L]]), winslash = "/", mustWork = FALSE)))
-  }
-  frames <- sys.frames()
-  for (i in rev(seq_along(frames))) {
-    ofile <- frames[[i]]$ofile
-    if (!is.null(ofile) && grepl("harness-05[.]R$", ofile)) {
-      return(dirname(normalizePath(ofile, winslash = "/", mustWork = FALSE)))
-    }
-  }
-  getwd()
-}
+# h05_this_dir() 定義於第 0 節：載入時就要用到它來定位 helper-harness.R。
 
 h05_script_mode <- function() {
   file_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
   length(file_arg) == 1L && identical(basename(sub("^--file=", "", file_arg[[1L]])), "harness-05.R")
 }
 
-# 入口：載入測試台 → 印預算 → 跑本流程的測試檔 → 檢查總耗時不超過 120 秒。
+# 入口：印預算 → 跑本流程的測試檔 → 檢查總耗時不超過 120 秒。
+# 測試台已由第 0 節在載入時載好，這裡不再做「用到才補載」的時機判斷。
 h05_entry <- function(reporter = "summary") {
   dir <- h05_this_dir()
-  if (!exists("harness_table", mode = "function")) {
-    source(file.path(dir, "helper-harness.R"))
-  }
   seed <- harness_seed()
   cat(sprintf(
     "harness-05: flow=%s\n  sample=%s\n  seed=%d（%s）\n  shrink=%s（上界 %d 次／%d 秒）\n  limit=%d 秒；retries=%d\n",
