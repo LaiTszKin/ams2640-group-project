@@ -308,6 +308,14 @@
 - **偏離**：`row_key` 用 R 表字面值（`<20`、`20-24`…）而非 `a_25_29` 一類短名，因為 `age_bands.csv` 的 `band` 欄就是這些字串，用短名無法 join；`cell_id` 仍為短名。`T12` 讀 `cell_map.csv` 時以 `row_key` 選列。
 - **後果**：`V10`（兩端對照）在 `sas_parity.csv` 就位之前無法通過——這是能力邊界，不是缺陷。記錄於 `RUN.md` 的阻斷清單。
 
+## A-42 · 執行期退回 · `V04`／`V05` 的 harness 依賴 runner 先載 helper
+
+- **發現**：`Rscript tests/testthat.R` 全綠，但直接 `testthat::test_dir("tests/testthat")` 跑出 **5 個 error**：`harness_data`／`harness_dir`／`harness_out_root`「沒有這個函式」，全部來自 `test-04_F4.R`（3 條）與 `test-05_F5.R`（2 條）。
+- **成因**：`harness-04.R` 與 `harness-05.R` 假設呼叫端（`tests/testthat.R`）已載入 `helper-harness.R`；`harness-03.R` 則自己載入並以 `local = environment()` 被 source，所以不受影響。
+- **影響**：以文件記載的入口跑是綠的，但任何用 `test_dir()`／`test_local()` 直接呼叫的場合（含日後加 `DESCRIPTION` 走 `test_local`）都會紅。測試台本來就是為了「單一入口」而存在，這個依賴把它又拆成兩條路。
+- **裁決**：退回同作者修（worktree `pdd/V04b`、`pdd/V05b`）：兩個 harness 在載入時自行 source `helper-harness.R`，使測試檔在兩種呼叫下都能跑。
+- **狀態**：`V04`／`V05` 已合併入 `main`（測試檔在樹上），修復作為 `V04b`／`V05b` 疊加。
+
 ## 停止稽核的判斷
 
 三輪的曲線：第一輪 90 條、第二輪 103 條、第三輪 64 條；但缺陷的性質從「需求與資料不符」轉為「常數未命名」。第二輪的六條算術錯誤（分母、婚配對照組、年齡帶參數化、分位法、phi 編碼、宏觀年份）與第三輪的四條鏈路斷點（常數缺名、輸出根無消費方、母體欄缺漏、入口清單）已全部修掉。
