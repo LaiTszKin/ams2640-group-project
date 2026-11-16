@@ -80,8 +80,11 @@ fisher_2x2 <- function(a, b, c, d) {
   }
 
   # 邊際皆非零時 ad 與 bc 不會同時為零；bc 為零即勝算比無上界。
-  numerator <- a * d
-  denominator <- b * c
+  # 兩個乘積同樣先轉 double：本母體的邊際下整數乘積仍在範圍內（a*d 的上界
+  # 是母體半數的平方），但與 phi_2x2 共用一種運算型別，母體放大時不必再找
+  # 第二次。
+  numerator <- as.numeric(a) * as.numeric(d)
+  denominator <- as.numeric(b) * as.numeric(c)
   odds_ratio <- if (denominator == 0) Inf else numerator / denominator
 
   test <- stats::fisher.test(tab, alternative = "two.sided")
@@ -102,6 +105,16 @@ phi_2x2 <- function(a, b, c, d) {
   if (anyNA(cells) || any(cells < 0) || any(cells != round(cells))) {
     stop("phi_2x2：四格須為非負整數", call. = FALSE)
   }
+
+  # 四格與邊際先轉 double：整數乘積在四格為四位數時就已超過整數上限
+  # （2^31 - 1 ≈ 2.1e9），逐項相乘到第三項即溢位成 NA 並發出警告；double 的
+  # 乘積在 2^53 以內仍逐位元精確，故轉型不改變任何合法輸入的結果，只是把
+  # 溢位這條路封死。向量化的呼叫端（整數計數欄）曾因此拿到 NA，而同一組格
+  # 以 double 傳入卻得正確值——兩種型別必須同值，見第 6 節的回歸檢查。
+  a <- as.numeric(a)
+  b <- as.numeric(b)
+  c <- as.numeric(c)
+  d <- as.numeric(d)
 
   rows <- c(a + b, c + d)
   cols <- c(a + c, b + d)
@@ -193,3 +206,26 @@ fmt_sig <- function(x, digits = SIG_DIGITS) {
     sprintf(template, value)
   }, character(1))
 }
+
+## 6. 整數輸入的回歸檢查 ---------------------------------------------------
+
+# 同一組四格因型別而有兩種結果，是這個檔案最難在呼叫端察覺的失效：整數四格
+# 回 NA（第 3 節的乘積溢位），double 四格回數值，而 NA 仍是 numeric，呼叫端
+# 無法以型別分辨。以下在 source 時比對兩組真實四格的兩種型別，不一致即停止
+# ——寧可載入時失敗，也不讓下游以 NA 寫出表。
+#
+# 兩組四格皆為分析母體的四格分割，其中 226/260/187/2957 即
+# output/tables/wealth_four_cell.csv 的四格。檢查只做純算術，無狀態、無輸出，
+# 重複 source 的結果相同。
+local({
+  for (cells in list(c(457L, 29L, 964L, 2180L), c(226L, 260L, 187L, 2957L))) {
+    from_integer <- do.call(phi_2x2, as.list(cells))
+    from_double <- do.call(phi_2x2, as.list(as.numeric(cells)))
+    if (!identical(from_integer, from_double)) {
+      stop(sprintf("phi_2x2：整數四格 %s 回 %s，double 回 %s（整數乘積溢位）",
+                   paste(cells, collapse = "/"),
+                   format(from_integer), format(from_double)),
+           call. = FALSE)
+    }
+  }
+})
