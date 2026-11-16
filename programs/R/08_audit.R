@@ -9,7 +9,7 @@
 # 母體與 n 取自 00_setup.R 的常數與母體清冊，本檔不寫母體字面量（REQ-A-2）；
 # 判詞門檻寫在本檔常數並印入記錄（T10 步驟 3）。統計量一律取自 lib/stats.R。
 #
-# 用法（專案根目錄）：Rscript programs/R/08_audit.R
+# 用法（專案根目錄或子目錄皆可）：Rscript programs/R/08_audit.R
 #
 # 輸入可由 RTOOLKIT_CLEAN_PATH 指向另一份清洗資料集副本（供拒絕分支的注入測試），
 # 預設為 data/processed/ams2640_clean.csv。
@@ -17,7 +17,12 @@
 ## 0. 由 00_setup.R 與 lib/stats.R 取得常數與統計量 ------------------------
 
 # 這一行同時載入 00_setup.R（本檔不自行重寫母體界線、呈現位數）。
-source("programs/R/lib/stats.R")
+# 路徑經 here::here() 從專案根解析，不依 cwd：README 允許在專案根或其子目錄執行，
+# 而相對路徑會相對呼叫者的 cwd 解讀——從 output/ 之類的子目錄執行時，它變成
+# output/programs/R/lib/stats.R 而「無法開啟連接」（A-44 S3）。here() 的根由
+# AMS2640.Rproj 決定，與呼叫位置無關；00_setup.R 另有根目錄標記檢查，非專案
+# 目錄時停手而非靜默退回 cwd。
+source(file.path(here::here("programs/R/lib/stats.R")))
 
 ## 1. 路徑 -----------------------------------------------------------------
 
