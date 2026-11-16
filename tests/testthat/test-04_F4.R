@@ -12,15 +12,24 @@
 # 容差一律為「四位有效數字後相等」（A-19：表存未格式化 double，四位只在呈現層）。
 
 # testthat 只自動載入 helper*.R，而本流程的入口檔名由契約固定為 harness-04.R，
-# 故在此明確載入（載入進 globalenv，測試環境的父環境即它）。test_dir 的 cwd 為
-# tests/testthat；自專案根呼叫時退回專案內的同一路徑。
+# 故在此明確載入。harness-04.R 在載入時會自行把 helper-harness.R 載進**同一個
+# 求值環境**（見該檔 §0），所以 h04_* 內的 harness_*() 呼叫不依賴任何先載入動作。
+#
+# 落點是 globalenv（local = FALSE，`source()` 的預設）：本流程的入口檔與 helper
+# 因此都在全域，任何以 globalenv 為 enclosure 的程式碼（例如其他流程的
+# harness-0N.R，它們也是被各自的測試檔 source 進 globalenv）在同一個 session 內
+# 都解析的到 harness_*()。改放本檔的區域環境會讓這些呼叫在 test_dir() 下失效。
 local({
-  candidate <- c("harness-04.R", file.path("tests", "testthat", "harness-04.R"))
-  found <- candidate[file.exists(candidate)]
+  candidate <- c(
+    tryCatch(testthat::test_path("harness-04.R"), error = function(e) NA_character_),
+    "harness-04.R",
+    file.path("tests", "testthat", "harness-04.R")
+  )
+  found <- candidate[!is.na(candidate) & file.exists(candidate)]
   if (!length(found)) {
     stop("找不到 harness-04.R：應與 test-04_F4.R 同目錄。", call. = FALSE)
   }
-  source(found[[1L]])
+  source(found[[1L]], local = FALSE)
 })
 
 test_that("五帶齊備：n 為 1,621／1,033／355／403／218，share 合計為 1", {
