@@ -1,0 +1,2304 @@
+<!-- 取得日期：2026-11-18；來源：https://pmc.ncbi.nlm.nih.gov/articles/PMC5993612/；授權／狀態：PMC 開放取用版本（PMCID PMC5993612） -->
+# Pfeffer & Killewald (2018), Growing Wealth Gaps in Education, Demography 55(3), 1033–1068.
+# 全文章節標題：Abstract / 引言 / 資料與方法 / 結果 / 討論。本文是「財富（不是收入）解釋教育完成差距」的量化論證。
+
+────────────────────────────────────────────────────────────
+
+Abstract 
+ Prior research on trends in educational inequality has focused chiefly on
+changing gaps in educational attainment by family income or parental occupation.
+In contrast, this contribution provides the first assessment of trends in
+educational attainment by family wealth and suggests that we should be at least
+as concerned about growing wealth gaps in education. Despite overall growth in
+educational attainment and some signs of decreasing wealth gaps in high school
+attainment and college access, I find a large and rapidly increasing wealth gap
+in college attainment between cohorts born in the 1970s and 1980s, respectively.
+This growing wealth gap in higher educational attainment co-occurred with a rise
+in inequality in children’s wealth backgrounds, although the analyses
+also suggest that the latter does not fully account for the former.
+Nevertheless, the results reported here raise concerns about the distribution of
+educational opportunity among today’s children who grow up in a context
+of particularly extreme wealth inequality. Introduction 
+ Family wealth—measured as the net value of all financial and real
+assets a family owns—is much more unequally distributed than other
+indicators of families’ economic well-being ( Keister 2000 ). Research has documented that this already large
+inequality in family wealth in the United States has been increasing substantially
+over the last decades ( Keister and Moller
+2000 ; Piketty and Zucman 2014 ;
+ Saez and Zucman 2014 ; Wolff 1995 ) and has been rising particularly strongly
+since the Great Recession ( Pfeffer et al.
+2013 ; Wolff 2016 ). One concern
+about growing wealth inequality is that it may also increase the rigidity of U.S.
+society, in particular by contributing to inequalities in educational opportunity.
+In fact, a growing body of research suggests that parental wealth plays an important
+role in the educational attainment of children in the United States and elsewhere
+( Belley and Lochner 2007 ; Conley 2001 ; Haellsten
+and Pfeffer 2017 ; Morgan and Kim
+2006 ; Pfeffer 2011 ). Over the last
+decades, family wealth may have become even more important to support direct
+investments in educational opportunity—in the form of good neighborhoods,
+secondary schools, and colleges—and to insure against the risks entailed in
+these investments, for instance, when families rely on student loans to finance
+costly college careers. As families drift apart in their wealth holdings, so may
+their ability to use wealth for investment and insurance. Yet, to date, no empirical
+evidence speaks to whether and to what extent wealth gaps in education have
+grown. 
+ This contribution provides the first empirical assessment of trends in wealth
+inequality in educational outcomes based on newly available data from the Panel
+Study of Income Dynamics (PSID). It also documents the extent to which these changes
+in wealth gaps in education can be accounted for solely by changes in the
+distribution of family wealth. Together, these analyses thus also speak to concerns
+about the potential long-term implications of the most recent and sharp increase in
+family wealth inequality for the future distribution of educational outcomes. 
+ I begin by reviewing prior research on cohort trends in educational
+inequality. In the next section, I argue that this prior evidence, which is
+restricted to other socioeconomic indicators of family background, does not allow
+inferences about trends in wealth gaps: family wealth is empirically and
+conceptually distinct from more commonly used socioeconomic indicators, and it
+contributes unique predictive power to assessments of children’s educational
+outcomes. After describing the data, measures, and methods, I estimate the
+association between family wealth and children’s educational attainment,
+unconditional and conditional on other socioeconomic characteristics of families,
+and document how wealth-education associations have changed over cohorts born in the
+1970s and in the 1980s. Finally, I apply a decomposition analysis to estimate the
+extent to which these changes can be accounted for by changes in the distribution of
+family wealth. Knowing whether trends in wealth inequality account for trends in
+children’s educational outcomes is important because the wealth distribution
+has continued to grow even more unequal among today’s children. Background and Motivation 
+ Prior Research on Trends in Educational Inequality 
+ The study of cohort trends in socioeconomic inequality in education has
+been an active area of empirical investigation for several decades (e.g., Harding et al. 2004 ; Mare 1981 ; Shavit and
+Blossfeld 1993 ; Treiman 1970 ).
+Research in this area has investigated the changing relationship between
+educational attainment and a variety of indicators of socioeconomic background.
+One set of contributions has drawn on occupation-based measures of
+parents’ social class, documenting remarkably stable class gaps in
+children’s educational outcomes in the United States over much of the
+twentieth and early twenty-first century ( Hout
+et al. 1993 ; Pfeffer and Hertel
+2015 ; Roksa et al. 2007 ).
+Other research has tracked the association between children’s and their
+parents’ highest educational status, finding largely stable levels of
+educational inequality tied to parental education ( Bloome and Western 2011 ; Hout and Dohan 1996 ; Hout and Janus 2011 ; Mare
+1981 ; Pfeffer 2008 ) as well as
+some signs of growing gaps for more-recent cohorts ( Buchmann and DiPrete 2006 ; Hertz et al. 2007 ; Pfeffer and Hertel 2015 ; Roksa et
+al. 2007 ). The most notable and widely discussed changes in
+educational inequality, however, have been found in relation to family income:
+ Reardon (2011) documented that the
+gaps in educational achievement (i.e., test scores) between children from
+high-income and low-income families has been growing steadily for at least 50
+years. Similarly, income gaps in higher education have also grown: Belley and Lochner (2007) observed
+substantial increases in income inequality in college attendance, comparing a
+cohort born in the early 1960s with a cohort born in the early 1980s. Bailey and Dynarski (2011) showed that these
+trends extend to growing income gaps in college graduation among the same
+cohorts. While income gaps in college attendance have held stable for
+more-recent cohorts ( Chetty et al. 2014 ;
+ Ziol-Guest and Lee 2016 ), income gaps
+in college attainment have continued to increase ( Duncan et al. 2017 ; Ziol-Guest and Lee 2016 ). The most recent estimates indicate that
+the difference in college graduation between children from the bottom and the
+top family income quintile approaches 50 percentage points ( Ziol-Guest and Lee 2016 ). 
+ Overall, then, cohort changes in the distribution of educational
+attainment are more pronounced in relation to parental income than in relation
+to parental education or parental occupations. It may thus be tempting to infer
+that rising income gaps in education should also manifest in rising gaps related
+to family wealth; after all, both are monetary dimensions of families’
+socioeconomic standing. However, as I will argue next, this direct inference is
+neither empirically nor conceptually valid: wealth is distinct from income, its
+association with education is distinct, and trends in that association may thus
+be distinct, too. Wealth as an Independent Predictor of Educational Attainment 
+ Some see conceptually few differences between wealth and income. In a
+strict model of neoclassical economics—that is, a world with perfect
+credit markets and with wealth accumulated from income rather than
+intergenerational transfers—wealth merely reflects different consumption
+patterns (see, e.g., the Haig-Simons income concept). Depending
+on their time preferences and levels of risk aversion, some individuals prefer
+to consume now, whereas others do not and instead accumulate wealth. Over the
+entire life course, income and wealth are thus seen as conceptually equivalent.
+This understanding of wealth, however, does not correspond well to empirical
+findings. Prior research on wealth has often noted that correlations between
+wealth and other background characteristics are far from perfect and that
+especially the correlation between income and wealth is lower than one may
+expect ( Keister and Moller 2000 ; Oliver and Shapiro 2006 ). In the analytic
+sample used for this analysis, the correlation between family net worth ranks
+and five-year average of family income ranks is .70, which is higher than the
+correlation of .50 mentioned in the prior literature ( Keister and Moller 2000 ; but see Killewald et al. 2017 ) but not high enough to discard
+one measure in favor of the other. One reason why wealth is not empirically
+equivalent to lifetime income is the importance of intergenerational transfers,
+which account for more than half of all wealth in the United States ( Gale and Scholz 1994 ). Conversely, Brady et al. (2017) showed that wealth
+captures only one-quarter to one-third of fully observed lifetime income in the
+United States. 
+ Prior wealth research shares the insight that wealth and income are
+distinct from each other and has found that, conditional on income and other
+observable characteristics, family wealth is related to a range of important
+outcomes, including children’s education (for an overview, see Killewald et al. 2017 ). Researchers have
+documented independent associations between family net worth and
+children’s early test scores ( Orr
+2003 ; Yeung and Conley 2008 ),
+total years of schooling completed ( Axinn et al.
+1997 ; Conley 2001 ; Pfeffer 2011 ), and each level of
+educational attainment ( Belley and Lochner
+2007 ; Conley 1999 , 2001 ; Haveman and Wilson 2007 ; Morgan and
+Kim 2006 ). A related strand of research has focused on housing wealth
+as the largest wealth component in most families’ asset portfolios. For
+instance, homeownership has been shown to affect both early cognitive
+development of children and later college access (e.g., Haurin et al. 2002 ; Hauser 1993 ). Lovenheim
+(2011) found that exogenous shocks to home values substantially
+increase children’s rates of college attendance. 1 In this contribution, I therefore also
+separately document gaps in educational attainment as they relate to housing
+wealth as a select and important aspect of families’ overall wealth
+position. Why Wealth Gaps in Education May Be on the Rise 
+ Prior research has also offered a range of potential explanations for the
+independent role of wealth in the educational attainment process. Families may
+draw on their wealth to invest in their children—in particular, through
+the purchase of educationally valuable goods (e.g., tutoring and test
+preparation, Buchmann et al. 2010 ).
+Moreover, family wealth may facilitate access to certain types of education: in
+the form of housing wealth (home values), family wealth provides access to
+high-quality public schools that—thanks to the reliance of public school
+budgets on local property taxes—are equipped with more resources than
+those in less-wealthy neighborhoods. Also, wealth may help reduce credit
+constraints for college access and persistence. Lastly, family wealth may serve
+an insurance function by providing important “real and psychological
+safety nets” ( Shapiro 2004 )
+against the risks inherent in human capital investment decisions. For instance,
+one risk entailed in going to college is the possibility of failing to attain a
+terminal degree that may be necessary to pay off accumulated student debt.
+Family wealth may insure against that risk because it provides the option to
+meet debt obligations via intergenerational transfers. The lack of family
+wealth, on the other hand, increases the risk of realizing these sunk costs and
+may therefore prevent children from enrolling in college in the first place or
+from taking on more student debt to remain there ( Pfeffer and Haellsten 2012 ). 
+ Each of these pathways through which family wealth may translate into
+educational opportunity can be hypothesized to have increased in importance over
+recent decades. First, Kornrich and Furstenberg
+(2012) documented a steep rise in the amount of money parents spend
+on their children, in particular for their education. Most of that increase
+occurred between the mid 1970s and mid 1990s, which corresponds to the period in
+which the children analyzed here grew up. Although prior research has shown
+these transfers to be related to families’ income ( Kaushal et al. 2011 ; McGarry and Schoeni 1995 ; Schoeni
+and Ross 2005 ), Rauscher
+(2016) revealed that parental transfers are also and increasingly
+closely tied to parental wealth: the size of transfers for children’s
+schooling by parents in the upper half of the wealth distribution exceeds those
+by parents in the lower half more than sevenfold. 
+ Second, the economic segregation of neighborhoods has increased since
+the 1970s ( Fry and Taylor 2012 ; Reardon and Bischoff 2011 ) and, alongside
+it, so has the economic segregation of schools ( Owens et al. 2016 ). Although these trends have been empirically
+established only using measures of income, similar trends may apply to wealth.
+For instance, Owens et al. (2016) have
+shown that the increasing income segregation of schools is primarily driven by
+those in the top 10 % of the income distribution—that is, those
+most likely to hold wealth ( Keister and Moller
+2000 : 225; Oliver and Shapiro
+2006 :76). Furthermore, the link between rising inequality and
+segregation that has been established for income ( Owens 2016 ; Watson
+2009 ) may be even stronger for wealth because families’
+selection into housing markets directly determines both residential segregation
+ and wealth inequality. In fact, as McCabe (2016) showed, homeowners often engage in
+decisively exclusionary politics to maximize the financial investment in their
+homes. Finally, because property tax–based school financing provides a
+tight link between school inputs and housing wealth, the extent to which
+residential segregation translates into differences in resources available to
+local schools should depend more on a neighborhood’s wealth distribution
+than its income distribution. In sum, then, it seems reasonable to expect that
+growing wealth inequality has increased inequality in school contexts and
+resources, although this hypothesis urgently awaits empirical confirmation. 
+ Third, one may expect credit constraints for college access and
+persistence to have increased as the cost to attend has risen dramatically over
+recent decades. The average, inflation-adjusted cost for in-state tuition and
+board at four-year colleges is more than 2.5 times higher today than in 1980
+( Ma et al. 2015 ). Without a
+commensurate increase in financial aid, 2 these rising costs may have increased the importance of
+family wealth in alleviating students’ credit constraints. Furthermore,
+this trend may have been compounded by changes in educational policy;
+specifically, the 1992 Higher Education Act excluded homeownership from the
+calculation of financial need and thereby increased the total amount of
+financing available to children from families with high home equity ( Dynarski 2001 ). 
+ Fourth, with increasing costs of attendance come increasing costs of
+failure. The prospect of leaving college with student debt but without a degree
+to make up for it may have increased the insurance function of family wealth.
+This function may also have become more consequential as job market insecurity
+and levels of life course risks (or the perception therefore) have increased
+while some public insurance schemes have deteriorated ( Hacker 2007 ). 
+ So far, I have offered reasons to expect a growing importance of family
+wealth in determining educational success in response to specific social and
+institutional changes—namely, the heightened private investment in
+children, the increased economic segregation of neighborhoods and schools, the
+rising costs of college attendance, and increasing insecurities facing children
+and young adults as they embark on their educational and labor market careers.
+However, in addition to family wealth becoming a more consequential resource for
+successful educational trajectories, increasing inequality in wealth
+ alone may also translate into growing wealth gaps in
+education. That is, even if the way in which wealth is tied to educational
+success does not change, if children diverge more from each other in terms of
+their family wealth, they may also do so in terms of their educational outcomes.
+For example, as the amount of wealth available to families diverges, so should
+the amount of spending on investments in children (assuming a positive
+elasticity of consumption). Furthermore, such divergence can have multiplicative
+effects if increased investment at the top devalues investment at the bottom.
+For instance, concentration of advantage in wealthy neighborhoods and schools or
+concentration of investments in test preparation may skew the competition for
+access to selective colleges such that families of lower wealth are effectively
+priced out of the competition, creating a winner-take-all market ( Frank and Cook 1996 ). As I will document
+later in this article, the distribution of wealth has indeed grown substantially
+more unequal among the children studied here, including but not limited to the
+period of the Great Recession ( Pfeffer et al.
+2013 ; for a detailed consideration of the potential implications of
+the Great Recession for the analyses reported here, see Appendix B ). Using decomposition analyses, I will assess
+the extent to which this growth in wealth inequality accounts for changing
+wealth gaps in educational outcomes. 
+ Finally, like changes in educational inequality in general, trends in
+wealth gaps will also depend on the supply of education—namely, the
+stage and pace of educational expansion. First, inequality at a given level of
+education, such as high school attainment, necessarily decreases when expansion
+at that level continues in spite of saturation (i.e., close to 100 %
+completion rates) among the wealthy ( Raftery and
+Hout 1993 ). This condition appears to be met for the cohorts analyzed
+here: high school graduation rates among the wealthiest are arguably saturated
+(as I will show), but national high school graduation rates have inched up
+another 5 percentage points over the period studied ( NCES 2016a : table
+1 ). Second, trends in inequality at a given level, such as college
+access, can decrease or remain stable when that level expands faster than
+eligibility for it does ( Arum et al.
+2007 ). These conditions are also met over the observation period as
+enrollment in degree-granting postsecondary institutions increased by more than
+one-third, even when the growth in enrollment by foreign students is excluded
+( NCES 2016b : tables 303.70 and
+310.20). In sum, for both high school graduation and college access, supply-side
+factors may serve to counter or even outweigh the factors described earlier. 
+ Table 1. 
+ Wealth and income gaps in education 
+
+ Change in Probability
+Compared With Lowest Quintile (SE) 
+
+ Uncontrolled 
+ Controlled 
+
+ High School Graduation 
+
+  Wealth quintile 
+
+   2nd 
+ 0.0553 * 
+
+ (0.0259) 
+ −0.0053 
+ (0.0228) 
+
+   3rd 
+ 0.1315 *** 
+
+ (0.0246) 
+ 0.0456 † 
+
+ (0.0240) 
+
+   4th 
+ 0.1640 *** 
+
+ (0.0239) 
+ 0.0574 * 
+
+ (0.0264) 
+
+   Highest 
+ 0.1830 *** 
+
+ (0.0237) 
+ 0.0643 * 
+
+ (0.0302) 
+
+  Income quintile 
+
+   2nd 
+ 0.0960 *** 
+
+ (0.0266) 
+ 0.0358 
+ (0.0234) 
+
+   3rd 
+ 0.1509 *** 
+
+ (0.0251) 
+ 0.0456 † 
+
+ (0.0260) 
+
+   4th 
+ 0.1934 *** 
+
+ (0.0236) 
+ 0.0783 ** 
+
+ (0.0277) 
+
+   Highest 
+ 0.2063 *** 
+
+ (0.0239) 
+ 0.0715 * 
+
+ (0.0317) 
+
+ College Attendance 
+
+  Wealth quintile 
+
+   2nd 
+ 0.0871 *** 
+
+ (0.0261) 
+ 0.0321 
+ (0.0307) 
+
+   3rd 
+ 0.1729 *** 
+
+ (0.0279) 
+ 0.0626 † 
+
+ (0.0324) 
+
+   4th 
+ 0.2749 *** 
+
+ (0.0276) 
+ 0.1011 ** 
+
+ (0.0357) 
+
+   Highest 
+ 0.3214 *** 
+
+ (0.0283) 
+ 0.0839 * 
+
+ (0.0380) 
+
+  Income quintile 
+
+   2nd 
+ 0.1124 *** 
+
+ (0.0265) 
+ 0.0684 * 
+
+ (0.0320) 
+
+   3rd 
+ 0.2192 *** 
+
+ (0.0261) 
+ 0.1186 *** 
+
+ (0.0333) 
+
+   4th 
+ 0.2663 *** 
+
+ (0.0268) 
+ 0.1139 ** 
+
+ (0.0360) 
+
+   Highest 
+ 0.4083 *** 
+
+ (0.0259) 
+ 0.1996 *** 
+
+ (0.0413) 
+
+ College Degree 
+
+  Wealth quintile 
+
+   2nd 
+ 0.0499 * 
+
+ (0.0213) 
+ 0.0042 
+ (0.0293) 
+
+   3rd 
+ 0.1323 *** 
+
+ (0.0233) 
+ 0.0153 
+ (0.0298) 
+
+   4th 
+ 0.2730 *** 
+
+ (0.0262) 
+ 0.0606 † 
+
+ (0.0315) 
+
+   Highest 
+ 0.4460 *** 
+
+ (0.0287) 
+ 0.1048 ** 
+
+ (0.0347) 
+
+  Income quintile 
+
+   2 nd 
+
+ 0.0642 *** 
+
+ (0.0173) 
+ 0.0378 
+ (0.0295) 
+
+   3 rd 
+
+ 0.1621 *** 
+
+ (0.0224) 
+ 0.0826 * 
+
+ (0.0325) 
+
+   4 th 
+
+ 0.3194 *** 
+
+ (0.0260) 
+ 0.1295 *** 
+
+ (0.0345) 
+
+   Highest 
+ 0.4979 *** 
+
+ (0.0265) 
+ 0.1659 *** 
+
+ (0.0386) 
+
+ College Degree Conditional on Attendance 
+
+  Wealth quintile 
+
+   2nd 
+ 0.0695 † 
+
+ (0.0403) 
+ –0.0101 
+ (0.0444) 
+
+   3rd 
+ 0.1430 *** 
+
+ (0.0395) 
+ –0.0148 
+ (0.0474) 
+
+   4th 
+ 0.2664 *** 
+
+ (0.0393) 
+ 0.0505 
+ (0.0475) 
+
+   Highest 
+ 0.4263 *** 
+
+ (0.0380) 
+ 0.1071 * 
+
+ (0.0517) 
+
+  Income Quintile 
+
+   2nd 
+ 0.0796 * 
+
+ (0.0363) 
+ 0.0325 
+ (0.0485) 
+
+   3rd 
+ 0.1802 *** 
+
+ (0.0395) 
+ 0.0775 
+ (0.0531) 
+
+   4th 
+ 0.3493 *** 
+
+ (0.0396) 
+ 0.1410 * 
+
+ (0.0560) 
+
+   Highest 
+ 0.4640 *** 
+
+ (0.0377) 
+ 0.1583 ** 
+
+ (0.0579) 
+
+ Open in a new tab 
+
+ Notes: Standard errors, shown in parentheses, are robust and
+clustered by PSID family lineage. Controlled = average marginal
+effects with controls for individuals’ family background (family
+wealth, family income, parental occupational status, parental education,
+household size, number of children in the household, whether household head
+is married, and mother’s age), gender, and whether they have
+established their own household by age 20/25 (see also Table 4 in Appendix A ). 
+
+ † p < .10; 
+
+ * p < .05; 
+
+ ** p < .01; 
+
+ *** p < .001 
+
+ Data, Measures, and Method 
+ The Panel Study of Income Dynamics ( PSID
+2017 ) continually collects a rich set of longitudinally consistent
+indicators of the socioeconomic position of families, which greatly facilitates the
+type of over-time comparisons reported here. It also collects information on the
+children born into a panel household and tracks them as they move out to establish
+their own households, making possible the assessment of their final educational
+outcomes. The PSID, which has been collecting detailed wealth information since
+1984, is the only nationally representative survey that contains information on both
+family wealth and children’s educational outcomes for a sufficiently wide
+range of different birth cohorts. 
+ The analytic sample for this study consists of children who lived in PSID
+households at ages 10–14 in the first four waves in which family wealth was
+measured (1984, 1989, 1994, and 1999), which amounts to birth cohorts 1970 through
+1989. That is, all trends in educational attainment assessed here occur over the
+span of the relatively brief time interval of just two decades. I will return to a
+discussion of potential longer-term trends in the Conclusion section. To track
+cohort changes in educational attainment, I compare children born in the 1970s with
+children born in the 1980s and assess whether, at age 20 ( N 
+= 2,334 and N = 2,691, respectively), they had
+graduated from high school and had gained any college experience, as well as
+whether, by age 25 ( N = 1,799 and N 
+= 2,545), they had completed a bachelor’s degree. 3 The indicators of educational
+attainment available here record only whether a year of college has been completed
+and therefore do not allow the separate identification of students who enter college
+but drop out within the first year, nor do they allow distinguishing between
+different types of colleges attended. 
+ Information on children’s educational attainment was provided either
+by the children themselves if they had already established their own
+households—very few of them had done so by age 20—or by the origin
+household’s respondent, typically a parent. The regression models described
+later control for the source of information on educational attainment. 
+ The PSID collects wealth information based on a series of detailed questions
+on the ownership of assets and their value, covering home values, savings, stocks,
+many other financial assets, real estate, business assets, vehicles, mortgages, and
+other types of debt. As the main measure of wealth, this study uses total family net
+worth, which sums the value of all asset types minus debts. 4 In addition, I draw on the value of
+respondents’ owner-occupied homes as a much simpler proxy indicator. If home
+values, as one of the major components of most households’ wealth portfolio,
+approximate the wealth-education associations studied here well, data limitations
+that so far have hampered the widespread inclusion of wealth in analyses of
+educational attainment would be greatly relaxed: information on home
+values—without even considering remaining mortgage principals—is
+faster and easier to collect than full-fledged asset modules, feasibly even through
+linkage of existing surveys to external data, such as historical censuses or
+commercial real estate data. Wealth gaps based on other proxy
+measures—namely, home equity and financial wealth—are also discussed
+briefly and reported in Table 5 of Appendix A . 
+ The PSID wealth measures have been shown to have high validity, although
+they do not capture the very top (2 % to 3 %) of the wealth
+distribution well ( Juster et al. 1999 ; Pfeffer et al. 2016 ). Because this study
+focuses on population associations between wealth and education rather than the
+educational pathways of children of a small wealth elite (for the latter, see, e.g.,
+ Khan 2012 ), this shortcoming is less
+problematic and likely results in a conservative estimate of the educational
+advantages among the top wealth group assessed here. In fact, the specification of
+wealth gaps reported here draws on wealth quintiles to capture nonlinearities in
+intergenerational associations throughout the distribution but not necessarily the
+very top. Quintiles are drawn within each cohort and based on the weighted analytic
+sample; analyses based on unweighted quintiles yield similar results (see Online
+Resource 1, section 2). 
+ I also use a comprehensive set of indicators of the socioeconomic position
+of families beyond family wealth. As a measure of permanent income, I use total
+household income averaged across five income years (centered on the year at which
+wealth is measured; specified as weighted quintiles). Educational background is
+measured as the highest degree attained by either the household head or partner.
+Occupational background is measured as the highest socioeconomic index score (SEI)
+of either the head’s or the partner’s main occupation. Further
+controls for demographic characteristics include household size, the number of
+children in the household, whether the household head is married, mother’s
+age, individuals’ sex, and the source of information on their educational
+outcomes (self-reported or not). Each of these yearly measures is drawn from the
+same survey wave as the wealth measure (1984, 1989, 1994, or 1999). The main
+predictor studied here, family wealth, is provided in imputed form by the PSID, and
+so is family income; few missing values on all remaining predictors are imputed
+using Stata’s mi procedures. A small share of cases (less
+than 1 %) with imputed values on the dependent variable are dropped ( von Hippel 2007 ). Descriptive statistics for
+all variables included in this analysis are reported in Appendix A , Table 4 .
+All dollar values are inflation-adjusted to 2015. 
+ Wealth gaps in high school attainment, college access, and
+bachelor’s degree attainment are estimated via logistic regressions. To
+allow a more direct assessment of wealth gaps in college persistence, I also
+estimate models for bachelor’s degree attainment conditional on college
+access. I begin by describing observed rates of educational attainment by family
+wealth quintiles. Next, I estimate adjusted rates based on models including the
+aforementioned control variables. I report predictive margins and, for the cohort
+comparison, discrete changes based on average marginal effects (see Hanmer and Ozan Kalkan 2013 ) using Stata’s
+ margin commands ( Long and
+Freese 2014 ). 5 The
+decomposition approach used to estimate the extent to which changes in the wealth
+distribution account for trends in wealth gaps in education is targeted at
+explaining a specific trend revealed in the preceding analyses and will therefore be
+described later. The regression results reported draw on longitudinal, individual
+weights that account for selective attrition, although unweighted analyses yield
+substantively equivalent results (see Online Resource 1, section 2). Reported
+standard errors are robust and adjusted for clustering by PSID lineages (original
+PSID households), adjusting for the presence of not only siblings but also
+cousins. Findings 
+ Wealth Gaps in Educational Attainment 
+ I begin by reporting differences in educational attainment by family
+wealth. Figure 1 displays average rates of
+high school attainment, college attendance, and college degree completion across
+wealth quintiles (with 95 % confidence intervals), where wealth is
+measured as net worth (panel a) or home values (panel b) (see also Table 5 in Appendix A ). The wealth gradient in educational attainment is steep.
+In panel a, comparing the educational outcomes of children from the lowest net
+worth quintile with those from the highest quintile reveals a differences of
+18.3 percentage points in high school graduation rates (72.8 % vs. 91.1
+%), 32.1 percentage points for college access (21.4 % vs. 53.5
+%) and 44.6 percentage points for college graduation (9.1 % vs.
+53.7 %). The increase in rates across net worth quintiles is relatively
+linear for all levels of educational attainment, although the increase in high
+school graduation rates in the bottom half of the distribution is somewhat
+steeper, and the increase in college graduation in the top half of the
+distribution is steeper. Furthermore, whereas wealth gaps between the highest
+and the second highest net worth quintile are relatively low for college access
+(53.5 % vs. 48.9 %), they are more pronounced for college
+graduation (53.7 % vs. 36.4 %). In fact, among children from the
+highest net worth quintile, college access rates at age 20 and college
+graduation rates at age 25 are basically the same, suggesting a much higher
+level of college persistence among the top quintile (see also the last column of
+ Table 5 , Appendix A ). 
+ Fig. 1. 
+
+ Open in a new tab 
+ Educational rates by wealth background: Wealth measured as net worth (panel a)
+and home values (panel b) Although the wealth gap in college graduation rates is enormous, it is,
+of course, not the case that every child from the wealthiest group assessed here
+graduates from college. Overall, only about half of the children from the top
+wealth quintile receive a bachelor’s degree. That should not come as a
+surprise to those familiar with estimates of college graduation rate among
+recent U.S. cohorts, which closely resemble those estimated here. 6 With overall graduation rates at
+age 25 below 30 %, even if no child from the bottom half of the wealth
+distribution were to graduate from college, one would still expect college
+graduation rates of less than 60 % in the top half of the distribution.
+While it is thus a misperception that a great majority of children from wealthy
+households graduate college, it is certainly the case that the modal college
+graduate comes from a household with significant net worth. In this analytic
+sample, half of all college graduates come from a household with more than
+$190,000 in net worth, and a full one-fifth of them come from a household with a
+net worth of at least half a million dollars. 
+ Panel b of Fig. 1 displays
+educational rates by home value quintiles. 7 The degree and pattern of inequality in educational
+attainment by families’ home values closely approximate those by
+families’ net worth (panel a). Although other wealth components, such as
+financial assets or home equity (home values minus mortgages), fare similarly
+well in approximating the reported net worth gaps (see Table 5 in Appendix
+A ), home values provide the most attractive proxy measure.
+Substantively, homeownership constitutes the main asset component in most
+families’ wealth portfolio. From a measurement perspective, home values
+are the easiest to collect among all asset components and, as such, appear to be
+a promising candidate to help remedy the data shortage that so far has hampered
+work on the relationship between family wealth and educational outcomes. Wealth as an Independent Source of Educational Advantage 
+ The large wealth gaps in educational outcomes shown in Fig. 1 can, of course, also arise from other
+correlated characteristics, not the least from family income. Accordingly, the
+observed wealth gaps in education—and again displayed in the
+“Uncontrolled” column of Table
+1 (now also including the outcome of college completion among those
+who have gained access to support a more direct assessment of college
+persistence)—are lower after controls for observable characteristics of
+parents and children are added (see the aforementioned list of controls). Still,
+wealth gaps in education adjusted for these controls
+(“Controlled” column of Table
+1 ) remain statistically and substantively significant: all else being
+equal, the gap in educational attainment between children from the bottom
+quintile and children from the top quintile of the net worth distribution still
+(statistically significantly) differs by 6.4 percentage points for high school
+graduation, 8.4 percentage points for college attendance, 10.5 percentage points
+for college graduation, and 10.7 percentage points for college persistence. 
+ Note that the aim of these controlled models is not to provide a causal
+estimate of wealth effects (for recent evidence in this direction, see Haellsten and Pfeffer 2017 ). Doing so faces
+many challenges, including the possibility of remaining unobserved bias (e.g.,
+when joint determinants of family wealth and educational outcomes are not
+controlled), of endogenous controls (e.g., when a control variable, such as
+marital status in this analysis, may be not only a determinant of wealth and
+education but also a consequence of wealth; see Schneider 2011 ), and of endogenous selection bias induced by
+conditioning on a collider (e.g., when marital status is a consequence of wealth
+and also related to further unobserved determinants of educational attainment;
+see Elwert and Winship 2014 :
+44–45). Instead, I present estimates from these models mainly to compare
+educational gaps in wealth with those in income (the focus of most other
+research), underlining that something new can be learned from also taking into
+account wealth. Table 1 therefore reports
+wealth gaps in education next to gaps by family income. 8 For high school graduation, the observed
+gaps (“Uncontrolled” column) are of similar size, with a
+difference of 18.4 and 20.6 percentage points between the top and the bottom
+quintiles of wealth and income, respectively. This similarity in the size of raw
+wealth and raw income gaps extends to estimates based on controlled regressions
+(“Controlled” column). Everything else being equal, a change in
+family wealth from the bottom to the top quintile is associated with an increase
+in the probability of high school graduation by 6.4 percentage points; the same
+change in terms of family income, everything else being equal, is associated
+with an additional increase by 7.2 percentage points. That is, family wealth and
+family income have independent and roughly equivalent predictive power for the
+attainment of a high school degree. In terms of college attainment, income gaps
+are larger than wealth gaps (both uncontrolled and controlled). Family income
+appears to be more than twice as important as family wealth for the likelihood
+of a student gaining some college experience. Despite this dominating role of
+income in predicting college access, the overall difference in the relative
+importance of income and wealth is less pronounced for the attainment of a
+bachelor’s degree. While a move from the bottom to the top family income
+quintile entails, everything else being equal, an increase in bachelor’s
+graduation rates by 16.6 percentage points, the same move in terms of family
+wealth still entails an additional 10.5 percentage point advantage (similar for
+college persistence)—large enough to conclude that the overall extent of
+educational inequality is captured incompletely when we neglect family wealth as
+an independent factor in educational attainment and, in particular, college
+graduation. Trends in Wealth Gaps in Educational Attainment 
+ The central question addressed here is whether the wealth gaps in
+education described so far (in Fig. 1 ) have
+changed across an observation window of two decades. For this assessment, I
+compare the educational outcomes of children born in the 1970s
+(1970–1979) to children born in the 1980s (1980–1989). Figure 2 (see also Table 6 , Appendix
+A ) displays rates of high school graduation, college access, college
+completion, and college persistence (completion among those who report some
+college experience) by family net worth quintiles for each of the two cohorts.
+The upper panel reports cohort-specific graduation rates. The lower panel
+displays the same information in a slightly different format—namely, as
+the cohort difference in graduation rates, with the earlier born cohort serving
+as the reference (and consequently, with positive slopes indicating growing
+wealth gaps) and 95 % confidence intervals to allow the assessment of
+statistical significance of cohort differences. 9 
+ Fig. 2. 
+
+ Open in a new tab 
+ Cohort trends in wealth gaps in education. *Display of lower bound of one
+confidence interval (second quintile, college degree given college attendance)
+truncated to maintain the same y -axis scale across outcomes Starting with high school graduation, I find that average graduation
+rates have increased among students from the bottom three wealth quintiles. For
+instance, children in the more recent cohort who grew up in the middle fifth of
+the wealth distribution have a graduation rate of 89.2 %, which is 7.0
+percentage points (and statistically significantly) above that of students from
+the middle fifth of the wealth distribution born a decade earlier. High school
+graduation rates of students from the top two wealth quintiles, in contrast, did
+not change in this time frame—a potential sign of saturation of this
+educational level among wealthier households. Overall, then, with the bottom 60
+% increasing their high school graduation rate and the top 40 %
+remaining largely stable, wealth inequality in high school attainment has
+decreased. 
+ Also evident are some signs of equalization in terms of college access:
+College attendance rates have tended to improve between these two cohorts across
+the distribution, most notably (and statistically significantly) for children
+from the middle wealth quintile, who experienced an increase of 11.5 percentage
+points (from 32.4 % to 43.9 %). In contrast, college attendance
+rates among children from the top wealth quintile expanded less rapidly, with a
+statistically insignificant increase of 5.6 percentage points. As explained
+earlier, this may reflect the fact that college education has expanded faster
+than eligibility for it. 
+ Trends in wealth gaps in college attainment are different and stark.
+Children from the bottom 60 % of the wealth distribution were not able
+to make much progress over the decade studied here, with statistically
+insignificant increases of 5 percentage points or less, while children from the
+next 20 % of the wealth distribution increased their college completion
+rates by 8.4 percentage points. The most marked increase, however, was
+experienced by children from the top 20 % of the distribution. With a
+statistically significant increase in the college graduation rate of 14.1
+percentage points in the span of just a decade, the wealthiest children have
+pulled away from others in terms of college degree attainment. That is, despite
+some decreases in wealth gaps in high school graduation and college access, the
+clearest and largest change in the distribution of educational opportunity lies
+in the rising gap between those from the top 20 % of the wealth
+distribution and everyone else. As a result, whereas college graduation rates
+between those from the top and the bottom quintile of the wealth distribution
+differed by 39.5 percentage points among children who were born in the 1970s,
+they differed by a full 48.9 percentage points for children born a decade later;
+these figures translate to a 9.4 percentage point increase the wealth gap in
+college degree attainment in just a decade. 
+ An increasing wealth gap in college graduation alongside some
+equalization of college access implies an exposed role of changing wealth
+differences in college persistence. The last column of Fig. 2 illustrates this point: The takeoff in college
+graduation rates among students from the top wealth quintile is driven by a
+tremendous improvement in their college persistence rates, increasing from 53.7
+% to 72.9 % (a full 19.1 percentage points) within a decade. The
+advantage in college persistence among the wealthiest fifth of students compared
+with even those from the middle of the wealth distribution has grown by 12.7
+percentage points. 10 
+ Finally, some readers may also be interested in cohort changes in the
+ independent role of wealth—that is, the potential
+growth of controlled wealth associations. The aforementioned
+cautions against a causal interpretation of controlled wealth
+associations—because of the potential partial endogeneity of some
+controls and the potential presence of endogenous selection bias—also
+apply to the assessment of trends in controlled associations: to the extent that
+some controls are (also) endogenous, trends in their relationship with both
+wealth and educational outcomes can bias conclusions about trends in the effects
+of wealth. For instance, if marital status were to be increasingly determined by
+wealth or increasingly important for children’s educational success,
+controlling for marital status may also control away some of the increasing
+effects of wealth. With these concerns in mind, I refer the interested reader to
+ Fig. 3 (see also Table 7 in Appendix
+A ), which provides the same type of trend assessment as that
+presented in Fig. 2 but based on regression
+models with the full set of controls (interacted by cohort to also allow for
+trends in the associations between each control and the outcomes). Although the
+cohort trends in controlled wealth-education associations are, as expected,
+smaller than those in the uncontrolled wealth-education associations, the
+general conclusion from these results is that the cohort trends follow very
+similar patterns. 11 The most
+pervasive trend continues to be the surge in college degree attainment of
+college-going children from the top wealth quintile, reinforcing the earlier
+conclusion about the role of increased college persistence of the wealthiest
+students. 
+ Fig. 3. 
+
+ Open in a new tab 
+ Cohort trends in controlled wealth gaps in education. Based on models including
+all control variables listed in Table 1 ,
+fully interacted by cohort. *Display of lower bound of one confidence
+interval (second quintile, college degree given college attendance) truncated to
+maintain the same y -axis scale across outcomes Growing Wealth Gaps in College Graduation in the Context of Rising Wealth
+Inequality 
+ In the remainder of this section, I will focus on the growing wealth gap
+in college completion— as the most concerning finding yielded by the
+analyses so far—and assess the degree to which it is related to the
+growth in wealth inequality. As argued earlier, although wealth may have become
+a more influential factor in determining college success, solely the fact that
+those at the top of the distribution have increasingly more wealth at their
+disposal than everyone else may also account for some of the growth in wealth
+gaps in education. I begin by describing the growth of wealth inequality among
+the children of the two cohorts studied here and also report on levels of wealth
+inequality among today’s children (aged 10–14 in the latest
+available survey wave of 2015). I then describe the decomposition approach used
+to estimate the degree to which the observed rise in wealth inequality
+contributes to the documented increase in the wealth gap in college
+attainment. 
+ Table 2 reports the median wealth
+among three groups of children: those growing up in the bottom 80 % of
+the family wealth distribution, the next 10 %, and the top 10 %.
+The differences in family wealth between these three groups are already high for
+the first cohort studied here: the median family net worth of children in the
+bottom four quintiles is $57,055 (in 2015 $), more than six times higher among
+those in the next 10 % ($361,406), and nearly 14 times higher among
+those in the top 10 % ($788,728). A decade later, the family wealth of
+children in the top quintile increased further—much more strongly among
+the top 10 % than the next 10 %—but decreased
+substantially for the remaining 80 % of children. As a result, in the
+second cohort, median wealth among children in the top 10 % is now 22
+times higher than among those in the bottom 80 % (and still 9 times
+higher among the next 10 % compared with those below). Another
+substantial shift occurred at the very bottom of the wealth distribution: less
+than 1 in 10 children of the earlier cohort come from families without any net
+worth (i.e., zero or negative net worth), but that share rose to 13.7 %
+of children in the later cohort. The rise in wealth inequality between these two
+cohorts is also reflected in the Gini coefficient, which increased from 0.72 to
+0.80. The rise of asset nonownership and indebtedness (zero and negative net
+worth) is an important driver of this increase, as indicated by the fact that
+the Gini coefficient among those with positive wealth rose slower than the Gini
+coefficient across the entire distribution. 12 
+ Table 2. 
+ Trends in wealth inequality among children 
+
+ Cohort 
+
+ Earlier: Aged 10–14 in 1980s 
+ Later: Aged 10–14 in 1990s 
+ Current: Aged 10–14 in 2015 
+
+ Median Net Worth 
+
+  Top 10 % 
+ 788,728 
+ 893,577 
+ 1,198,000 
+
+  Next 10 % 
+ 361,406 
+ 374,908 
+ 396,000 
+
+  Bottom 80 % 
+ 57,055 
+ 39,977 
+ 21,000 
+
+ Ratios 
+
+  Top 10 %/Next 10
+% 
+ 2.2 
+ 2.4 
+ 3.0 
+
+  Top 10 %/Bottom 80
+% 
+ 13.8 
+ 22.4 
+ 57.0 
+
+  Next 10 %/Bottom 80
+% 
+ 6.3 
+ 9.4 
+ 18.9 
+
+ Share With Zero/Negative Net Worth 
+ 0.097 
+ 0.137 
+ 0.231 
+
+ Gini Coefficient 
+ 0.719 
+ 0.797 
+ 0.879 
+
+ Gini Coefficient (positive wealth) 
+ 0.678 
+ 0.740 
+ 0.767 
+
+ Open in a new tab Using a decomposition analysis, I seek to relate this increase in wealth
+inequality to the documented growth in the wealth gap in college attainment (for
+a similar type of analysis of family income gaps, see Duncan et al. 2017 ). Perhaps the most concerning
+outcome of such analysis would be to find that all the increase in the wealth
+gap in college attainment can be traced to the growth of wealth inequality given
+that, as also shown in Table 2 , wealth
+inequality is greater among today’s children. Among children observed in
+the latest available PSID wave of 2015, wealth is even more heavily concentrated
+at the top: children in the top 10 % of the distribution now typically
+grow up with about $1.2 million in net worth, which is about 57 times the wealth
+of the bottom 80 % of children, whose typical family wealth is just
+$21,000. Perhaps even more concerning, the share of children from households
+with zero or negative net worth has jumped by 10 percentage points to nearly
+one-quarter of all children. The Gini coefficient has also risen to 0.88, again
+more rapidly when including the full distribution, indicating the importance of
+the growth of no asset holding and indebtedness. 13 At the backdrop of such extreme wealth
+inequality among today’s children, the growth in wealth inequality
+between earlier cohorts perhaps appears relatively low. Still, knowing whether
+this growth can be traced to the college outcomes of these children may inform
+our expectations about the fate of today’s children. 
+ The decomposition analysis relies on a piecewise spline regression model
+to predict the probability of college attainment (conditional and unconditional
+on college access): 
+ ln ( p i 1 − p i ) = β 0 + β 1 X i X i ≤ a = β 0 + β 1 X i + β 2 ( X i − a ) a < X i ≤ b = β 0 + β 1 X i + β 2 ( X i − a ) + β 3 ( X i − b ) b < X i , 
+ where X i is an
+absolute measure of net worth, and the spline knots ( a and
+ b ) are set at specific absolute net worth values (to be
+described further shortly). The use of an absolute measure of wealth for this
+predictive model—instead of a relative measure, such as
+quintiles—is crucial to allow for the assessment of shifts in the wealth
+distribution. Here, the net worth variable ( X i ) is
+transformed using the inverse hyperbolic sine (IHS) function (see Burbidge et al. 1988 ), which approximates
+the logarithmic function but allows the inclusion of cases with zero or negative
+net worth. The spline knots are set at net worth values representing the 80th
+and 90th percentiles of the unweighted wealth distribution among the earlier
+cohort and the full sample at age 25 (nontransformed net worth of $200,863 and
+$378,160, respectively). 14 In a
+first step, I ascertain that this parsimonious specification of the relationship
+between family wealth and college attainment provides an acceptable
+approximation to the observed outcome of interest: the higher college graduation
+rates of children from the top wealth quintile. The top panel of Table 3 reports the probabilities of college
+attainment for children from the bottom four quintiles and children from the top
+quintile in the earlier birth cohort. The predicted probabilities are derived
+from the preceding equation and approximate the observed probabilities quite
+well. The predicted college graduation rate among all children from the bottom
+four quintiles is 17.6 %, compared with the observed 18.8 %
+(33.5 % vs. 34.2 % among those who have gained college access).
+Similarly, 45.2 % of children from the top quintile are predicted to
+attain a college degree, compared with the observed college graduation rate of
+46.0 % (53.0 % vs. 53.7 % among those who have gained
+college access). The predicted and observed graduation gaps between these two
+groups are thus very similar—27.5 and 27.2 percentage points,
+respectively (and equivalent at 19.5 percentage points among those accessing
+college)—validating the choice of parametric form of the model applied
+here (see also Online Resource 1, section 6). 
+ Table 3. 
+ Decomposition analysis: Percentages 
+
+ Probability of College
+Degree 
+ Probability of College Degree |
+Attendance 
+
+ Observed 
+ Predicted 
+ Observed 
+ Predicted 
+
+ (1) Cohort Born in 1970s 
+
+  (1.1) Lowest four wealth
+quintiles 
+ 18.8 
+ 17.6 
+ 34.2 
+ 33.5 
+
+  (1.2) Highest wealth quintile 
+ 46.0 
+ 45.2 
+ 53.7 
+ 53.0 
+
+  (1.3) Gap (1.2 – 1.1) 
+ 27.2 
+ 27.5 
+ 19.5 
+ 19.5 
+
+ (2) Cohort Born in 1980s 
+
+  (2.1) Lowest four wealth
+quintiles 
+ 22.1 
+ 17.0 
+ 36.8 
+ 32.4 
+
+  (2.2) Highest wealth quintile 
+ 60.1 
+ 46.0 
+ 72.7 
+ 53.5 
+
+  (2.3) Gap (2.2 – 2.1) 
+ 38.0 
+ 29.0 
+ 35.9 
+ 21.1 
+
+ (3) Cohort Difference in Gap (2.3 –
+1.3) 
+ 10.8 
+ 1.4 
+ 16.4 
+ 1.6 
+
+ (4) Growth in Gap Accounted for 
+
+ 13.1 
+
+ 9.5 
+
+ Open in a new tab Next, I apply the same predictive model to the later cohort of children
+while constraining the parameter estimates to equal those estimated for the
+first cohort. That is, I now predict graduation rates for the later cohort based
+on their individual (IHS-transformed) net worth but use the coefficients
+estimated based on the earlier cohort. In effect, this model assumes that the
+relationship between wealth and college outcomes observed in the earlier cohort
+remains constant but allows for changes in the wealth distribution between the
+two cohorts. 15 The extent to
+which the predicted college graduation rates produced by this model replicate
+the observed graduation rates for the later cohort indicates the extent to which
+changes in the wealth distribution—namely, increases in wealth
+inequality—account for changes in wealth gaps in college attainment. If
+changing wealth gaps in college attainment were entirely driven by the change in
+wealth inequality between these two cohorts, the predicted and the observed
+wealth gaps for the second cohort would be the same. However, as shown in the
+second panel of Table 3 , the predicted
+and observed wealth gaps in college graduation diverge from each other, mostly
+because applying the wealth effects estimated in the earlier cohort to the
+wealth distribution of the later cohort underestimates the college degree
+attainment of the top quintile (46.0 % versus 60.1 % among all;
+53.5 % versus 72.7 % among those accessing college); that is, it
+misses most of the surge in college degree attainment and persistence at the top
+established in the prior section. As a result, the predicted wealth gap in
+college degree attainment is much smaller than observed (29.0 vs. 38.0
+percentage points among all; 21.1 vs. 35.9 percentage points among those
+accessing college). Whereas the wealth gap in college degree attainment between
+the top quintile and everyone else rose by 10.8 percentage points between these
+two cohorts (by 16.4 percentage points for those attending college), the rise
+predicted by assuming a stable association between wealth and college degree
+attainment is only 1.4 percentage points (1.6 percentage points for those
+attending college). 
+ Overall, then, the conclusion is that the rise in wealth inequality
+alone explains only a limited share of the growth in the gap in college degree
+attainment between the wealthiest 20 % of students and the
+rest—less than one-sixth (13.1 %) among all and less than
+one-tenth (9.5 %) among those attending college. Although a
+decomposition of the wealth gap in education controlled for
+other observed characteristics (reported in Online Resource 1, section 7)
+reveals a potentially larger contribution of growing wealth inequality to the
+growth of controlled associations between parental wealth and
+college attainment (explaining about one-third of the growth in the wealth gap
+in college degree attainment among all and about one-quarter among those
+attending college), the main conclusion is that the increase in wealth
+inequality between these two cohorts is far from fully reflected in the increase
+in wealth gaps in their later college degree attainment. This may qualify as
+good news at the backdrop of the extreme level of wealth inequality among
+today’s children. Given this result, it also does not seem reasonable to
+interpolate from the gaps in college degree attainment observed here to gaps in
+the future college degree attainment of today’s children based on the
+level of wealth inequality they currently experience. Such interpolation may
+also be inadmissible for another reason: as described in detail in Appendix B , the parental wealth of many
+members of the second cohort included here was likely subject to significant
+fluctuation in the run-up to and during the Great Recession. The possibility
+that such period effects underlie the trends established here prohibits
+inferring a broader, secular trend toward growing wealth gaps that extends to
+current cohorts. 
+ Still, the possibility that the growing inequality in college degree
+attainment stems primarily from changes in the importance of wealth for college
+success (rather than from changes in the distribution of wealth) should embolden
+policy efforts geared at reducing the inequitable effects of wealth on higher
+educational attainment. Short of such changes, today’s children can at
+the very least be expected to continue to encounter a remarkably high level of
+wealth inequality in their college opportunities. Conclusion 
+ This article describes gaps in educational attainment by family wealth and
+their change over two recent cohorts, born in the 1970s and 1980s, respectively. In
+line with prior research (e.g., Conley 2001 ),
+substantial gaps in educational attainment by family net worth can be observed
+across all educational levels—namely, high school attainment, college
+attendance, and college graduation—and the role of family wealth in
+predicting these educational outcomes is independent of that of other socioeconomic
+characteristics of families, including family income. Most pressingly, however, this
+article provides the first evidence (to my knowledge) that wealth inequality in
+college graduation has been rising further over recent cohorts, with the college
+graduation rates of children from higher wealth backgrounds surging while children
+from lower wealth levels are left behind. The extent of this surge in wealth
+inequality in college degree attainment is profound: for children born between 1970
+and 1979, the college graduation rate among those who grew up in the top 20
+% of the wealth distribution was 39.5 percentage points higher than among
+those who grew up in the bottom 20 %. However, for children born only a
+decade later, that wealth gap in college attainment has grown to 48.9 percentage
+points. This rapid increase in wealth inequality in college degree attainment is
+especially concerning because the stakes of college completion have also been
+rising, both at the individual and the societal level. Not only do
+individuals’ opportunities to attain comfortable earnings increasingly
+depend on the completion of a bachelor’s degree, but the country’s
+international competitiveness and economic growth are widely seen as depending
+heavily on a highly educated workforce ( Goldin and
+Katz 2008 ). 
+ The documented increase in wealth inequality in college degree attainment is
+also particularly notable as wealth gaps at lower levels of educational attainment
+show signs of decrease. In terms of high school attainment, the least-wealthy
+students have made further inroads, but this level of educational attainment had
+already been largely saturated among students from higher-wealth backgrounds. Also,
+I document advances in college access among children from the middle of the wealth
+distribution relative to others. As a consequence, the documented growth in the
+wealth gap in college attainment must be driven by growing inequality in college
+persistence. I accordingly also document a surge in college persistence among the
+wealthiest children: just above one-half (53.7 %) of the wealthiest children
+born in the 1970s who had gained access to college also attained a
+bachelor’s degree, compared with 72.9 % of those born in the
+1980s—an increase in college persistence rates at the top of the wealth
+distribution by a full 19.1 percentage points in just a decade. In sum, then, the
+findings reported here suggest that efforts to equalize educational opportunities as
+they relate to family wealth need to go beyond the expansion of college access for
+children from lower-wealth backgrounds and put particular emphasis on also leading
+these students toward college graduation (for an equivalent argument related to
+parental income, see Bailey and Dynarski
+2011 ). 
+ Furthermore, I find that the documented growth in wealth inequality in
+college attainment occurs in the context of rising inequality in the wealth origins
+of the children studied here. This widening distance in their wealth origins,
+however, is far from fully reflected in the rising wealth gap in their college
+graduation rates. That is, the growth in educational inequality between these two
+cohorts is not primarily driven by widening wealth inequality 
+itself and may instead arise from the increasing importance of
+family wealth. The contrary finding—rising wealth inequality fully
+accounting for rising wealth gaps in education—would have made predictions
+about the fate of today’s children particularly bleak given that the level
+of wealth inequality they experience substantially exceeds that observed in the
+cohorts studied here and can only be described as extreme (e.g., with a Gini
+coefficient of 0.88). 
+ Independent of this takeoff in wealth inequality, the results reported here
+raise concerns about the increasing association between family wealth and college
+attainment. Efforts to reduce this association should, as already mentioned, also
+focus on the ways in which family wealth facilitates college persistence. Although
+this contribution does not seek to establish causality and much less the causal
+pathways through which family wealth affects educational outcomes, the theoretical
+arguments provided may guide future research in explaining the increasing role of
+wealth for college persistence. Rising direct financial transfers from wealthy
+parents to their offspring ( Rauscher 2016 )
+may increasingly be geared at supporting college students in staying on track or
+getting back on track rather than transferring to other institutions or stopping out
+as they face academic challenges ( Goldrick-Rab and
+Pfeffer 2009 ). Furthermore, wealth inequality in college persistence and
+attainment is likely also established in children’s earlier educational
+experiences—for instance, as children from wealthier households attend high
+schools that leave them academically better prepared for college and thereby also
+facilitate access to colleges with higher retention rates, such as highly
+competitive and prestigious four-year schools ( Bastedo and Jaquette 2011 ). 
+ This last observation also points to one of the limitations of this
+contribution and opportunities for future research. This study does not investigate
+“horizontal” differences in education, such as wealth gaps by
+institution type and selectivity (but see Jez
+2014 ). Yet, as children from the wealthiest families have reached
+saturation of educational participation at the secondary level and more children
+from wealth backgrounds below the top are accessing higher education (as documented
+here), the wealthiest households may increasingly exploit these types of horizontal
+differences in the educational system to effectively maintain inequality ( Gerber and Cheung 2008 ; Lucas 2001 ). In this sense, the growth of wealth
+inequality in college attainment shown here may still provide a conservative
+estimate. Furthermore, the growth of college enrollment among those from the middle
+of the wealth distribution may be a less hopeful sign of progress to the extent that
+it may be driven by enrollment in subpar and predatory for-profit colleges that does
+not translate into a bachelor’s degree ( McMillan Cottom 2017 ). Future research may draw on new
+data—including restricted-use PSID data available for a subset of the
+individuals included here—to identify the type of college attended,
+distinguishing four-year and two-year, public and private, profit and
+not-for-profit, as well as selective and nonselective colleges. Doing so holds
+promise for the explanation of the documented large and growing wealth gaps in
+college persistence: the assessment of different institutional types of colleges may
+reveal that the wealthiest students have increased their advantage in college
+attainment chiefly by attending the types of postsecondary institutions that have
+the highest retention rates. 
+ Another way in which the presented analyses may underestimate the degree of
+wealth inequality in education is in its exclusive focus on the
+ immediate family. Advantages arising from family wealth may
+extend beyond the parent-child dyad, with the wealth of grandparents or even wealth
+in extended-family networks potentially also facilitating educational success ( Haellsten and Pfeffer 2017 ; Prix and Pfeffer 2017 ; Roksa and Potter 2011 ). Revealingly, many college campuses around the
+country have begun to complement their family visit day with a portion dedicated to
+grandparents (e.g., Feiler 2014 ). 
+ Finally, the finding that home values serve as a powerful proxy measure of
+wealth gaps in education may be particularly important to help expand the research
+base and facilitate future research. Home value indicators are more easily collected
+than full-fledged asset survey modules and are often readily accessible through
+administrative or linked external data. For instance, drawing on home values to
+approximate wealth gaps in education may allow historical assessments of wealth
+inequality in education (e.g., based on the housing values reported on the publicly
+available 1940 U.S. Census), longer-term assessments of additional cohorts (e.g.,
+based on the housing information consistently observed in the PSID since 1968), or
+detailed analyses of wealth gaps in college pathways based on administrative data
+held by colleges and states that also include the addresses of students’
+pre-college residence (for which external real estate data yield estimates of home
+values). 
+ The documented role of home values in approximating wealth gaps in
+education, however, also goes beyond a measurement issue. It asks to what extent
+wealth effects on education are in fact asset effects, effects of housing quality
+(e.g., Lopoo and London 2016 ), and effects of
+the neighborhoods in which highly valued houses are located ( Durlauf 2004 ; Sampson et
+al. 2002 ). The broad but largely separate literatures on each of these
+potential channels that link housing wealth to educational success urgently await
+integration. Supplementary Material 
+ 13524_2018_666_MOESM1_ESM 
+
+ NIHMS955217-supplement-13524_2018_666_MOESM1_ESM.pdf (243.4KB, pdf) 
+ Acknowledgments 
+ This work was supported by an award from the Spencer Foundation (Grant No. 201300139)
+and the Russell Sage Foundation. The collection of data used in this study was
+partly supported by the National Institutes of Health (Grant No. R01HD069609) and
+the National Science Foundation (Grant No. 1157698). Any opinions expressed are
+those of the author alone and should not be construed as representing the opinions
+of the funding agencies. Earlier versions of this paper were presented at meetings
+of the Population Association of America, the American Sociological Association, and
+the Research Committee on Social Inequality and Mobility (RC28). I thank Sheldon
+Danziger, Thomas DiPrete, Alexandra Killewald, and Robert Schoeni for helpful
+comments on an earlier version. A replication package containing the data and code
+used for this article is available through the PSID Public Data Extract Repository
+at https://www.openicpsr.org/openicpsr/psid(#101105) . Appendix A: Additional Tables 
+ Table 4. 
+ Descriptive statistics 
+
+ Sample at Age 20
+
+ Sample at Age 25
+
+ All 
+ Born in 1970s 
+ Born in 1980s 
+ All 
+ Born in 1970s 
+ Born in 1980s 
+
+ Outcomes 
+
+  High school graduation 
+ 0.835 (0.371) 
+ 0.826 (0.379) 
+ 0.843 (0.364) 
+
+  College access 
+ 0.385 (0.487) 
+ 0.349 (0.477) 
+ 0.417 (0.493) 
+
+  College graduation 
+
+ 0.272 (0.445) 
+ 0.242 (0.429) 
+ 0.296 (0.456) 
+
+ Wealth 
+
+  Net worth (in 1,000s) 
+ 230.244 (811.717) 
+ 224.685 (772.203) 
+ 235.054 (844.525) 
+ 237.733 (1010.358) 
+ 219.323 (718.188) 
+ 252.546 (1194.595) 
+
+  Home value (in 1,000s) 
+ 139.352 (182.387) 
+ 134.739 (183.552) 
+ 143.343 (181.312) 
+ 140.311 (178.012) 
+ 136.857 (170.352) 
+ 143.09 (183.933) 
+
+  Home equity (in 1,000s) 
+ 75.973 (136.089) 
+ 84.267 (143.552) 
+ 68.797 (128.882) 
+ 75.807 (128.888) 
+ 83.599 (121.996) 
+ 69.538 (133.873) 
+
+  Financial assets (in
+1,000s) 
+ 68.591 (559.163) 
+ 50.925 (531.662) 
+ 83.876 (581.573) 
+ 81.148 (731.093) 
+ 56.169 (579.647) 
+ 101.248 (832.776) 
+
+  Median wealth (by
+quintiles) 
+
+ Net Worth (in 1,000s) 
+
+  Lowest quintile 
+ 0 [−1277.9,
+4.8] 
+ 0 [−932.3,
+6.8] 
+ 0 [−1277.9,
+4.3] 
+ 0 [−1277.9,
+5.0] 
+ 0 [−932.3,
+8.4] 
+ 0 [−1277.9,
+3.3] 
+
+  2nd quintile 
+ 21.3 [4.9, 45.5] 
+ 25.6 [6.9, 47.9] 
+ 18.4 [4.3, 41.6] 
+ 22.9 [5.0, 46.1] 
+ 29.7 [8.5, 53.5] 
+ 16.8 [3.4, 40.0] 
+
+  3rd quintile 
+ 73.3 [45.6,
+107.0] 
+ 76.5 [48.0,
+103.8] 
+ 71.4 [41.7,
+111.9] 
+ 75.8 [46.1,
+110.7] 
+ 79.9 [53.6,
+110.7] 
+ 69.7 [40.2,
+108.1] 
+
+  4th quintile 
+ 164.7 [107.1,
+269.6] 
+ 156.6 [105.0,
+246.0] 
+ 176.4 [112.3,
+284.6] 
+ 170.7 [110.9,
+273.4] 
+ 164.8 [110.9,
+269.9] 
+ 173 [109.6,
+279.8] 
+
+  Highest quintile 
+ 503.4 [269.9,
+26127.2] 
+ 498.7 [246.7,
+20811.4] 
+ 505.3 [287.2,
+26127.2] 
+ 508.6 [273.4,
+26127.2] 
+ 520.3 [270.4,
+20811.4] 
+ 501.3 [282.4,
+26127.2] 
+
+  Overall 
+ 75.1 
+ 78.3 
+ 70.4 
+ 76.8 
+ 84.6 
+ 67.2 
+
+ Home Value (in 1,000s) 
+
+  Lowest quintile 
+ 0 [0.0, 0.0] 
+ 0 [0.0, 0.0] 
+ 0 [0.0, 0.0] 
+ 0 [0.0, 0.0] 
+ 0 [0.0, 0.0] 
+ 0 [0.0, 0.0] 
+
+  2nd quintile 
+ 36.3 [0.0, 64.0] 
+ 34.4 [1.4,63.9] 
+ 36.8 [0.0, 64.0] 
+ 36.8 [0.0, 64.0] 
+ 45.6 [1.4, 72.7] 
+ 35.2 [0.0, 59.8] 
+
+  3rd quintile 
+ 95.9 [64.0,
+128.1] 
+ 95.6 [64.0,
+124.3] 
+ 103.7 [64.0,
+142.3] 
+ 99.6 [64.1,
+133.9] 
+ 98.5 [73.0,
+125.5] 
+ 99.6 [60.8,
+142.3] 
+
+  4th quintile 
+ 170.7 [129.5,
+219.1] 
+ 159.8 [125.5,
+194.0] 
+ 185 [143.7,
+239.9] 
+ 172.1 [134.3,
+223.9] 
+ 162.5 [127.8,
+198.6] 
+ 185 [143.7,
+239.9] 
+
+  Highest quintile 
+ 320.1 [219.9,
+1912.2] 
+ 306 [195.0,
+1912.2] 
+ 343.8 [241.9,
+1912.2] 
+ 334.6 [225.6,
+1565.1] 
+ 306 [199.7,
+1242.9] 
+ 351.8 [241.9,
+1565.1] 
+
+  Overall 
+ 95.9 
+ 95.6 
+ 99.6 
+ 99.6 
+ 98.5 
+ 99.6 
+
+ Other SES 
+
+  Income (in 1,000s) 
+ 92.126 (92.126) 
+ 83.486 (64.639) 
+ 99.600 (109.989) 
+ 92.669 (89.901) 
+ 85.506 (66.319) 
+ 98.433 (104.761) 
+
+  Occupational status 
+ 485.380 (233.664) 
+ 469.368 (234.642) 
+ 499.232 (231.968) 
+ 488.751 (233.896) 
+ 480.698 (232.850) 
+ 495.231 (234.583) 
+
+  Parental education 
+
+   Less than high
+school 
+ 0.106 (0.308) 
+ 0.14 (0.347) 
+ 0.077 (0.267) 
+ 0.101 (0.301) 
+ 0.124 (0.330) 
+ 0.082 (0.275) 
+
+   High school 
+ 0.312 (0.463) 
+ 0.359 (0.480) 
+ 0.272 (0.445) 
+ 0.305 (0.460) 
+ 0.347 (0.476) 
+ 0.271 (0.444) 
+
+   Some college 
+ 0.295 (0.456) 
+ 0.258 (0.438) 
+ 0.327 (0.469) 
+ 0.297 (0.457) 
+ 0.262 (0.440) 
+ 0.325 (0.469) 
+
+   Bachelor’s
+degree 
+ 0.286 (0.452) 
+ 0.243 (0.429) 
+ 0.324 (0.468) 
+ 0.297 (0.457) 
+ 0.267 (0.443) 
+ 0.322 (0.467) 
+
+ Demographics 
+
+  Female 
+ 0.491 (0.500) 
+ 0.482 (0.500) 
+ 0.499 (0.500) 
+ 0.486 (0.500) 
+ 0.475 (0.500) 
+ 0.495 (0.500) 
+
+  Family size 
+ 4.409 (1.245) 
+ 4.461 (1.250) 
+ 4.364 (1.239) 
+ 4.394 (1.239) 
+ 4.431 (1.235) 
+ 4.365 (1.241) 
+
+  Number of children in
+family 
+ 2.466 (1.065) 
+ 2.458 (1.070) 
+ 2.472 (1.060) 
+ 2.455 (1.063) 
+ 2.426 (1.060) 
+ 2.478 (1.065) 
+
+  Household head married 
+ 0.766 (0.423) 
+ 0.798 (0.401) 
+ 0.738 (0.440) 
+ 0.765 (0.424) 
+ 0.806 (0.396) 
+ 0.732 (0.443) 
+
+  Mother’s age 
+ 37.571 (5.588) 
+ 36.762 (5.497) 
+ 38.272 (5.572) 
+ 37.798 (5.648) 
+ 37.089 (5.581) 
+ 38.368 (5.639) 
+
+  Own household, (age 20 
+ 0.213 (0.410) 
+ 0.205 (0.404) 
+ 0.220 (0.415) 
+
+  Own household, age 25 
+ 0.756 (0.430) 
+ 0.771 (0.420) 
+ 0.744 (0.437) 
+
+ N 
+ 5,025 
+ 2,334 
+ 2,691 
+ 4,344 
+ 1,799 
+ 2,545 
+
+ Open in a new tab 
+ Notes: Weighted using individual weights at
+age 20/25. Standard errors are shown in parentheses; quintile
+boundaries are shown in brackets. Table 5. 
+ Wealth gaps in education: Rates and 95 % confidence
+intervals (CI) 
+
+ High School
+Graduation 
+ College Attendance 
+ College Degree 
+ College Degree |
+Attendance 
+
+ Rate 
+ 95 % CI 
+ Rate 
+ 95 % CI 
+ Rate 
+ 95 % CI 
+ Rate 
+ 95 % CI 
+
+ Net Worth Quintile 
+
+  Lowest 
+ 0.7283 
+ (0.6947, 0.7620) 
+ 0.2138 
+ (0.1805, 0.2471) 
+ 0.0912 
+ (0.0667, 0.1157) 
+ 0.2144 
+ (0.1603, 0.2685) 
+
+  2nd 
+ 0.7836 
+ (0.7508, 0.8165) 
+ 0.3009 
+ (0.2660, 0.3359) 
+ 0.1411 
+ (0.1122, 0.1701) 
+ 0.2839 
+ (0.2316, 0.3363) 
+
+  3rd 
+ 0.8598 
+ (0.8319, 0.8876) 
+ 0.3867 
+ (0.3486, 0.4247) 
+ 0.2235 
+ (0.1892, 0.2578) 
+ 0.3574 
+ (0.3077, 0.4072) 
+
+  4th 
+ 0.8923 
+ (0.8682, 0.9165) 
+ 0.4887 
+ (0.4494, 0.5280) 
+ 0.3643 
+ (0.3246, 0.4039) 
+ 0.4808 
+ (0.4334, 0.5282) 
+
+  Highest 
+ 0.9113 
+ (0.8887, 0.9338) 
+ 0.5352 
+ (0.4956, 0.5748) 
+ 0.5372 
+ (0.4948 0.5796) 
+ 0.6408 
+ (0.5960 0.6856) 
+
+ Home Value Quintile 
+
+  Lowest 
+ 0.7479 
+ (0.7199, 0.7759) 
+ 0.2644 
+ (0.2349, 0.2939) 
+ 0.1210 
+ (0.0978, 0.1442) 
+ 0.2532 
+ (0.2083, 0.2980) 
+
+  2nd 
+ 0.7840 
+ (0.7395, 0.8286) 
+ 0.2394 
+ (0.1946, 0.2842) 
+ 0.0805 
+ (0.0503, 0.1107) 
+ 0.1987 
+ (0.1293, 0.2680) 
+
+  3rd 
+ 0.8623 
+ (0.8362, 0.8884) 
+ 0.3750 
+ (0.3381, 0.4118) 
+ 0.2103 
+ (0.1776, 0.2430) 
+ 0.3439 
+ (0.2955, 0.3923) 
+
+  4th 
+ 0.9004 
+ (0.8769, 0.9239) 
+ 0.4783 
+ (0.4394, 0.5172) 
+ 0.3861 
+ (0.3456, 0.4266) 
+ 0.5021 
+ (0.4550, 0.5493) 
+
+  Highest 
+ 0.8993 
+ (0.8754, 0.9233) 
+ 0.5605 
+ (0.5206, 0.6003) 
+ 0.5505 
+ (0.5080, 0.5929) 
+ 0.6436 
+ (0.5990, 0.6883) 
+
+ Home Equity Quintile 
+
+  Lowest 
+ 0.7561 
+ (0.7297, 0.7825) 
+ 0.2728 
+ (0.2444, 0.3012) 
+ 0.1275 
+ (0.1050, 0.1499) 
+ 0.2620 
+ (0.2194, 0.3046) 
+
+  2nd 
+ 0.8383 
+ (0.7943, 0.8824) 
+ 0.3135 
+ (0.2558, 0.3712) 
+ 0.1654 
+ (0.1157, 0.2151) 
+ 0.3379 
+ (0.2484, 0.4274) 
+
+  3rd 
+ 0.8464 
+ (0.8183, 0.8744) 
+ 0.3765 
+ (0.3394, 0.4135) 
+ 0.2122 
+ (0.1793, 0.2451) 
+ 0.3460 
+ (0.2976, 0.3944) 
+
+  4th 
+ 0.8915 
+ (0.8673, 0.9157) 
+ 0.4514 
+ (0.4132, 0.4895) 
+ 0.3592 
+ (0.3200, 0.3985) 
+ 0.4915 
+ (0.4438, 0.5391) 
+
+  Highest 
+ 0.8937 
+ (0.8688, 0.9186) 
+ 0.5375 
+ (0.4971, 0.5780) 
+ 0.5203 
+ (0.4773, 0.5633) 
+ 0.6271 
+ (0.5810, 0.6732) 
+
+ Financial Assets Quintile 
+
+  Lowest 
+ 0.7094 
+ (0.6745, 0.7444) 
+ 0.1901 
+ (0.1599, 0.2203) 
+ 0.0726 
+ (0.0517, 0.0934) 
+ 0.2037 
+ (0.1490, 0.2584) 
+
+  2nd 
+ 0.7875 
+ (0.7553, 0.8196) 
+ 0.3129 
+ (0.2773, 0.3484) 
+ 0.1447 
+ (0.1153, 0.1742) 
+ 0.2722 
+ (0.2215, 0.3229) 
+
+  3rd 
+ 0.8618 
+ (0.8349, 0.8887) 
+ 0.3957 
+ (0.3567, 0.4347) 
+ 0.2597 
+ (0.2225, 0.2968) 
+ 0.3655 
+ (0.3168, 0.4142) 
+
+  4th 
+ 0.9132 
+ (0.8910, 0.9355) 
+ 0.5058 
+ (0.4664, 0.5452) 
+ 0.3820 
+ (0.3416, 0.4225) 
+ 0.5064 
+ (0.4587 0.5541) 
+
+  Highest 
+ 0.9080 
+ (0.8855, 0.9304) 
+ 0.5258 
+ (0.4865, 0.5651) 
+ 0.5085 
+ (0.4664, 0.5507) 
+ 0.6270 
+ (0.5814, 0.6726) 
+
+ Open in a new tab Table 6. 
+ Cohort changes in wealth gaps in education: Rates and 95
+% confidence intervals (CI) 
+
+ Net Worth Quintile 
+ High School
+Graduation 
+ College Attendance 
+ College Degree 
+ College Degree |
+Attendance 
+
+ Rate 
+ 95 % CI 
+ Rate 
+ 95 % CI 
+ Rate 
+ 95 % CI 
+ Rate 
+ 95 % CI 
+
+ Cohort Born 1970–1979 
+
+  Lowest 
+ 0.7090 
+ (0.6525, 0.7654) 
+ 0.1848 
+ (0.1342, 0.2353) 
+ 0.0649 
+ (0.0342, 0.0957) 
+ 0.1780 
+ (0.0983, 0.2577) 
+
+  2nd 
+ 0.7606 
+ (0.7054, 0.8157) 
+ 0.2766 
+ (0.2221, 0.3310) 
+ 0.1616 
+ (0.1063, 0.2168) 
+ 0.3407 
+ (0.2444, 0.4370) 
+
+  3rd 
+ 0.8216 
+ (0.7756, 0.8676) 
+ 0.3237 
+ (0.2649, 0.3826) 
+ 0.1951 
+ (0.1401, 0.2501) 
+ 0.3211 
+ (0.2365, 0.4058) 
+
+  4th 
+ 0.9147 
+ (0.8806, 0.9489) 
+ 0.4427 
+ (0.3850, 0.5004) 
+ 0.3189 
+ (0.2572, 0.3807) 
+ 0.4339 
+ (0.3583, 0.5095) 
+
+  Highest 
+ 0.9146 
+ (0.8796, 0.9497) 
+ 0.5058 
+ (0.4427, 0.5689) 
+ 0.4597 
+ (0.3911, 0.5282) 
+ 0.5374 
+ (0.4663, 0.6085) 
+
+ Cohort Born 1980–1989 
+
+  Lowest 
+ 0.7443 
+ (0.6904, 0.7982) 
+ 0.2377 
+ (0.1887, 0.2868) 
+ 0.1115 
+ (0.0728, 0.1502) 
+ 0.2362 
+ (0.1643, 0.3081) 
+
+  2nd 
+ 0.8036 
+ (0.7598, 0.8474) 
+ 0.3220 
+ (0.2704, 0.3736) 
+ 0.1253 
+ (0.0820, 0.1687) 
+ 0.2434 
+ (0.1700, 0.3168) 
+
+  3rd 
+ 0.8917 
+ (0.8578, 0.9256) 
+ 0.4393 
+ (0.3820, 0.4966) 
+ 0.2463 
+ (0.1957, 0.2970) 
+ 0.3851 
+ (0.3159, 0.4543) 
+
+  4th 
+ 0.8722 
+ (0.8376, 0.9069) 
+ 0.5300 
+ (0.4732, 0.5868) 
+ 0.4031 
+ (0.3418, 0.4643) 
+ 0.5188 
+ (0.4468, 0.5907) 
+
+  Highest 
+ 0.9082 
+ (0.8785, 0.9380) 
+ 0.5617 
+ (0.5039, 0.6195) 
+ 0.6006 
+ (0.5378, 0.6634) 
+ 0.7285 
+ (0.6734, 0.7835) 
+
+ Open in a new tab Table 7. 
+ Cohort changes in controlled wealth gaps in education: Rates and
+95 % confidence intervals (CI) 
+
+ Net Worth Quintile 
+ High School
+Graduation 
+ College Attendance 
+ College Degree 
+ College Degree |
+Attendance 
+
+ Rate 
+ 95 % CI 
+ Rate 
+ 95 % CI 
+ Rate 
+ 95 % CI 
+ Rate 
+ 95 % CI 
+
+ Cohort Born 1970–1979 
+
+  Lowest 
+ 0.8260 
+ (0.7720, 0.8799) 
+ 0.2965 
+ (0.2215, 0.3716) 
+ 0.1574 
+ (0.0929, 0.2219) 
+ 0.3018 
+ (0.1800, 0.4237) 
+
+  2nd 
+ 0.8172 
+ (0.7677, 0.8668) 
+ 0.3242 
+ (0.2667, 0.3818) 
+ 0.2221 
+ (0.1595, 0.2847) 
+ 0.4046 
+ (0.3076, 0.5015) 
+
+  3rd 
+ 0.8342 
+ (0.7894, 0.8790) 
+ 0.3297 
+ (0.2732, 0.3862) 
+ 0.2005 
+ (0.1498, 0.2511) 
+ 0.3262 
+ (0.2467, 0.4056) 
+
+  4th 
+ 0.8935 
+ (0.8468, 0.9401) 
+ 0.3874 
+ (0.3328, 0.4420) 
+ 0.2578 
+ (0.2068, 0.3087) 
+ 0.4112 
+ (0.3412, 0.4813) 
+
+  Highest 
+ 0.8824 
+ (0.8231, 0.9418) 
+ 0.3811 
+ (0.3192, 0.4430) 
+ 0.3024 
+ (0.2440, 0.3608) 
+ 0.4533 
+ (0.3784, 0.5282) 
+
+ Cohort Born 1980–1989 
+
+  Lowest 
+ 0.8059 
+ (0.7532, 0.8586) 
+ 0.3496 
+ (0.2802, 0.4191) 
+ 0.2778 
+ (0.2107, 0.3448) 
+ 0.4477 
+ (0.3534, 0.5420) 
+
+  2nd 
+ 0.8078 
+ (0.7626, 0.8531) 
+ 0.3858 
+ (0.3291, 0.4425) 
+ 0.2270 
+ (0.1675, 0.2865) 
+ 0.3482 
+ (0.2640, 0.4324) 
+
+  3rd 
+ 0.8788 
+ (0.8407, 0.9169) 
+ 0.4370 
+ (0.3843, 0.4898) 
+ 0.2721 
+ (0.2256, 0.3186) 
+ 0.4242 
+ (0.3602, 0.4883) 
+
+  4th 
+ 0.8522 
+ (0.8092, 0.8951) 
+ 0.4566 
+ (0.3983, 0.5149) 
+ 0.3075 
+ (0.2563, 0.3588) 
+ 0.4680 
+ (0.4010, 0.5350) 
+
+  Highest 
+ 0.8832 
+ (0.8345, 0.9319) 
+ 0.4386 
+ (0.3765, 0.5006) 
+ 0.3575 
+ (0.3032, 0.4119) 
+ 0.5556 
+ (0.4857, 0.6255) 
+
+ Open in a new tab Appendix B: Effects of the Great Recession 
+ Here I discuss how the vast changes in families’ wealth during
+the Great Recession may have contributed to the changing wealth gaps in
+education presented here. Of course, the potential effect of the Great Recession
+on inequality in educational outcomes does not alter the description of trends
+provided here, but understanding whether these trends may be driven by a period
+effect rather than reflect a broader secular trend is of interest. 
+ I first summarize findings on how the wealth distribution shifted during
+the last decades and then locate the two birth cohorts studied here within this
+timeline. I then hypothesize the ways in which the pre- and post-recession
+periods may have affected the observed trends. 
+ Last, I note the results of a stability analysis that partly responds to
+a measurement concern related to wealth fluctuation around the Great
+Recession. 
+ The Great Recession and Wealth 
+ Pfeffer and Schoeni (2016) 
+documented that wealth inequality has been rising for decades, particularly
+since the early 2000s and in the run-up to the Great Recession: relative
+increases at higher points in the distribution outpaced increases at lower
+points. Beginning with the crash of the housing market in late 2007, the
+Great Recession exerted a tremendous and lasting impact on the wealth
+distribution among U.S. households. Wealth grew even more unequal as lower
+points in the distribution incurred larger relative losses that were also
+more sustained through at least 2013. With that, the Great
+Recession’s effects on wealth inequality extended far beyond its
+official end date of June 2009 (as set by the National Bureau of Economic
+Research). 
+ The Great Recession intersects with the birth cohorts assessed here
+For Cohort 1, born in the 1970s, educational attainment was assessed before
+the recession (given that they turned 25 between 1994 and 2004). In
+contrast, substantial macroeconomic fluctuation coincided with the
+educational career of some members of Cohort 2, born in the 1980s, who
+graduated from high school and, in most cases, made their college enrollment
+decision before the recession (having turned age 18 between 1998 and 2007),
+but some of those who ended up going to college or entertained the decision
+at a later point did so during the recession (having turned age 25 between
+2005 and 2014). Potential Effects of the Great Recession on Wealth Gaps in College
+Outcomes 
+ Given this timing, the Great Recession’s effects should be
+concentrated on the college outcomes of the second birth cohort, possibly in
+two ways. 
+ First, the run-up period to the recession positively affected their
+college-going as the emerging housing bubble reduced credit constraints for
+college access (see Lovenheim 2011 ).
+This influx of home equity would have been most consequential for the
+homeowning middle class, whose wealth is chiefly concentrated in their
+homes, pushing toward a reduction of wealth gaps in college access compared
+with the earlier cohort. Conversely, the same students who enrolled in
+college thanks to an influx in home equity were negatively affected by the
+bursting of the housing market bubble and the ensuing loss of available
+finances to sustain their further college careers ( Johnson 2012 ), implying that decreasing gaps in
+college access may not have translated into decreasing gaps in attainment.
+At the same time, wealthier households were less affected by the recession
+because their wealth is typically less concentrated in housing and instead
+also includes significant financial wealth. After a period of substantial
+fluctuation, however, the stock market rebounded much more quickly than the
+housing market did, translating into less pronounced and less prolonged
+wealth losses at the top. These trends may have served to preserve the
+advantage of the wealthiest students in terms of college persistence and
+attainment. 
+ Second, as is typical in any recession ( Leslie and Brinkman 1987 ), the Great Recession
+may have driven more students into college to avoid weak labor markets
+( Long 2014 ), potentially
+contributing to smaller gaps in college access. However, to the extent that
+students who were induced to enroll in college only by a recession are less
+prepared for college or less motivated, corresponding increases in
+persistence and attainment may not follow. 
+ In sum, broad economic forces at work before and during the Great
+Recession may have helped narrow the wealth gap in college access between
+the two cohorts studied here while maintaining or even increasing gaps in
+persistence. This possible direction of influence, of course, is very much
+in line with the actual trends documented earlier. Stability Analyses 
+ The tremendous fluctuation in parental wealth before and during the
+recession may also be considered a measurement challenge (and opportunity
+for further research) when studying wealth gaps in educational outcomes. In
+line with my analytical aims, I use a stability analysis that accounts for
+the fact that the wealth position of children during childhood (ages
+10–14, as measured here) may differ from family wealth assessed
+closer to children’s college enrollment decision. 
+ Reanalyses of all presented models of college access and graduation
+based on wealth measures at age 18 16 produce substantively equivalent results (see
+Online Resource 1, section 4). As a reminder, wealth measures at age 18 were
+assessed before the Great Recession for all included individuals, so this
+stability analysis captures wealth fluctuation induced by the run-up to the
+recession. Footnotes 
+
+ 1 Although it is not the aim of this contribution to assess whether the association
+between family wealth and children’s education is causal, it is worth
+nothing that Lovenheim’s evidence on the causal relationship between
+housing wealth and college entry is an important advance in the literature,
+especially in the context of continuing debates about the causal influences of
+family income (see, e.g., Cameron and Taber
+2004 ; Mayer 1997 ). 
+
+ 2 The net cost of attending college (i.e., tuition/fees/board minus all financial
+aid and tax credits) has risen less steeply than sticker prices but still
+profoundly. In the 25 years between 1990 and 2015, the average net cost of
+attendance at public four-year colleges rose by 83 % (while the sticker
+price rose by 110 %); the corresponding increase at private four-year
+colleges was 39 % (sticker price rose by 78 %) ( Ma et al. 2015 ). 
+
+ 3 The PSID has been conducted biannually since 1997, so I assess educational
+attainment at ages 20 and 25 if surveyed in that year but at adjacent ages
+(older, if available) otherwise. Online Resource 1, section 1, provides an
+overview of the different measurement years for each birth cohort. It also
+details how birth cohorts were differently affected by the 1997 PSID sample
+reduction but shows that the conclusions presented here do not appear to be
+substantially influenced by it. 
+
+ 4 To best capture the economic conditions in which the child grows up, I define
+family wealth as a characteristic of the household in which the child resides at
+ages 10–14, irrespective of the household’s structure. A
+different measurement approach would instead link children to the wealth reports
+of their parents, which, for nonintact families, can provide additional
+information on the wealth of nonresident parents (an alternative approach that
+could also be applied in studies focused on family income but typically is not).
+However, this information is available for only a selective set of cases in
+which the nonresident parent continues to be interviewed as a PSID respondent.
+In addition, it is debatable whether and how a nonresident parent’s
+wealth should be taken into account. Including the wealth of a
+“truly absent” parent may induce as much measurement error as
+failing to include the wealth of a nonresident parent with continued parenting
+commitments (undivided by new parenting commitments to stepchildren). In other
+work on the intergenerational effects of wealth ( Pfeffer and Killewald 2017 ), we tested the sensitivity of results to
+these two distinct measurement approaches and concluded that they do not yield
+substantively different findings. 
+
+ 5 Stability analyses based on linear probability models are presented in Online
+Resource 1, section 3. 
+
+ 6 Based on the Current Population Survey March Supplement, I estimate a college
+graduation rate for comparable individuals—specifically, individuals who
+are heads of households and age 25 in survey years 1995 through 2009—of
+28 %, compared with 27.2 % in the analytic sample used here. 
+
+ 7 Here, the lowest group contains those whose parents do not own a home (home value
+of zero), about 30 % of the sample, while the second lowest group (about
+10 % of the sample) consists of children from owned homes valued at most
+about $64,000 (see Table 4 , Appendix A ). The remaining groups are
+standard quintiles (20 % each). 
+
+ 8 This comparative assessment could be influenced by differences in the measurement
+error present in the income and wealth measures. Although separate assessments
+of the quality of PSID’s income and wealth measures do exist (with
+generally positive conclusions; see Gouskova and
+Schoeni 2007 ; Pfeffer et al.
+2016 ), it is difficult to draw firm conclusions about the
+ relative degree of measurement error in these two
+variables. However, most researchers would probably be ready to assume more
+measurement error in wealth than in income, submitting that it may be more
+difficult to capture (e.g., when held in complex financial products) and more
+difficult for the respondent to recall and estimate (e.g., paycheck information
+is recent, but home valuation may not be). If this assumption is correct, the
+estimated size of the wealth coefficients relative to that of the income
+coefficients would be underestimated, making for a conservative assessment of
+the relative importance of wealth. 
+
+ 9 For an explanation of why statistical significance tests should be based on
+estimates of discrete change, see Long and
+Freese (2014 :297). 
+
+ 10 Stability analyses reported in Online Resource 1, section 4, further reinforce
+the contrast between stagnating college persistence rates among the bottom three
+quintiles and sharply increasing rates among the top quintile. 
+
+ 11 Stability analyses based on linear probability models (see Online Resource 1,
+section 3) reveal only one notable difference: an even more pronounced increase
+in the growth of college attainment among children from the top wealth quintile;
+the main conclusion about growing wealth gaps in higher educational attainment
+based on average marginal effects from logistic regression models, as presented
+here, thus appears to be conservative. 
+
+ 12 Note that distributions that include negative values, as is the case for wealth,
+can produce a Gini coefficient above 1.0. 
+
+ 13 Additional analyses reported in Online Resource 1, section 5, reveal that the
+Gini coefficient of nonhousing net worth (net worth excluding home equity)
+followed a similarly sharp increase, now reaching an astounding level of 0.98
+(but see also the previous footnote). 
+
+ 14 The specific model used here has been calibrated to provide the best empirical
+fit (discussed further below; see also Online Resource 1, section 6). 
+
+ 15 Furthermore, in the context of the specific model applied here, I also need to
+assume that the parameterization of the model remains equally valid—that
+is, the absolute thresholds chosen for the spline knots that were drawn based on
+the earlier cohort remain equally useful for the later cohort. 
+
+ 16 Later ages would introduce endogeneity concerns because college attendance is
+expected to affect family wealth. 
+
+ 

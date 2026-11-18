@@ -1,0 +1,234 @@
+<!-- 取得日期：2026-11-18；來源：https://www.irp.wisc.edu/wp/wp-content/uploads/2018/05/FactSheet13-InequalityCollegeCompletion.pdf；授權／狀態：機構公開簡報 -->
+# Roble (2017), Falling Further Behind: Inequality in College Completion. Poverty Fact Sheet No. 13, Institute for Research on Poverty, University of Wisconsin–Madison.
+
+────────────────────────────────────────────────────────────
+
+                                              Poverty Fact Sheet:
+                                            Falling Further Behind:
+                                        Inequality in College Completion
+Prepared by Jacob Roble                                                                                                                                         No. 13, 2016–2017
+This fact sheet focuses on differential rates of college completion by socioeconomic status, the factors researchers think are behind
+them, and key aspects of promising efforts to help level the playing field and increase college completion among disadvantaged
+students.
+                College Completion Differs                             shelter, and extracurricular experiences that can boost a student’s
+                                                                       readiness for college and their ability to succeed in school.
+                 by Socioeconomic Status
+College completion is one of the surest pathways out of poverty,                                                      What Are Other Related Factors?
+but not everyone that sets foot on campus
+                                                                                                                      Several other factors that are associated
+graduates. Since 1980, gaps in rates of
+                                                                                                                      with growing up in a low-SES family may
+college entry, persistence, and completion
+                                                               Key Terms                                              partially explain differences in college
+between children from low- and high-income
+                                                  Socioeconomic Status (SES): A                                       completion, including:
+families have widened, although women are
+outpacing men in college attainment in every      measure combining an individual’s
+                                                  or family’s income, education, and                                   •         differential access to and enrollment
+demographic group. At UW–Madison, 70%                                                                                            in advanced and rigorous pre-college
+                                                  occupation.
+of low-socioeconomic status (SES) students                                                                                       coursework;
+(those who experienced poverty in high school     College Entry Rate: The proportion
+and whose parents did not attend college)         of individuals born in a given year                                  •         status as a nontraditional student,
+                                                  that have enrolled in college by age                                           including those who delay their start,
+graduate within 6 years, compared to 83%
+                                                  19.                                                                            enroll part time, experience gaps in
+of high-SES students (those whose families
+were in the top 25% of income and had at          College Persistence Rate: The                                                  enrollment, and have children of their
+                                                  proportion of students who, once                                               own;
+least one parent with a bachelor’s degree). The
+                                                  enrolled in college, continue on to
+strong connection between SES and college         the next semester.                                                   •         undermatching, whereby high-
+completion remains even after adjusting for                                                                                      achieving low-SES students attend
+other student characteristics like pre-college    College Completion Rate: The
+                                                                                                                                 colleges where the average GPAs and
+                                                  proportion of college students
+test scores.                                                                                                                     test scores of enrolled students are
+                                                    that graduate within 6 years of
+                                                    enrollment.                                                                  lower than their own;
+For example, at large state universities, 69%
+of students whose parents had no college            College Attainment Rate: The                 • a lack of a sense of belonging; and
+education—often referred to as “first-              proportion of all individuals born in
+                                                                                                 • being a student of color attending a
+generation students”—graduate within 6              a given year that possess a bachelor’s
+                                                    degree by age 25.
+                                                                                                     predominantly white institution.
+years, compared to 79% of students with at
+least one parent with a college degree (Figure
+1). More than one-half of this 10 percentage
+point difference remains after taking into account parental             Figure 1: Variation in graduation rates between high- and low- SES
+income, SAT/ACT scores, high school GPA, state residency, race, students after controlling for student characteristics.
+ethnicity, gender, and university attended.
+                                                                                                Accounted-For Difference
+Further, when considering income, there is a 13 percentage point                                Adjusted Graduation Rate
+                                                                                         90%
+difference in completion between students from the bottom                                                                           83%                                        83%
+                                                                                                                       79%
+income and top income quartiles (Figure 1). Of this difference,                          80%
+                                                                                                                                                         73%
+                                                                                                                                                                    77%
+                                                                                                            71%
+6 percentage points remain after accounting for differences in                           70%
+                                                                                                69%
+                                                                                                                           75%      76%
+                                                                                                                                              70%
+                                                                                                                                                                     74%
+                                                                                                                                                                                76%
+                                                                                                                                               70%        71%
+parental education, SAT/ACT scores, high school GPA, state                               60%
+                                                                                                 69%         69%
+
+residency, race, ethnicity, gender, and university attended.
+
+                                                                       Graduation Rate
+                                                                                         50%
+
+ Why Do Parental Education and Income Make a                                             40%
+
+                 Difference?                                                             30%
+
+
+First-generation students are at greater risk of delaying college                        20%
+
+entry, experiencing culture shock upon entering college, taking                          10%
+remedial coursework, and dropping out of college than their peers
+                                                                                         0%
+with college-educated parents.                                                                   No         Some      College     Graduate   Bottom     Second      Third      Top
+                                                                                               College     College    Degree       Degree    Quartile   Quartile   Quartile   Quartile
+                                                                                                         Parental Education Level                         Family Income
+Parental income affects the resources available to students,
+including access to quality K-12 education, adequate food and          Source: The College Board.
+
+Institute for Research on Poverty | 3412 Sewell Social Sciences Bldg. | 1180 Observatory Drive | Madison, WI 53706 | www.irp.wisc.edu
+         Morgridge Center for Public Service | Red Gym | 716 Langdon Street | Madison, WI 53706 | www.morgridge.wisc.edu
+   Promising Programs and Policies to Increase                              12 personalized text messages to freshman enrolled in two-year
+   College Completion among Low-SES Students                                community colleges encouraging them to refile their FAFSA in
+                                                                            order to maintain their financial aid for the following year. Rates
+The following efforts have shown evidence of boosting                       of persistence into the fall sophomore year increased from 64%
+disadvantaged students’ academic success:                                   to 76%. Persistence into the spring sophomore semester, after the
+Providing Wrap-Around Support                                               intervention had ended, increased from 66% to 80%, suggesting
+The City University of New York’s Accelerated Study in                      an ongoing effect. At the same time, however, no gains from the
+Associates Program (ASAP), founded in 2007, aims to increase                intervention were seen among freshman at four year colleges.
+graduation rates at nine CUNY community colleges across                     Providing Personal Coaching
+New York City through full-time enrollment, financial support,              InsideTrack is a private company contracted by 15 colleges
+tutoring, career services, and intensive mentoring. Prospective             across the country to provide coaching services to students with
+students must be a state resident, file a Free Application for              the aim of improving retention and graduation. Coaches help
+Federal Student Aid (FAFSA), have a GPA of at least 2.0, and                students navigate class registration, childcare, and other obstacles
+enroll in a full-time course load to participate in the program.            that might impede completion. Coaches focus on areas such as
+A randomized-control trial found that graduation rates among                health, academics, time management, finances, and persistence.
+ASAP students are more than double those of non-ASAP students               An evaluation found the program increased persistence to
+(40% vs. 22%). The program is currently being replicated at                 the next semester by 9% (from 58% to 63%). Two years after
+Westchester Community College in Valhalla, New York, and                    receiving coaching, students were 14% more likely to stay in
+Skyline College in San Bruno, California.                                   school and 4 years after the intervention the average graduation
+Matching Students with the Right College                                    rate among coached students was 35% compared to 31% for the
+                                                                            control group.
+The Expanding College Opportunities Project provides low-SES
+students informational packets about the college application                Societal Benefits to Increased College Completion
+process, application fee waivers, and net college costs. Program
+participants enrolled in colleges that were 19% more likely to              Beyond the benefits of college completion that are accrued
+be a good match and experienced graduation rates that were 6%               by students and their families, there are also societal benefits
+higher than those of a control group.                                       to higher college completion rates, such that identifying and
+                                                                            implementing promising practices and policies designed to
+Increasing Students’ Sense of Belonging                                     increase college completion for low-SES students may benefit
+A recent experiment administered a 30-minute online module                  society as a whole. These societal benefits include:
+designed to improve students’ sense of belonging to incoming                Increased Health and Decreased Health Expenditures
+students across three institutions in the summer before beginning
+college. The module provided information indicating that                    Evidence suggests that college graduates smoke less, exercise
+academic and social struggles were commonplace, non-reflective              more, and have lower rates of obesity compared to individuals
+of potential for belonging, and eventually self-resolve. Among              without a college degree. These factors are associated with better
+disadvantaged students, the intervention increased first year               health for individuals and decreased health care costs for society.
+full-time enrollment from 32% to 41% and cumulative GPA                     Increased Income and Tax Revenue
+from 3.33 to 3.42, and reduced the proportion of disadvantaged              College graduates pay, on average, $6,900 more in income taxes
+students in the bottom 20% of their class from 46% to 29%.                  and earn $17,700 more in after-tax income per year than high
+Additionally, it increased social and academic integration across           school graduates. Moreover, college graduates earn, on average,
+multiple metrics, and reduced the raw institutional achievement             $800,000 more than high school graduates by retirement.
+gap between advantaged and disadvantaged students by 40%.
+The University of Texas at Austin has created an online “U.T.               Increased Civic Engagement
+Mindset” orientation based on the results from this research that           More highly educated individuals tend to have higher rates of
+is given to all first-year incoming students.                               civic engagement. In 2015, 16% of adults age 25 and older with a
+Addressing Lack of Academic Preparation with Co-                            high school diploma volunteered compared to 39% of adults with
+Requisite Remediation                                                       at least a bachelor’s degree.
+
+A recent study at three CUNY community colleges enrolled                    Decreased Public Benefit Participation
+remedial students in a college-level statistics course alongside            In 2014, 29% of individuals age 25 and older who had a high
+weekly workshops for additional academic support instead of                 school diploma participated in Medicaid compared to 12%
+remedial algebra. Participating students had a 16% higher pass              of those with at least a bachelor’s degree. Similarly, 13% of
+rate than did students taking remedial algebra (the control group)          individuals with a high school diploma received Supplemental
+and also earned more college credits in the next year.                      Nutrition Assistance Program (SNAP) food assistance compared
+Decreasing Continuous Enrollment Gaps at Community                          to 3% of college graduates.
+Colleges                                                                    Decreased Student Loan Default Rates
+Text message reminders to complete paperwork appear to be a                 Default rates on student loans are higher among students who drop
+promising strategy for encouraging continuous enrollment in                 out of college compared to those who attain a degree, despite that
+community college. In a recent field experiment, researchers sent           those who drop out have lower levels of average debt.
+
+                For a list of the sources used for this brief and further reading, visit www.irp.wisc.edu/publications/factsheets.htm.
+                                                                              Sources and Suggested Further Reading
+                                                        Falling Further Behind: Inequality in College Completion
+
+www.irp.wisc.edu                                                                                           Poverty Fact Sheet #13, 2017
+Autor, David. 2010. The Polarization of Job Opportunities in the U.S. Labor             Grodsky, Eric, and Christian Smith. Forthcoming. “Stratification in Higher
+Market. Center for American Progress. Available at: https://economics.mit.edu/          Education,” in Encyclopedia of International Higher Education Systems
+files/5554                                                                              and Institutions. Springer. Available at: http://www.springer.com/us/
+                                                                                        book/9789401789042
+Attewell, Paul, Heil, Scott, and Liza Reisel. 2011. “Competing Explanations of
+Undergraduate Noncompletion.” American Educational Research Journal 48(3).              Hausmann, Leslie, Schofield, Janet, and Rochelle Woods. 2007. “Sense of
+Available at: http://journals.sagepub.com/doi/abs/10.3102/0002831210392018              Belonging as a Predictor of Intentions to Persist Among African American and
+                                                                                        White First-Year College Students,” Research in Higher Education. Available at:
+Bailey, Martha, Dynarski, Susan. 2011. “Gains and Gaps: Changing Inequality             https://www.jstor.org/stable/25704530?seq=1#page_scan_tab_contents
+in U.S. College Entry and Completion,” NBER Working Paper No. 17633.
+Cambridge, MA: National Bureau of Economic Research. Available at: http://              Holzer, Harry. 2015. Job Market Polarization and U.S. Worker Skills: A Tale of
+www.nber.org/papers/w17633.pdf                                                          Two Middles. Washington, DC: Brookings Institution. Available at: https://www.
+                                                                                        brookings.edu/wp-content/uploads/2016/06/polarization_jobs_policy_holzer.pdf
+Baker, Rachel, and Eric Bettinger. 2014. “The Effects of Student Coaching: An
+Evaluation of a Randomized Experiment in Student Advising.” Educational                 Hoxby, Caroline, and Sarah Turner. 2013. “Expanding College Opportunities for
+Evaluation and Policy Analysis 36(1). Available at http://journals.sagepub.com/         High-Achieving, Low Income Students.” Stanford Institute for Economic Policy
+doi/abs/10.3102/0162373713500523                                                        Research. Available at: http://siepr.stanford.edu/sites/default/files/publications/12-
+                                                                                        014paper_6.pdf
+Baum, Sandy, Ma, Jennifer, and Kathleen Payea. 2013. Education Pays: The
+Benefits of Higher Education for Individuals and Society. The College Board.            Inman, Elliot, and Larry Mayes. 1999. “The Importance of Being First:
+Available at: https://trends.collegeboard.org/sites/default/files/education-pays-       Unique Characteristics of First Generation Community College Students,”
+2013-full-report.pdf                                                                    Community College Review. Available at: http://journals.sagepub.com/doi/
+                                                                                        abs/10.1177/009155219902600402
+Bengali, Leila, and Mary Daly. 2014. Is It Still Worth Going to College? Federal
+Reserve Bank of San Francisco. Available at: http://polkgoestocollege.web.unc.          Logue, A. W., Watanabe-Rose, Mari and Daniel Douglas. 2016. Should
+edu/files/2015/08/earn-an-extra-800000-dollars-in-income-1.pdf                          Students Assessed as Needing Remedial Mathematics Take College-Level
+                                                                                        Quantitative Courses Instead? A Randomized Controlled Trial. Educational
+Bowen, William, Chingos, Matthew, and Michael McPherson. 2009. Crossing the             Evaluation and Policy Analysis. Available at: http://journals.sagepub.com/doi/
+Finish Line: Completing College at America’s Public Universities. Princeton, NJ:        abs/10.3102/0162373716649056
+Princeton University Press. Available at: http://press.princeton.edu/titles/8971.html
+                                                                                        McCarron, Graziella, and Karen Inkelas. 2006. “The Gap between Educational
+Carroll, Stephen, and Emre Erkut. 2009. How Taxpayers Benefit When Students             Aspirations and Attainment for First-Generation College Students and the Role
+Attain Higher Levels of Education. Santa Monica, CA: RAND Corporation.                  of Parental Involvement,” Journal of College Student Development. Available at:
+Available at: https://www.rand.org/pubs/research_briefs/RB9461.html                     https://muse.jhu.edu/article/201902/summary
+
+Caspar, Emma. 2014. “A Path to College Completion for Disadvantaged Students,”          Milesi, Carolina. 2010. “Do All Roads Lead to Rome? Effect of Educational
+Focus 31(2). Madison, WI: Institute for Research on Poverty. Available at: https://     Trajectories on Educational Transitions.” Research in Social Stratification
+www.irp.wisc.edu/publications/focus/pdfs/foc312e.pdf                                    and Mobility. Available at: http://www.sciencedirect.com/science/article/pii/
+                                                                                        S0276562410000028
+Castleman, Benjamin, and Lindsay Page. 2017. “Freshman Year Financial Aid
+Nudges: An Experiment to Increase FAFSA Renewal and College Persistence.”               Mullen, Ann. 2010. Degrees of Inequality: Culture, Class, and Gender in American
+Journal of Human Resources 52(3). Available at: http://jhr.uwpress.org/                 Higher Education. Baltimore, MD: Johns Hopkins University Press. Available at:
+content/51/2/389.short                                                                  https://books.google.com/books?hl=en&lr=&id=sTBIKRk1LJ4C&oi=fnd&pg=P
+                                                                                        R7&dq=Mullen,+2010+college+completion&ots=G1R3wBdGoB&sig=FfNZ3D
+Cunha, Flávio. 2009. “Crossing the Finish Line: A Review Article,” Journal              cRKIzu9Oblvaxi3Le3RcE#v=onepage&q=Mullen%2C%202010%20college%20
+of Human Capital 3(4). Available at: http://www.journals.uchicago.edu/doi/              completion&f=false
+full/10.1086/653689
+                                                                                        Nunez, Anne-Marie, and Stephanie Cuccaro-Alamin. 1998. First-Generation
+Dynarski, Susan. 2015. “Why Students With Smallest Debts Have the                       Students: Undergraduates Whose Parents Never Enrolled in Postsecondary
+Larger Problem,” The New York Times. Available at: https://www.nytimes.                 Education. U.S. Department of Education. Available at: http://files.eric.ed.gov/
+com/2015/09/01/upshot/why-students-with-smallest-debts-need-the-greatest-help.          fulltext/ED420235.pdf
+html
+                                                                                        Ostrove, Joan, and Susan Long. 2007. “Social Class and Belonging: Implications
+Dynarski, Susan, and Meghan Oster. 2016. Fulfilling the Promise of Community            for College Adjustment,” The Review of Higher Education 30(4): 363-389.
+College: The ASAP Demonstrations. Brookings Institution. Available at: https://         Available at: http://digitalcommons.macalester.edu/cgi/viewcontent.cgi?article=10
+www.brookings.edu/research/fulfilling-the-promise-of-community-college-the-             00&context=psycfacpub
+asap-demonstrations/
+                                                                                        Randford, Alexandria. 2013. Top Student, Top School? How Social Class Shapes
+Engle, Jennifer. 2007. “Postsecondary Access and Success for First-                     Where Valedictorians Go to College. Chicago: University of Chicago Press.
+Generation College Students,” American Academic 3. Available at: https://pdfs.          Available at: http://press.uchicago.edu/ucp/books/book/chicago/T/bo15506888.
+semanticscholar.org/e27f/6b423579e29231e22446c0b7777d7b5946bf.pdf                       html
+
+Fries-Britt, Sharon, Bridget Turner. 2002. “Uneven Stories: Successful Black            Yeager, David, and Gregory Walton. 2016. Teaching a Lay Theory before College
+Collegians at a Black and a White Campus.” The Review of Higher Education.              Narrows Achievement Gaps at Scale. Proceedings of the National Academy of
+Available at: https://muse.jhu.edu/article/30152                                        Sciences. Available at: http://www.pnas.org/content/113/24/E3341.full
+

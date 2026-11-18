@@ -1,0 +1,954 @@
+<!-- 取得日期：2026-11-18；來源：https://files.eric.ed.gov/fulltext/EJ800877.pdf；授權／狀態：ERIC 全文（EPAA 開放取用） -->
+# Hong & Youngs (2008), Does High-Stakes Testing Increase Cultural Capital among Low-Income and Racial Minority Students? Education Policy Analysis Archives 16(17).
+
+────────────────────────────────────────────────────────────
+
+   EDUCATION POLICY ANALYSIS ARCHIVES
+                                                                   A peer-reviewed scholarly journal
+                                                                              Editor: Sherman Dorn
+                                                                               College of Education
+                                                                         University of South Florida
+
+    Volume 16 Number 6                     March 14, 2008                         ISSN 1068–2341
+
+
+
+                Does High-Stakes Testing Increase Cultural Capital
+                among Low-Income and Racial Minority Students?
+
+                                      Won-Pyo Hong
+                                       Peter Youngs
+                                  Michigan State University
+        Citation: Hong, W.-P., & Youngs, P. (2008). Does high-stakes testing increase cultural
+        capital among low-income and racial minority students?. Education Policy Analysis
+        Archives, 16(6). Retrieved [date] from http://epaa.asu.edu/epaa/v16n6/.
+
+        Abstract
+        This article draws on research from Texas and Chicago to examine whether high-
+        stakes testing enables low-income and racial minority students to acquire cultural
+        capital. While students’ performance on state or district tests rose after the
+        implementation of high-stakes testing and accountability policies in Texas and
+        Chicago in the 1990s, several studies indicate that these policies seemed to have
+        had deleterious effects on curriculum, instruction, the percentage of students
+        excluded from the tests, and student dropout rates. As a result, the policies seemed
+        to have had mixed effects on students’ opportunities to acquire embodied and
+        institutionalized cultural capital. These findings are consistent with the work of
+        Shepard (2000), Darling-Hammond (2004a), and others who have written of the
+        likely negative repercussions of high-stakes testing and accountability policies.
+        Keywords: cultural capital, high-stakes testing, accountability, K–12 schooling in
+        the U.S.
+
+
+
+
+                Readers are free to copy, display, and distribute this article, as long as the work is
+attributed to the author(s) and Education Policy Analysis Archives, it is distributed for non-
+commercial purposes only, and no alteration or transformation is made in the work. More details of this
+Creative Commons license are available at http://creativecommons.org/licenses/by-nc-nd/2.5/. All
+other uses must be approved by the author(s) or EPAA. EPAA is published jointly by the Colleges of
+Education at Arizona State University and the University of South Florida. Articles are indexed by H.W.
+Wilson & Co. Send commentary to Casey Cobb (casey.cobb@uconn.edu) and errata notes to Sherman
+Dorn (epaa-editor@shermandorn.com).
+Education Policy Analysis Archives Vol. 16 No. 6                                                     2
+
+
+       ¿Pueden los exámenes de alto riesgo aumentar el capital cultural entre los
+       estudiantes de bajos ingresos y de minorías raciales?
+
+       Resumen
+       Este artículo se basa en investigaciones hechas en Texas y Chicago para examinar si
+       los exámenes de alto riesgo permiten a estudiantes de bajos ingresos y de minorías
+       raciales adquirir capital cultural. Si bien el desempeño en pruebas estatales o
+       distritales de los estudiantes de Texas y Chicago en los noventas mejoro después de
+       la aplicación de los exámenes de alto riesgo asociados a políticas de acontabilidad
+       escolar, varios estudios indican que estas políticas parecen haber tenido efectos
+       nocivos sobre los planes de estudio, la instrucción, el porcentaje de estudiantes
+       excluidos de las pruebas, y el índice de abandono escolar. Como resultado de ello,
+       las políticas parecen haber tenido resultados mixtos en los estudiantes en cuanto a
+       la oportunidad de adquirir cultural capital tanto del tipo institucional como
+       corporal. Estos resultados son consistentes con los trabajos de Shepard (2000),
+       Darling-Hammond (2004a), y otros que han escrito sobre las probables
+       repercusiones negativas de los exámenes de alto riesgo asociados a políticas de
+       acontabilidad escolar.
+       Palabras clave: capital cultural, exámenes de alto riesgo, políticas acontabilidad
+       escolar, la educación K-12 en los EE.UU.
+
+         One goal of the recent No Child Left Behind (NCLB) legislation is to reduce gaps in
+achievement between white students and racial minority students and between middle-class students
+and low-income students. To measure the academic progress of these various groups over time, the
+2002 reauthorization of Title I requires states to administer annual tests in reading, writing, and
+mathematics to students in 3rd through 8th grades, to publicly report test results at the school and
+district levels, and to monitor changes in school and district performance. Further, the legislation
+mandates that schools and districts report data for racial/ethnic subgroups, Title I students, special
+needs students, ESL (English as a second language) students, migrant students, and other categories.
+With potentially severe sanctions for schools and districts that fail to make adequate yearly progress
+(AYP), supporters of NCLB argue that the law is pressuring schools to improve instruction for
+minority and low-income students, two groups that have traditionally been poorly served by public
+schools in the U.S.
+         Meanwhile, others have criticized the federal legislation on a number of fronts. Some have
+raised concerns that Congress did not allocate sufficient funds to implement NCLB while others
+oppose the requirement that states administer high-stakes tests at so many grade levels (Amrein &
+Berliner, 2002; Shepard, 2000). Some question the emphasis on AYP while others contend that the
+teacher-quality provisions in NCLB are problematic (Darling-Hammond & Youngs, 2002; Smith,
+Desimone, & Ueno, 2005). As Congress prepares to reauthorize Title I in 2008 or 2009, many
+school administrators, teacher union leaders, researchers, and policy makers are proposing ways to
+change the legislation to address these issues.
+         While we share some of the sentiments of critics of NCLB, we address a different matter in
+this paper. Based on research and data from Texas and Chicago, our first purpose is to investigate
+the extent to which and ways in which high-stakes testing and accountability policies provide
+opportunities for low-income and racial minority students to acquire embodied and institutionalized
+cultural capital. These forms of capital are important because they are closely related to academic
+success, college enrollment, and adult employment. A second purpose is to provide guidelines for
+Does High-Stakes Testing Increase Cultural Capital?                                                                    3
+
+future research on high-stakes testing and accountability. Our analysis indicates that testing and
+accountability policies in Texas and Chicago provided some opportunities for low-income and racial
+minority students to acquire key forms of cultural capital. At the same time, these policies also
+seemed to limit opportunities for such students and exacerbate differences between them and white,
+middle-class students.
+        In the first and second sections of this paper, we draw on cultural capital theory to present
+our conceptual framework and analytical methods. The third section reviews several studies of state
+policies in Texas to examine their effects on opportunities for low-income and racial minority
+students to acquire embodied and institutionalized cultural capital. In the fourth section, using
+studies of accountability policies in Chicago, we explore how such policies affected opportunities for
+such students to gain these forms of cultural capital. Finally, the fifth section looks across the two
+cases to discuss important findings and consider implications for future research on high-stakes
+testing and accountability.
+
+                     Embodied and Institutionalized Cultural Capital
+
+         The conceptual framework employed in this study draws on cultural capital theory
+(Bourdieu, 1973, 1986). In modern societies, according to this theory, social institutions such as
+schools may appear to be unbiased, neutral entities, but they are, in fact, governed by rules of
+exchange that place value on the cultural norms or cultural capital of upper class and middle class
+people (Bourdieu, 1986). Cultural capital exists in three states: embodied, institutionalized, and
+objectified (Bourdieu, 1986; Olneck, 2000).1 We focus here on the first two of these forms because
+they seem most relevant to understanding the effects of high-stakes testing on low-income and
+minority students.
+         Embodied cultural capital refers to behavioral styles, ways of speaking, cultural preferences,
+and understanding of valued cultural knowledge (Olneck, 2000). Unlike high school diplomas,
+university degrees, or titles, this form of cultural capital cannot be purchased and unlike property, it
+cannot be exchanged; instead, it is learned or adopted by individuals. Bourdieu argues that schools
+do not value all students’ speaking and behavioral styles equally, but rather they place greater value
+on those of the upper and middle classes. However, unless low socio-economic status (SES) and
+minority students have opportunities to internalize dominant cultural norms, they may be
+disadvantaged by their schools with regard to school engagement and performance, college
+attendance, and employment opportunity. Indeed, researchers have shown that the lack of cultural
+capital among low-income and minority students can result in reduced access to school resources
+and academic and social supports from teachers (Lareau, 2002; Lareau & Horvat, 1999; Lee &
+Bowen, 2006). For this reason, Delpit (1995) contends that schools should explicitly teach low-SES
+and minority students to acquire cultural norms, behavioral styles and codes of power that are
+necessary for them to succeed in American society.
+         In the 1990s and more recently, several policy makers and researchers have argued that a
+common curriculum linked to high-stakes testing could help low-income and minority students
+acquire the intellectual abilities and dispositions required in the 21st century societies. For example,
+O’Day and Smith (1993) posited that by making high quality knowledge and instruction available for
+
+
+         1 Objectified cultural capital refers to artifacts and other expressions of embodied cultural capital
+
+including literature, music, art, and film as well as the sites where these are available (e.g., university courses,
+libraries, museums, theaters, concert halls, etc.).
+Education Policy Analysis Archives Vol. 16 No. 6                                                       4
+
+every student, a common curriculum and a common set of expectations would decrease inequity in
+education by improving the performance of students from low-income and minority families. Also,
+Ravitch (1995) and Hirsch (1996) stressed that standards-based reform would enable American
+schools to accomplish what they had never done before: educate all students well, regardless of
+social class and racial backgrounds. More recently, advocates of high-stakes testing have contended
+that NCLB and similar state policies are necessary to ensure that teachers and schools maintain high
+standards for low-SES and minority students and help them achieve at high levels (e.g., Paige, 2001;
+Grissmer et al., 2000).
+         At the same time, scholars and educators have raised concerns that high-stakes testing and
+accountability policies will lead teachers to narrow the curriculum and devote inordinate amounts of
+time to preparing students to take state standardized tests (Shepard, 2000; Thompson, 2001).
+Darling-Hammond argues that overemphasis on test scores will lead to “a narrower curriculum; to
+test-based instruction that ignores critical real world skills, especially for lower-income and lower-
+performing students; and to less useful and engaging education” (2004a, p. 18). Also, there is a
+growing concern that NCLB would interfere with teachers’ efforts to develop relevant curriculum
+for culturally and racially diverse students (Selwyn, 2007). If this is the case, the new accountability
+system based on test scores is not likely to help low-income and minority students to acquire
+embodied cultural capital that is valued by universities and employers.
+         A second concern has been that disparities in resources severely limit the capacity of schools
+and districts serving high percentages of low SES and racial minority students. Researchers have
+documented significant differences with regard to school facilities and teacher quality between
+districts and schools serving primarily middle-class families and those mostly serving lower-income
+and minority students (Arsen & Davis, 2006; Lankford, Loeb, & Wyckoff, 2002; Loeb, Darling-
+Hammond, & Luczak, 2004). Under such conditions, teachers may not have the qualifications or
+resources to help students acquire embodied cultural capital in the form of analytical, higher-order
+thinking, and problem-solving skills.
+         Institutionalized cultural capital refers to degrees, credentials, grades, and test scores that
+serve as social markers to indicate that holders have specific levels or types of knowledge and skills
+(Olneck, 2000). As Labaree (1997) argues, a primary reason that individuals invest money, time, and
+effort in schooling is to acquire qualifications that will enable them to advance to higher levels of
+education and attain desirable employment and social positions. It is widely believed that schools are
+meritocratic with academic success being based solely on ability; according to this belief, schools
+provide each student with an equal chance to acquire academic credentials by using fair and
+objective methods such as grades and test scores. However, Bourdieu (1973) contends that the
+notion that schools are meritocratic is false and serves to legitimize the perpetuation of social
+hierarchies.
+         From Bourdieu’s perspective, students from the middle and upper classes are more likely to
+succeed in school because they already possess the types of embodied cultural capital that schools
+value. Consequently, such students are more likely to acquire higher academic credentials and
+professional or white-collar jobs. In contrast, it is more difficult for low SES or minority students to
+succeed in schools. From the start, they have less of the embodied cultural capital that is necessary
+to thrive in schools. Even though some of these students may succeed academically through
+extraordinary efforts, the majority of them are more likely to fail or underperform in schools. As a
+result, in contrast to the ideology of equal chances, Bourdieu argues that schools contribute to
+reproducing existing social hierarchies.
+         Therefore, a key condition for high-stakes testing and accountability policies to succeed is
+whether they provide increased opportunities for low-income and minority students to acquire
+academic qualifications. This is a critical issue given the substantial number of U.S. students who
+Does High-Stakes Testing Increase Cultural Capital?                                                             5
+
+drop out of high school and the significant gap between white students and African American and
+Hispanic students with regard to dropout rates. Mishel and Roy (2006) estimated that the overall
+high school graduation rate in the U.S. was between 80 and 83 percent in the 1990s and early 2000s.
+Further, they estimated that the graduation rate for African Americans ranged from 69 to 75 percent
+during this time while the graduation rate for Hispanics ranged from 61 to 74 percent (Mishel &
+Roy, 2006).
+        To the extent that dropout rates among low-income and racial minority students remain the
+same or increase under high-stakes testing policies, it seems likely that such policies would not be
+helping such students acquire institutionalized cultural capital. On the other hand, even when high-
+stakes testing policies reduce the dropout rates among such groups, it would be important for low
+SES and minority students to also have opportunities to acquire embodied cultural capital to succeed
+in higher education and in their careers.
+
+                                                 Methods
+
+         In selecting the major objects of analysis in this paper, we employed several criteria. First, we
+elected to focus on one state serving high percentages of racial minority students and one large
+urban school district to consider similarities and differences across these contexts with regard to the
+effects of high-stakes testing on cultural capital. Second, we were strongly interested in jurisdictions
+that had enacted high-stakes testing and accountability policies in the 1990s prior to the
+implementation of No Child Left Behind. The first two criteria led us to focus on Texas and
+Chicago in this article.
+         Texas was known as a leading state in this area in the 1990s and it served as a model for
+NCLB (Haney, 2000; McNeil, 2005). The state adopted the Texas Assessment of Academic Skills
+(TAAS) in the early 1990s, requiring students to take high-stakes tests in grades 4, 8, and 10. Based
+primarily on the percentage of students passing each of the TAAS tests, schools were rated as
+exemplary, recognized, acceptable or unacceptable. Schools were eligible for cash awards for high
+ratings, whereas underperforming ones were subject to sanctions, including possible closure.2 TAAS
+was a high-stakes test not only for schools but also for students. For example, if students did not
+pass all three portions of the exit level version of TAAS, they could not graduate from high school,
+regardless of their course grades. Only the scores on the state test counted as evidence in deciding
+whether a student was promoted or retained, and whether they earned a high school diploma or not
+(Haney, 2000; McNeil, 2005).
+         In the spring of 1995, the Chicago Public Schools (CPS) declared an end to social
+promotion, meaning that every student had to meet requirements to advance to the next grade. In
+1996, a new accountability program took effect based on students’ test scores on high-stakes tests.
+Under this new program, 3rd, 6th, and 8th graders had to meet minimum test-score standards in
+reading and mathematics on the Iowa Test of Basic Skills (ITBS) to move to the next grade. The cut
+scores were set to correspond to scoring roughly at the 20th percentile on national norms (Roderick,
+Jacob & Bryk, 2002). Students who did not meet the cutoff standard at the end of the school year
+
+
+        2 For schools to earn an exemplary rating, at least 90 percent of all students must pass each subject
+
+area. The standard for recognized increased from at least 65 percent of students passing in 1994 to 70 percent
+in 2000; the standard for acceptable went from at least 25 percent passing to 30 percent; and the standard for
+low-performing went from less than 25 percent to less than 30 percent. See Haney (2000) and Gordon &
+Reese (1997) for more details.
+Education Policy Analysis Archives Vol. 16 No. 6                                                     6
+
+were required to participate in a summer school program and to retake the tests in August. Those
+who failed again at that time were to be retained in their grade.
+        With regard to student demographics, in 1997–98, shortly after the implementation of
+TAAS, 45 percent of the 3.9 million PreK–12 students in Texas were white, 38 percent were
+Hispanic, and 14 percent were African American (Texas Education Agency, 1998). In 2005–06, of
+the 4.5 million PreK–12 students in Texas, 45 percent were Hispanic, 37 percent were white, and 15
+percent were African American (Texas Education Agency, 2006). In 1995–96, when CPS declared its
+new promotional policy, 54 percent of its 407,000 students were African American, 31 percent were
+Hispanic, and 11 percent were white (Catalyst Chicago, n.d.). By 2005–06, CPS was serving about
+420,000 students, 85 percent of whom were from low-income families, 49 percent of whom were
+African American, and 38 percent of whom were Hispanic (Chicago Public Schools, n.d.).
+        Third, each study featured in this article included measures of instruction and student
+learning (which are closely related to embodied cultural capital) or measures of students’ test scores,
+high school graduation rates, or post-secondary outcomes (which are all forms of institutionalized
+cultural capital).
+        For both jurisdictions (Texas and Chicago), we drew on the theoretical framework described
+above to analyze the ways in which and the extent to which their high-stakes testing and
+accountability policies seemed to affect opportunities for low-income and racial minority students to
+acquire embodied and institutionalized cultural capital. Further, we considered whether these
+policies seemed to reduce, increase, or have no effect on differences in cultural capital between low
+SES, minority students and white, middle-class students.
+
+    Apparent Effects of Texas’ Accountability System on Cultural Capital
+
+        High-stakes testing and accountability policy in Texas was the model for the federal No
+Child Left Behind legislation. Before his election in 2000, President Bush was the governor of Texas,
+and his first U.S. Secretary of Education, Rod Paige, had served as the superintendent of the
+Houston Independent School District. The close connection between NCLB and Texas continued
+with U.S. Secretary of Education Margaret Spellings who had worked on an education reform
+commission under Texas Governor William Clements and as associate executive director for the
+Texas Association of School Boards. As Grissmer and Flanagan (1998, 2001) argued, African
+American and Hispanic students made large gains on the Texas Assessment of Academic Skills
+(TAAS) and the National Assessment of Educational Progress (NAEP) in the 1990s, meaning that
+the Texas model for accountability seemed to contribute to reducing the gap among students who
+had different levels of cultural capital. However, other studies revealed that this accountability
+system seemed to have a mixed impact, including some harmful effects, on low-income and racial
+minority students (Haney, 2000; McNeil, 2005; McNeil & Valenzuela, 2001).
+        After Texas adopted its new accountability system in the early 1990s, test scores on the
+TAAS improved for all three of the major racial groups in the state: Hispanics, African Americans,
+and whites. For instance, Table 1 shows the percentage of grade 10 students meeting the TAAS
+minimum expectations between 1994 and 2002. The table demonstrates a notable increase in the
+percentages of 10th graders meeting the state expectations in all subject areas. In particular, there
+were substantial percentage increases among low-income and racial minority students. For example,
+in 1994, only 28 percent of African American students passed the 10th-grade TAAS exams; in 2002,
+78 percent passed these exams.
+Does High-Stakes Testing Increase Cultural Capital?                                                  7
+
+Table 1
+Grade 10 Students Meeting TAAS Minimum Expectations in 1994 and 2002
+                        Reading        Mathematics       Writing     All tests taken
+                     1994    2002     1994   2002     1994     2002  1994       2002
+All students          75%     94%     55%     92%     79%      91%   50%        85%
+African American      60%     92%     32%     85%     68%      90%   28%        78%
+Hispanic              61%     90%     40%     88%     69%      85%   34%        77%
+White                 86%     98%     68%     96%     88%      96%   64%        92%
+Economically
+                      58%     90%     39%     87%     66%      85%   32%        76%
+Disadvantaged
+Limited-English       29%     66%     25%     71%     38%      47%   13%        39%
+Source: Texas Education Agency (2007)
+
+         As a result of rapid gains among minority students, racial gaps in performance reportedly
+narrowed. In 1994, among all students in grades 3–8 and 10, only 31 percent of African American
+students passed the TAAS as compared to 66 percent of whites. By 1999, the gap between the two
+groups had been reduced to 24 percentage points and by 2002, it had shrunk to 15 percentage points
+(McNeil, 2005). A similar trend was found between Hispanic students and whites as well, which
+appears to support the notion that the new policy in Texas not only improved students’ academic
+achievement but also reduced the gaps in achievement among students who may have entered
+school with different levels of cultural capital.
+         In contrast to these findings, other researchers have argued that these gains on TAAS and
+NAEP may not have represented the academic capacities of all Texas children (Gordon & Reese,
+1997; Haney, 2000; McNeil, 2005; McNeil & Valenzuela, 2001). In particular, these scholars have
+shown ways in which the accountability system in Texas had strongly adverse impacts on low-
+income and minority students. Based on survey and interview data from more than 100 teachers,
+Gordon and Reese (1997) reported widespread harmful effects of TAAS on low-income and
+minority students. The researchers contended that scores on TAAS were viewed by many of the
+teachers in their study as an objective criterion that confirmed at-risk students’ failing performance;
+further, the results of the TAAS led many teachers to withdraw their support for such students
+when, in fact, these were the very students who needed additional support.
+         In a study that employed interview and observation data, McNeil and Valenzuela (2001)
+contended that TAAS had significantly changed the substance of schooling; i.e., what was taught and
+how students learned. They argued that during reading, writing, and mathematics instruction,
+teachers often placed greater emphasis on test preparation activities than implementing a rigorous,
+intellectually demanding curriculum. More recently, based on qualitative data collected from an
+urban elementary school in Texas, Booher-Jennings (2005) argued that teachers divided students
+into three groups—“safe cases,” “suitable cases for treatment,” and “hopeless cases”—with school
+resources distributed unequally to these groups. In her study, teachers targeted “suitable cases” who
+were on the threshold of passing the state tests and thus were likely to increase the school’s
+aggregate passing rate, while withdrawing attention and resources from “hopeless” students. To the
+extent that this occurred, low SES and racial minority students lost opportunities to acquire
+embodied cultural capital in the form of higher-order thinking, analytical writing, and problem-
+solving skills.
+         In our analysis, we also focused on studies that examined the effects of high-stakes testing
+and accountability policy in Texas on opportunities for low SES and racial minority students to
+acquire institutionalized cultural capital. Despite its negative effects on these students’ access to
+Education Policy Analysis Archives Vol. 16 No. 6                                                                 8
+
+embodied cultural capital, the state’s policy might still have had positive results if it led to improved
+test scores on the National Assessment of Educational Progress (NAEP) and lower dropout rates
+among these students. With regard to these two measures, the state’s accountability policy seemed to
+have mixed results, including some negative consequences.
+         Grissmer and Flanagan (1998, 2001) provided data showing that, along with North Carolina,
+Texas made the largest gains on the NAEP between 1990 and 1997. Further, even though both
+African American and white elementary students’ scores increased, it appeared that African
+American students made larger gains than white students in reading and mathematics. The authors
+insisted that this progress was not due to traditional explanations of improved student outcomes
+such as per-pupil spending, teacher/pupil ratios, and percentages of teachers with advanced degrees
+or more years of experience. This was because Texas and North Carolina ranked at or below the
+national averages on these measures during the years of the study. Instead, Grissmer and Flanagan
+argued that the key reform policies associated with the NAEP gains in these two states were state-
+wide academic standards by grade, holding all students accountable to the same standards, state-wide
+assessments closely linked to standards, and accountability systems based on student test scores. In
+short, they insisted that the rapid academic growth among Texas and North Carolina students was
+due to tightened accountability systems.3
+         Other researchers have raised concerns regarding Texas’ apparent improvements on NAEP
+in the 1990s. First, in pointing out that Grissmer and Flanagan used NAEP reading data only for the
+1992 and 1994 administrations of the exam, Treisman and Fuller (2001) included data from NAEP
+in 1992, 1994, and 1998 and argued that the gains among African American and Hispanic students
+between 1994 and 1998 were less significant. They also argued that the academic gains among Texas
+students were not just a product of the heightened accountability system but also of wider efforts
+such as equalizing school funding that Grissmer and Flanagan underestimated. Second, McNeil and
+Valenzuela (2001) pointed out that “the attention has been more on the rate of improvement on
+NAEP rather than actual improvement” (p. 130). They argued that, even after the highly touted
+gains in mathematics and reading, the state’s performance was still at or below average of national
+scores, registering lower than 21 of the 40 states participating in NAEP (McNeil & Valenzuela,
+2001).
+         Further, Haney (2000) and McNeil (2005) argued that the state’s NAEP gains seemed to be
+due to excluding students not expected to do well on the tests. In administering NAEP, school
+districts, schools and students were to be randomly sampled among participating states, but school
+personnel could remove students who they had classified as Limited English Proficient (LEP) or
+who had Individualized Education Plans (IEPs) as part of special education programs. McNeil
+(2005) argued that Texas had excluded higher percentages of students from taking the NAEP tests
+than most other states. From 1992 to 1996, exclusion rates in Texas increased from 8 percent to 11
+percent at grade 4, and from 7 percent to 8 percent at grade 8. In contrast, the national exclusion
+rates decreased between 1992 and 1996 from 8 percent to 6 percent at grade 4 and from 7 percent to
+5 percent at grade 8.4 In sum, while Grissmer and Flanagan (1998, 2001) argued that high-stakes
+
+          3 The testing policies in these two states are known to feature higher stakes than those in other states
+
+in the U.S. According to Amrein and Berliner (2002), among ten indicators of high stakes such as ties with
+graduation, promotion, financial awards, staff replacement, or public reporting, these two states appear to
+each feature eight of the indicators, the highest number among 18 states that had adopted a state mandated
+test at the time of the study.
+       4 Note that the time period reported on here for the exclusion rates largely overlapped with that in
+
+Grissmer and Flanagan (1998), which was based on data from 1992 to 1997.
+Does High-Stakes Testing Increase Cultural Capital?                                                      9
+
+testing led to Texas students’ rapid gains on NAEP, it appears that the state’s substantial exclusion
+of students may also have affected its performance on this national assessment.
+         In addition, we need to consider that the high school graduation rate in Texas is fairly low; in
+a 2001 report, it was 67 percent, ranked 40th in the nationwide order (Greene, 2002). Table 2 shows
+high school graduates in 2000–2001 as a percentage of average enrollments in grades seven to nine
+in the four largest school districts in Texas. The data in Table 2 indicates that roughly half of the
+students who were in 9th grade in 1997–98 in these four districts did not graduate from high schools
+in these districts in 2000–2001.
+
+Table 2
+High School Graduation Rates in Major School Districts in Texas
+                                     Grade 7–9 Enrollment       2000–01                     Graduation
+Districts
+                                            1997–98             Graduates                   proportion
+Austin Independent School District           18,179               3,496                        58%
+San Antonio ISD                              14,498               2,619                        54%
+Houston ISD                                  47,337               7,735                        49%
+Dallas ISD                                   36,777               5,837                        48%
+                     5
+Source: McNeil, 2005
+
+         The racial gap in high school graduation rates also increased after the implementation of
+TAAS. Between 1992 and 1998, the ratio of high school graduates to grade 9 students three years
+earlier had been at or below 0.50 for African American and Hispanic students, while it had been
+about 0.70 for white students (Clarke et. al., 2000). According to Haney (2000), from 1978 through
+1989, the average gap between the ratio for white students and the ratio for African American and
+Hispanic students had been 0.146. However, the average gap between the ratio for whites and that
+for non-whites students grew to 0.215 after the TAAS exit test requirement was fully implemented
+in 1992–1993. This indicates that the TAAS exit test had caused a 50 percent increase in the gap
+between the ratio for white students and the ratio for non-white students. McNeil argued that the
+Texas accountability system itself “creat(ed) incentives for principals to ‘lose’ their low-performing
+students, more frequently their Latino, African American, LEP, and immigrant children, to make
+sure the schools’ scores are high” (2005, p. 74). She also contended that a widespread waiver system
+in Texas schools was the primary cause of this large loss of students; to improve the performance of
+their schools on the 10th-grade exams (i.e., high school exit exams), many administrators, teachers,
+and counselors held African American and Hispanic students back in 9th grade (Haney, 2000;
+McNeil, 2005).
+         In sum, Texas’ accountability system had mixed effects on opportunities for low SES and
+racial minority students to acquire cultural capital. While some researchers reported that students’
+scores on TAAS increased in the 1990s and racial gaps in achievement decreased, other studies
+raised concerns about the effects of high stakes testing on classroom instruction and high school
+graduation rates. In particular, the accountability system seemed to dramatically alter the substance
+of schooling and to lead many districts and schools to exclude students from taking the state tests.
+Further, the racial gap in high school graduation rates increased following the implementation of
+TAAS. As a result, while the state tests provided opportunities for some low-income and minority
+students to acquire cultural capital, they led many others to leave school without their diplomas—a
+key form of institutionalized cultural capital.
+
+        5 The original table in McNeil (2005, pp. 78–82) shows data for 94 school districts in Texas.
+Education Policy Analysis Archives Vol. 16 No. 6                                                            10
+
+  Apparent Effects of Chicago’s Accountability System on Cultural Capital
+
+         The Chicago Public Schools (CPS) is the nation’s third largest school district and it
+predominantly serves low-income and racial minority students. In the spring of 1995, CPS declared
+an end to social promotion, meaning that every student had to meet requirements to advance to the
+next grade. In 1996, a new accountability program took effect based on students’ test scores on
+high-stakes tests. Under this new program, 3rd, 6th, and 8th graders had to meet minimum test-
+score standards in reading and mathematics on the Iowa Test of Basic Skills (ITBS) to move to the
+next grade. The cut scores were set to correspond to scoring roughly at the 20th percentile on
+national norms (Roderick, Jacob & Bryk, 2002). Students who did not meet the cutoff standard at
+the end of the school year were required to participate in summer school programs and to retake the
+tests in August. Those who failed again at that time were to be retained in their grade.
+         In the case of grade 8, those who did not pass the second time either were retained or
+moved into a transition center. Transition centers were new schools designed for 8th graders who
+failed to meet the promotion requirement but were too old—more than 15 years old—to remain in
+elementary schools.6 As a result of the new promotion policy, more than one third of grade 3, grade
+6, and grade 8 students failed to meet the promotion cutoffs in the first two years (Roderick, et al.,
+1999). Roderick and Nagaoka (2005) reported that, among Chicago students in the gate grades (i.e.,
+grades 3, 6, and 8), 7,000 to 10,000 students were retained each year between 1996 and the early–
+2000s.
+         Proponents of retention policies argued that establishing cutoff standards, making clear that
+achievement matters, and imposing negative consequences would lead students to work harder and
+teachers to pay attention to the needs of the lower-performing students. They also contended that if
+students have not mastered basic skills, they would be better served by repeating the same grade and
+gaining those skills than by struggling with more advanced materials (Roderick & Nagaoka, 2005). In
+other words, it was expected that making clear what needs to be taught for the students to pass the
+promotion gate would help them acquire embodied cultural capital valued in schools and society.
+Indeed, after the inception of the new accountability program, Chicago students’ test scores rose to
+some extent and the proportion of students in the gate grades with test scores below the minimum
+standard for promotion fell significantly. For example, in grade 6, the percentage of students who
+failed to meet the promotional cutoff fell from 37 percent in 1995, the year before the policy took
+effect, to 14 percent in 1999 (Roderick & Nagaoka, 2005). Further, using achievement data from
+3rd-, 6th-, and 8th-graders between 1990 and 2000, Jacob (2002) found that students’ scores on the
+ITBS reading and math tests consistently increased after the implementation of the new promotion
+policy.
+         As in Texas, though, the new retention policy in Chicago seemed to have a negative impact
+on opportunities for low SES and racial minority students to acquire embodied cultural capital.
+Through a further analysis of math scores, Jacob (2002) argued that the large ITBS gains were driven
+primarily by questions testing basic skills, such as computation and number concepts, which were
+easier to teach through the district’s ITBS-specific curriculum. In contrast, students made very little
+improvement on questions requiring more complex skills such as estimation, data interpretation and
+problem solving. He also found that students’ math achievement on the ITBS tests had little
+relationship with their performance on the state IGAP (Illinois Goals Assessment Program) tests,
+which placed more emphasis on critical thinking and problem-solving skills (Jacob, 2002).
+
+         6 From 1997–98 to the early 2000s, 40 to 50 percent of failed 8th graders enrolled in transition
+
+centers each year (Allensworth, 2004).
+Does High-Stakes Testing Increase Cultural Capital?                                                      11
+
+         Other studies also corroborate the contention that improved test scores do not mean that
+students have learned higher-order thinking and academic skills. Based on qualitative data from four
+Chicago elementary schools and interviews with CPS district administrators, Lipman (2004) reported
+that test preparation for students had replaced potentially rich educational experiences in many
+urban schools. In her words, “students spend hours taking mock tests, practicing filling in bubbles in
+scantron sheets, developing familiarity with the layout of the tests and the kinds of questions that are
+asked, and learning ‘tricks’ for eliminating incorrect answers” (Lipman, 2004, p. 79). As in Texas
+schools, the focus on reading and mathematics testing had led schools to place less emphasis on
+social studies, science, and other subjects that were not tested in the accountability system. In one
+school, for example, Lipman (2004) observed that teachers stopped teaching social studies and
+concentrated on reading and mathematics instruction from January through May.
+         Lipman also contended that while more affluent students in Chicago were engaged in
+intellectually challenging curriculum, low-income and minority students had to memorize
+fragmented facts and information and master simple test-taking techniques. She argued that this
+differential access to high-quality curriculum had significant consequences for social inequalities in
+an information-based economy. That is, white students who already possessed embodied cultural
+capital valued by schools were more likely to advance to higher education and attain professional,
+managerial and technical jobs. On the other hand, low SES and minority students in urban schools
+were more likely to take low-level, low-skill, and low-paid jobs in Chicago’s growing service
+economy. As a result, differentiated access to rigorous curriculum seemed to contribute to
+reproducing the asymmetrical social structure.
+         In another study, Anagnostopoulos (2006) observed demoted 9th graders’ classrooms in two
+Chicago high schools,7 providing evidence regarding the unequal distribution of opportunities to
+acquire embodied cultural capital. Rather than compelling teachers and students to remedy school
+failure academically, the CPS retention policy facilitated a type of moral boundary work that
+distinguished “deserving” students from those deemed “undeserving” (Anagnostopoulos, 2006). In
+particular, teachers and students did not regard test scores as an expression of academic abilities.
+Rather, they employed a moral judgment to draw a line between promoted and demoted students.
+That is, both teachers and students “described demoted students as ‘lazy,’ ‘apathetic,’ ‘disruptive’
+and even ‘criminal’” (Anagnostopoulos, 2006, p. 17). In other words, teachers and students did not
+think that demoted students had difficulties in learning and thus needed additional support. Instead,
+they believed that they did not work hard enough and thus did not deserve care and attention.
+         From the teachers’ perspectives, the moral designation of demoted students justified placing
+them at the margins of the school’s moral order and withdrawing instructional resources from them.
+For example, teachers spent a higher percentage of time on management in demoted classes than in
+promoted or mixed classes. On average, teachers in the demoted classes spent almost 20 percent of
+class time on management and discipline whereas they spent approximately 14 to 15 percent of
+allotted time on these activities in promoted and mixed classes (Anagnostopoulos, 2006). Further,
+students in demoted classes spent fully 25 percent of their time in class engaged in non-academic
+activities. Consequently, demoted students who had already been marginalized in school were
+further excluded from access to embodied cultural capital, which contradicted the promise made by
+advocates of high-stakes testing: that a challenging and rigorous curriculum would be provided to all
+students.
+
+        7 In one school, 90 percent of students were from low-income families and 92 percent were from
+
+racial minority backgrounds. In the other school, 72 percent of students were from low-income families and
+98 percent were racial minority.
+Education Policy Analysis Archives Vol. 16 No. 6                                                              12
+
+         With regard to institutionalized cultural capital, researchers have shown that the promotional
+policy in Chicago had disproportional effects on low-income and racial minority students. When
+CPS placed 109 schools on probation—71 elementary and 38 high schools—for their low passing
+rates in 1996, the average poverty level of the 71 elementary schools was about 94 percent, meaning
+that probation schools were overwhelmingly African American and Hispanic schools (Lipman,
+2004). In 1998, among 8th graders enrolled in transition centers, 71 percent were African American
+students, 25 percent were Hispanic students, and 3 percent were white students (PURE, 1999).8 This
+higher rate of grade retention among African American students seemed likely to eventually result in
+higher dropout rates. Based on data from 1992 to 1998, Allensworth (2004) estimated that retained
+students’ likelihood of dropping out increased by 8 percent by age 17 and by 13 percent by age 19.
+As a result, she argued that, whereas white and Hispanic students’ dropout rates had declined in
+those years, African American students’ dropout rates did not show any significant changes.
+         Other research studies indicate that the CPS policy provided little advantage to retained
+students. For example, comparing the achievement growth of students whose test scores fell just
+above and just below the test-score cutoff,9 Roderick and Nagaoka (2005) contend that retention did
+not provide significant academic benefits to 3rd graders who were retained and had more negative
+effects on 6th graders who were retained. In their study, 3rd graders in the retained below-cutoff
+group experienced a slight boost in performance in the post-gate year. This effect, however, was
+small and short-lived; within two years, the achievement growth of the below-cutoff group was not
+statistically different than that of the above-cutoff group. Further, according to the authors, within
+two years of the gate grade, the possibility for retained 3rd graders to be placed in special education
+was almost three times higher than that of other low-achieving students (Roderick & Nagaoka,
+2005).
+         In the case of 6th graders, the authors found that retention was associated with more
+negative growth in achievement one year after the gate grade, with that effect remaining two years
+later. Retained 6th graders were placed in special education at more than six times the rates of other
+low-achieving students. Roderick and Nagaoka (2005) argue that these findings were consistent with
+other research findings that retention had more harmful effects on matured students who were more
+sensitive to their social reputation. These findings suggest that the CPS retention policy had different
+effects on two groups of students—one retained and the other promoted—who in fact had similar
+academic capacities. Roderick and Nagaoka (2005) presume that this was because most retained
+students were concentrated in low resource schools that could not afford to provide additional
+supports for them. They also point out that CPS provided little guidance to teachers in diagnosing
+retained students’ learning difficulties, devising effective instructional strategies, or providing
+learning materials. Rather, the “basic theory of action was that a second dose of the same material
+would be enough” (Roderick & Nagaoka, 2005, p. 332).
+         In sum, despite some gains in students’ academic achievement, the promotional policy in
+Chicago may not have helped low-income and minority students acquire necessary cultural capital;
+instead, it seemed to narrow the curriculum and make it harder for those students to acquire higher-
+order thinking, writing, and problem-solving skills. Further, researchers found that retained students
+were disproportionately low-income and minority and that these students experienced few academic
+
+
+        8 Allensworth (2004) reported that 3,900 students were repeating or entering a transition center in
+
+1998.
+         9 Those students whose scores fell just above the cutoff were promoted whereas those whose scores
+
+fell below the cutoff were retained.
+Does High-Stakes Testing Increase Cultural Capital?                                                   13
+
+benefits and many social challenges. As a result, it seemed unlikely that being retained enabled them
+to acquire embodied and institutionalized cultural capital.
+
+                                            Conclusion
+
+         In recent years, researchers in the U.S. have drawn on Bourdieu’s notion of cultural capital
+(1973, 1986) to examine a number of educational issues. For example, Lareau has done pioneering
+work on how cultural capital influences home-school relations and parent-child interactions (Lareau,
+2002; Lareau & Horvat, 1999) while Olneck (2000) has analyzed whether multicultural education
+curriculum and schooling practices are likely to redefine what constitutes cultural capital. This study
+contributes to this body of scholarship by considering the effects of high-stakes testing and
+accountability on minority and low-income students’ access to cultural capital. In particular, we drew
+on research from Texas and Chicago to investigate the effects of such policies on students’
+opportunities to acquire embodied and institutionalized cultural capital.
+         In both contexts, there were indications that students’ performance on state or district tests
+increased following the implementation of high-stakes testing and accountability policies. In Texas,
+the performance of all racial groups increased on both TAAS and NAEP during the 1990s. Similarly,
+the performance of students in the gate grades (i.e., grades 3, 6, and 8) improved after the enactment
+of the new accountability program in 1996. At the same time, research from Texas and Chicago
+revealed that these accountability policies seemed to have had deleterious effects on curriculum,
+instruction, the percentage of students excluded from the tests, and student dropout rates. These
+findings are consistent with the work of Shepard (2000), Darling-Hammond (2004a), and others
+who have written of the likely negative repercussions of high-stakes testing and accountability
+policies.
+         There are some limitations to our analysis and the studies included herein. First, most studies
+of the effects of accountability policies on curriculum and instruction included small samples of
+teachers and schools. In future studies on this topic, it would be advisable for researchers to include
+larger numbers of teachers and schools and to control for the possible effects of school and student
+characteristics. Second, these studies from Texas and Chicago focused on policies first implemented
+in the 1990s. It will be important for future research on high-stakes testing to consider the impact of
+NCLB itself in particular state and district contexts. Finally, data on dropout rates is often subject to
+multiple interpretations because of variability in the way such rates are measured and difficulty in
+obtaining reliable data. At the same time, to assess the effects of testing and accountability policies
+on institutionalized cultural capital, it will be necessary for researchers to have good data on high
+school completion rates and college attendance rates.
+         Despite these limitations, the research findings from Texas and Chicago seem to provide a
+number of guidelines as policy makers consider ways to revise NCLB as part of reauthorizing Title I
+in 2008 and 2009. First, there is a need to consider how high-stakes testing and accountability
+policies influence curriculum and instruction. In particular, research from Connecticut suggests that
+testing policies can be designed to promote cognitively advanced instruction while holding schools
+and districts accountable for performance (Darling-Hammond, 2004b; Youngs & Bell, 2007).
+Second, policy makers need to ensure that districts and schools do not respond to accountability
+policies by excluding students from taking tests. Finally, they need to continue exploring ways to
+make high school a meaningful, engaging, and cognitively demanding experience for all students
+(Sizer, 1984). While high-stakes tests provide important information about student performance,
+they will not, by themselves, lead to the types of reform at the high school level that would enable
+Education Policy Analysis Archives Vol. 16 No. 6                                                 14
+
+greater numbers of low-income and racial minority students to acquire embodied or institutionalized
+cultural capital.
+
+                                          References
+
+Allensworth, E. (2004). Ending social promotion: Dropout rates in Chicago after implementation of
+       the eight-grade promotion gate. Chicago, IL: Consortium on Chicago School Research.
+
+Amrein, A. L. & Berliner, D. C. (2002). High-stakes testing, uncertainty, and student learning
+      Education Policy Analysis Archives, 10(18). Retrieved October 20, 2006, from
+      http://epaa.asu.edu/epaa/v10n18/.
+
+Anagnostopoulos, D. (2006). “Real students” and “true demotes”: Ending social promotion and
+      the moral ordering of urban high school. American Educational Research Journal, 43(1),
+      5–42.
+
+Arsen, D., & Davis, T. (2006). Taj Mahals or decaying shacks: Patterns in local school capital
+       stock and unmet capital need. Peabody Journal of Education, 81(4), 1–22.
+
+Booher-Jennings, J. (2005). Below the bubble: “Educational triage” and the Texas accountability
+      system. American Educational Research Journal, 42(2), 231–268.
+
+Bourdieu, P. (1973). Cultural reproduction and social reproduction. In R. Brown (Ed.),
+       Knowledge, education and cultural change (pp.71–112). London: Tavistock.
+
+Bourdieu, P. (1986). The forms of capital. In John Richardson (Ed.), Handbook of theory and
+       research for sociology of education (pp. 241–258). New York: Greenwood Press.
+
+Catalyst Chicago. (n.d.). Student racial/ethnic background [online tables]. Chicago: Author.
+       Retrieved March 8, 2008, from http://www.catalyst-
+       chicago.org/stat/index.php?item=24&cat=0.
+
+Chicago Public Schools. (n.d.). CPS at a Glance [online tables]. Chicago: Author. Retrieved May
+      31, 2006, from http://www.cps.k12.il.us/AtAGlance.html.
+
+Clarke, M., Haney, W., & Madaus, G. (2000). High stakes testing and high school completion.
+        Statements, 1(3). National Board in Education and Public Policy. Boston: Lynch School
+        of Education, Boston College.
+
+Darling-Hammond, L. (2004a). From “separate but equal” to “No Child Left Behind”: The
+       collision of new standards and old inequalities. In D. Meier & G. Wood (Eds.), Many
+       children left behind: How the No Child Left Behind Act is damaging our children and our
+       schools (pp. 3–32). Boston: Beacon Press.
+
+Darling-Hammond, L. (2004b). Standards, accountability, and school reform. Teachers College
+       Record, 106(6), 1047–1085.
+Does High-Stakes Testing Increase Cultural Capital?                                                  15
+
+Darling-Hammond, L., & Youngs, P. (2002). Defining “highly qualified teachers:” What does
+       “scientifically-based research” tell us? Educational Researcher, 31(9), 13–25.
+
+Delpit, L. (1995) Other people’s children. New York: New Press.
+
+Gordon, S. P., & Reese, M. (1997). High stakes testing: Worth the price? Journal of School
+      Leadership, 7, 345–368.
+
+Greene, J. P. (2002). High school graduation rates in the United States. New York: The
+      Manhattan Institute.
+
+Grissmer, D., & Flanagan, A. (1998). Exploring rapid achievement gains in North Carolina and
+      Texas. Washington, DC: National Education Goals Panel. (ERIC Document
+      Reproduction No. 425204.)
+
+Grissmer, D., & Flanagan, A. (2001). Searching for indirect evidence for the effects of statewide
+      reforms. In D. Ravitch (Ed.), Brookings papers on education policy, 2001 (pp. 181–207).
+      Washington, DC: The Brookings Institution.
+
+Grissmer, D.W., Flanagan, A., Kawata, J., & Williamson, S. (2000). Improving student
+      achievement: What state NAEP scores tell us. Santa Monica, CA: The Rand Corporation.
+
+Haney, W. (2000). The myth of the Texas miracle in education, Education Policy Analysis
+       Archives, 8(41). Retrieved May 31, 2006, from http://epaa.asu.edu/epaa/v8n41/.
+
+Hirsch, E. D. Jr. (1996). The schools we need. New York: Double Day.
+
+Jacob, B. A. (2002). Accountability, incentives, and behavior: The impact of high-stakes testing in
+       the Chicago Public Schools. National Bureau of Economic Research Working Paper 8968.
+       Retrieved July 31, 2007, from http://www.nber.org/papers/w8968.
+
+Labaree, D. F. (1997). Public goods, private goods: The American struggle over educational
+       goals. American Educational Research Journal, 34(1), 39–81.
+
+Lankford, H., Loeb, S., & Wyckoff, J. (2002). Teacher sorting and the plight of urban schools: A
+      descriptive analysis. Educational Evaluation and Policy Analysis, 24(1), 37–62.
+
+Lareau, A. (2002). Invisible inequality: Social class and childrearing in black families and white
+       families, American Sociological Review, 67, 747–776.
+
+Lareau, A., & Horvat, E. M. (1999). Moments of social inclusion and exclusion: Race, class,
+       gender, and cultural capital in family-school relationships, Sociology of Education, 67
+       (January), 37–53.
+
+Lee, J. S., & Bowen, N. K. (2006). Parent involvement, cultural capital, and the achievement gap
+        among elementary school children. American Educational Research Journal, 43(2), 193–
+        218.
+Education Policy Analysis Archives Vol. 16 No. 6                                                 16
+
+Lipman, P. (2004). High stakes education: Inequality, globalization, and urban school reform. New
+      York: Routledge Palmer.
+
+Loeb, S., Darling-Hammond, L., & Luczak, J. (2004). How teaching conditions predict teacher
+       turnover in California schools. Peabody Journal of Education, 80(3), 44–70.
+
+McNeil, L. M. (2005). Faking equity: High-stakes testing and the education of Latino youth. In
+      A. Valenzuela (Ed.), Leaving children behind: How "Texas-style" accountability fails
+      Latino youth (pp.57–111). Albany, NY: State University of New York Press.
+
+McNeil, L. M., & Valenzuela, A. (2001). The harmful impact of the TAAS system of testing in
+      Texas: Beneath the accountability rhetoric. In M. Kornhaber & G. Orfield (Eds.),
+      Raising standards or raising barriers? Inequality and high stakes testing in public education
+      (pp. 127–150). New York: Century Foundation.
+
+Mishel, L., & Roy, J. (2006). Rethinking high school graduation rates and trends. Washington, DC:
+       Economic Policy Institute.
+
+O’Day, J. A., & Smith, S. M. (1993). Systematic reform and educational opportunity. In Susan
+      Fuhrman (Ed.), Designing coherent educational policy (pp. 250–311). CA: Jossey-Bass.
+
+Olneck, M. (2000). Can multicultural education change what counts as cultural capital? American
+      Educational Research Journal, 37(2), 317–348.
+
+Paige, R. (2001). The back page: No Child Left Behind. Carnegie Reporter, 1(2). New York:
+        Carnegie Corporation of New York. Retrieved July 31, 2007, from
+        http://www.carnegie.org/reporter/02/backpage/index.html.
+
+Parents United for Responsible Education (1999). Discrimination complaints under title VI of the
+       Civil Rights Act of 1965. Chicago, IL: Parents United for Responsible Education.
+
+Ravitch, D. (1995). National standards in American education: A citizen’s guide. Washington,
+       DC: The Brookings Institution.
+
+Roderick, M., Bryk, A., Jacob, B. A., Easton, J. Q., & Allensworth, E. (1999). Ending social
+       promotion: Results from the first two years. Chicago: Consortium on Chicago School
+       Research.
+
+Roderick, M., Jacob, B. A., & Bryk, A. S. (2002). The impact of high stakes-testing in Chicago
+       on student achievement in promotional gate grades. Educational Evaluation and Policy
+       Analysis, 24(4), 333–357.
+
+Roderick, M., & Nagaoka, J. (2005). Retention under Chicago’s high-stakes testing program:
+       Helpful, harmful, or harmless? Educational Evaluation and Policy Analysis, 27(4), 309–
+       340.
+
+Selwyn, D. (2007). Highly quantified teachers: NCLB and teacher education. Journal of Teacher
+       Education, 58(2), 124–137.
+Does High-Stakes Testing Increase Cultural Capital?                                                 17
+
+Shepard, L. A. (2000). The role of assessment in a learning culture, Educational Researcher,
+      29(7), 1–12.
+
+Sizer, T. (1984). Horace’s compromise: The dilemma of the American high school. Boston, MA:
+        Houghton-Mifflin Co.
+
+Smith, T. M., Desimone, L. M., & Ueno, K. (2005). "Highly Qualified" to do what? The
+       relationship between NCLB teacher quality mandates and the use of reform-oriented
+       instruction in middle school mathematics. Educational Evaluation and Policy Analysis,
+       27(1), 75–109.
+
+Swanson, C. B. (2004). Who graduates? Who doesn’t? A statistical portrait of public high school
+      graduation, Class of 2001. Washington, DC: The Urban Institute.
+
+Texas Education Agency. (1998). Policy research: Enrollment trends in Texas public schools.
+       Austin, TX: Author.
+
+Texas Education Agency. (2006). 2005–2006 Student enrollment [online table]. Austin: Author.
+       Retrieved May 31, 2006, from
+       http://www.tea.state.tx.us/cgi/sas/broker?_service=marykay&_program=adhoc.addispa
+       tch.sas&major=st&minor=e&endyear=06&format=W&linespg=60&charsln=120&selsu
+       mm=ss&key=TYPE+HERE&grouping=e.
+
+Texas Education Agency. (2007). Statewide TAAS results: Percent passing tables. Retrieved July
+       31, 2007, from
+       http://www.tea.state.tx.us/student.assessment/reporting/results/swresults/.
+
+Thompson, S. (2001). The authentic standards movement and its evil twin. Phi Delta Kappan,
+     82(5), 358–362.
+
+Treisman, P. U., & Fuller, E. J. (2001). Comment by Philip Uri Treisman and Edward J. Fuller.
+      In D. Ravitch (Ed.), Brookings papers on education policy, 2001 (pp. 208–218).
+      Washington DC: The Brookings Institution.
+
+Youngs, P., & Bell. C. (2007). When policy instruments promote reform-oriented practice: An
+      analysis of Connecticut’s policies related to teaching and learning. Paper presented at the
+      annual meeting of the American Educational Research Association.
+Education Policy Analysis Archives Vol. 16 No. 6                                              18
+
+
+
+       About the Authors
+
+       Won-Pyo Hong
+       Michigan State University
+
+       Peter Youngs
+       Michigan State University
+
+       Email: hongwon1@msu.edu
+
+       Won-Pyo Hong is a doctoral candidate in the Department of Teacher Education,
+Michigan State University. His research interests center on how curriculum policy, accountability
+systems and standards-based reform have differential impacts on students from diverse socio-
+economic and cultural backgrounds.
+
+       Peter Youngs is an assistant professor in the Department of Teacher Education at
+Michigan State University. His research interests focus on policy and practice in the areas of
+teacher education, induction, and professional development. Recent publications have appeared
+in Teachers College Record, Educational Administration Quarterly, and Studying Teacher
+Education: The Report of the AERA Panel on Research and Teacher Education.
+Does High-Stakes Testing Increase Cultural Capital?                                             19
+
+ EDUCATION POLICY ANALYSIS ARCHIVES                                       http://epaa.asu.edu
+
+                 Editor: Sherman Dorn, University of South Florida
+                      Production Assistant: Chris Murrell, Arizona State University
+General questions about appropriateness of topics or particular articles may be addressed to the
+Editor, Sherman Dorn, epaa-editor@shermandorn.com.
+
+                                    Editorial Board
+                   Noga Admon                           Jessica Allen
+                   Cheryl Aman                          Michael W. Apple
+                   David C. Berliner                    Damian Betebenner
+                   Robert Bickel                        Robert Bifulco
+                   Anne Black                           Henry Braun
+                   Nick Burbules                        Marisa Cannata
+                   Casey Cobb                           Arnold Danzig
+                   Linda Darling-Hammond                Chad d'Entremont
+                   John Diamond                         Amy Garrett Dikkers
+                   Tara Donohue                         Gunapala Edirisooriya
+                   Camille Farrington                   Gustavo Fischman
+                   Chris Frey                           Richard Garlikov
+                   Misty Ginicola                       Gene V Glass
+                   Harvey Goldstein                     Jake Gross
+                   Hee Kyung Hong                       Aimee Howley
+                   Craig B. Howley                      William Hunter
+                   Jaekyung Lee                         Benjamin Levin
+                   Jennifer Lloyd                       Sarah Lubienski
+                   Les McLean                           Roslyn Arlin Mickelson
+                   Heinrich Mintrop                     Shereeza Mohammed
+                   Michele Moses                        Sharon L. Nichols
+                   Sean Reardon                         A.G. Rud
+                   Ben Superfine                        Cally Waite
+                   John Weathers                        Kevin Welner
+                   Ed Wiley                             Terrence G. Wiley
+                   Kyo Yamashiro                        Stuart Yeh
+Education Policy Analysis Archives Vol. 16 No. 6                                      20
+
+
+ EDUCATION POLICY ANALYSIS ARCHIVES                             http://epaa.asu.edu
+
+
+
+
+                                      New Scholar Board
+                                    English Language Articles
+                                            2007–2009
+
+                       Wendy Chi                   Corinna Crane
+                       Jenny DeMonte               Craig Esposito
+                       Timothy Ford                Samara Foster
+                       Melissa L. Freeman          Kimberly Howard
+                       Nils Kauffman               Felicia Sanders
+                       Kenzo Sung                  Tina Trujillo
+                       Larisa Warhol
+Does High-Stakes Testing Increase Cultural Capital?                                    21
+
+
+Archivos Analíticos de Políticas Educativas http://epaa.asu.edu
+                                       Editores
+                     Gustavo E. Fischman Arizona State University
+                   Pablo Gentili Universidade do Estado do Rio de Janeiro
+     Asistentes editoriales: Rafael O. Serrano (ASU) & Lucia Terra (UBC)
+
+         Hugo Aboites                                 Armando Alcántara Santuario
+         UAM-Xochimilco, México                       CESU, México
+         Claudio Almonacid Avila                      Dalila Andrade de Oliveira
+         UMCE, Chile                                  UFMG, Brasil
+         Alejandra Birgin                             Sigfredo Chiroque
+         FLACSO-UBA, Argentina                        IPP, Perú
+         Mariano Fernández Enguita                    Gaudêncio Frigotto
+         Universidad de Salamanca. España             UERJ, Brasil
+         Roberto Leher                                Nilma Lino Gomes
+         UFRJ, Brasil                                 UFMG, Brasil
+         Pia Lindquist Wong                           María Loreto Egaña
+         CSUS, USA                                    PIIE, Chile
+         Alma Maldonado                               José Felipe Martínez Fernández
+         University of Arizona, USA                   UCLA, USA
+         Imanol Ordorika                              Vanilda Paiva
+         IIE-UNAM, México                             UERJ, Brasil
+         Miguel A. Pereyra                            Mónica Pini
+         Universidad de Granada, España               UNSAM, Argentina
+         Romualdo Portella de Oliveira                Paula Razquin
+         Universidade de São Paulo, Brasil            UNESCO, Francia
+         José Ignacio Rivas Flores                    Diana Rhoten
+         Universidad de Málaga, España                SSRC, USA
+         José Gimeno Sacristán                        Daniel Schugurensky
+         Universidad de Valencia, España              UT-OISE Canadá
+         Susan Street                                 Nelly P. Stromquist
+         CIESAS Occidente,México                      USC, USA
+         Daniel Suárez                                Antonio Teodoro
+         LPP-UBA, Argentina                           Universidade Lusófona, Lisboa
+         Jurjo Torres Santomé                         Lílian do Valle
+         Universidad de la Coruña, España             UERJ, Brasil
+
