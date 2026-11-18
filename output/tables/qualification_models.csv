@@ -1,0 +1,7 @@
+population,model,r2,delta_r2,lrt_p,note
+analysis,qualification,0.027974581059833303,NA,NA,學歷（母 + 父）單獨；此為總效應
+analysis,financial_three,0.22273313621220903,NA,NA,繳費、獎學金、欠債三標記
+analysis,qualification_plus_financial,0.23845236532993197,0.015719229117722944,2.547261908754333e-12,ΔR² 為財務三標記之上再加學歷；此為不經財務標記的部分（direct）
+analysis,course,0.09501555394310812,NA,NA,課程
+analysis,course_plus_qualification,0.11827470519787842,0.023259151254770294,1.301658673696103e-19,ΔR² 為課程之上再加學歷
+analysis,overlap_qualification_financial,0.01225535194211036,NA,NA,學歷與財務三標記共同解釋的部分；占學歷總效應 0.4381
