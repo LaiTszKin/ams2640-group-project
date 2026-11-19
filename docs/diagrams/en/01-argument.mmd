@@ -1,16 +1,18 @@
-%% source: summary.md, "established" (ability runs through the study period / two classes of thing outside that process / significance is not sufficient / the object of criticism is meritocratic worship), "not yet established" (the causal–correlational distinction)
+%% source: docs/statement.md §1 (claim and the R² evidence), §2 (three mechanisms), §3 (two policy moves), §4 (fairness); the limitation line is the scope boundary stated in docs/report.md ([Q25])
 flowchart TD
-  C["Claim: individual ability is not the sole dominant factor in whether a student graduates"]
-  W1["Warrant 1: ability runs through the whole period of study, and outside that process there are also conditions of subsistence and an already-given social background"]
-  W2["Warrant 2: each of the three layers has measurable fields (social background 7, wealth 3, macro 3)"]
-  O["Condition: the other factors are significant, and a mechanism can be stated behind them"]
-  R["Conclusion: academic achievement is not the monopoly of ability"]
-  N["Object of criticism: meritocratic worship (jìyōu zhǔyì), not merit-based assessment (jìxiào zhǔyì)"]
-  X["Not yet established: the causal–correlational distinction (Q13 not chosen)"]
+  C["Claim: the attribution of academic outcomes must abandon single-minded meritocratic worship and face the constraint that family wealth and social background impose"]
+  W1["Warrant 1: across 3,630 graduated and withdrawn students, wealth background carries the largest McFadden R² of the three layers, 0.2227"]
+  W2["Warrant 2: ability adds only R² 0.05999, and parental cultural capital contributes 0.01572 on its own"]
+  O["Condition: each layer has a statable mechanism (non-payment precedes withdrawal, the scholarship absorbs the shock, ability accumulates during study)"]
+  P["Policy: payment status and funding eligibility rank first in the early-warning system; financial aid and academic support are delivered at the same point"]
+  R["Conclusion: the underlying structure of academic outcomes is financial condition, so policy should centre on financial support"]
+  N["Object of criticism: meritocratic worship, i.e. attributing academic outcomes directly to fixed ability"]
+  X["Limitation: socio-economic background is recorded at a single point in time and the grounds for withdrawal are blank in the records, so causation rests on temporal precedence ([Q25])"]
   C --> W1
   W1 --> W2
   W2 --> O
-  O --> R
+  O --> P
+  P --> R
   R --> N
   O -.-> X
   classDef open stroke-dasharray: 5 5,stroke:#b45309,color:#92400e,fill:#fffbeb

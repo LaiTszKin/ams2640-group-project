@@ -8,7 +8,7 @@ a placeholder, so the two files differ only where a label was translated.
 
 | file | diagram type | corresponds to |
 | --- | --- | --- |
-| `01-argument.mmd` | flowchart TD | `../01-argument.mmd` — claim, two warrants, condition, conclusion |
+| `01-argument.mmd` | flowchart TD | `../01-argument.mmd` — claim, two warrants, condition, policy move, conclusion, plus the dashed limitation node |
 | `02-criterion.mmd` | flowchart LR | `../02-criterion.mmd` — the two conditions for counting a factor as having an effect |
 | `03-fields.mmd` | mindmap | `../03-fields.mmd` — the fields behind each term |
 | `04-thinking.mmd` | timeline | `../04-thinking.mmd` — how the line of thought developed, Q1–Q23 |
