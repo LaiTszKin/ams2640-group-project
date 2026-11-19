@@ -1,0 +1,16 @@
+%% source: summary.md, "established" (statistical significance is not sufficient for an effect) and "not yet established" (the threshold for an effect)
+flowchart LR
+  S(["one factor"])
+  Q1{"statistically significant?"}
+  Q2{"can the mechanism behind it be stated?"}
+  A1["counts as having an effect"]
+  A2["does not count as having an effect"]
+  A3(["not yet established: the threshold on effect size"])
+  S --> Q1
+  Q1 -- "no" --> A2
+  Q1 -- "yes" --> Q2
+  Q2 -- "yes" --> A1
+  Q2 -- "no" --> A2
+  A1 -.-> A3
+  classDef open stroke-dasharray: 5 5,stroke:#b45309,color:#92400e,fill:#fffbeb
+  class A3 open

@@ -1,0 +1,11 @@
+{
+  "theme": "neutral",
+  "flowchart": {
+    "wrappingWidth": 420,
+    "curve": "basis"
+  },
+  "themeVariables": {
+    "fontFamily": "Helvetica, Arial, sans-serif",
+    "fontSize": "15px"
+  }
+}
